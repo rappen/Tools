@@ -5,7 +5,7 @@
     <SupportableTool>
       <Name>FetchXML Builder</Name>
       <Enabled>true</Enabled>
-      <ShowAutomatically>false</ShowAutomatically>
+      <ShowAutomatically>true</ShowAutomatically>
     </SupportableTool>
     <SupportableTool>
       <Name>Plugin Trace Viewer</Name>
@@ -22,7 +22,7 @@
   <ShowMinutesAfterToolNewVersion>120</ShowMinutesAfterToolNewVersion>
   <ShowMinutesAfterSupportingShown>2880</ShowMinutesAfterSupportingShown>
   <ShowMinutesAfterSubmitting>10080</ShowMinutesAfterSubmitting>
-  <ShowAutoPercentChance>25</ShowAutoPercentChance>
-  <ShowAutoRepeatTimes>10</ShowAutoRepeatTimes>
+  <ShowAutoPercentChance>75</ShowAutoPercentChance>
+  <ShowAutoRepeatTimes>25</ShowAutoRepeatTimes>
   <ResetUnfinalizedSupportingAfterDays>7</ResetUnfinalizedSupportingAfterDays>
 </ToolSettings>
