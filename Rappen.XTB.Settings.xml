@@ -13,9 +13,9 @@
       <ShowAutomatically>false</ShowAutomatically>
     </SupportableTool>
     <SupportableTool>
-      <Name>Cool Tool</Name>
+      <Name>Bulk Data Updater</Name>
       <Enabled>true</Enabled>
-      <ShowAutomatically>true</ShowAutomatically>
+      <ShowAutomatically>false</ShowAutomatically>
     </SupportableTool>
   </SupportableTools>
   <ShowMinutesAfterToolInstall>4320</ShowMinutesAfterToolInstall>
