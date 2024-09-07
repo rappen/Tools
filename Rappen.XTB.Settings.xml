@@ -10,7 +10,7 @@
     <SupportableTool>
       <Name>Plugin Trace Viewer</Name>
       <Enabled>true</Enabled>
-      <ShowAutomatically>false</ShowAutomatically>
+      <ShowAutomatically>true</ShowAutomatically>
     </SupportableTool>
     <SupportableTool>
       <Name>Bulk Data Updater</Name>
