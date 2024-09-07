@@ -22,7 +22,7 @@
   <ShowMinutesAfterToolNewVersion>120</ShowMinutesAfterToolNewVersion>
   <ShowMinutesAfterSupportingShown>2880</ShowMinutesAfterSupportingShown>
   <ShowMinutesAfterSubmitting>10080</ShowMinutesAfterSubmitting>
-  <ShowAutoPercentChance>75</ShowAutoPercentChance>
+  <ShowAutoPercentChance>25</ShowAutoPercentChance>
   <ShowAutoRepeatTimes>25</ShowAutoRepeatTimes>
   <ResetUnfinalizedSupportingAfterDays>7</ResetUnfinalizedSupportingAfterDays>
 </ToolSettings>
