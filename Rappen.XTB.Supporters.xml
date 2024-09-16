@@ -1,5 +1,23 @@
 <ArrayOfSupporter>
     <Supporter>
+        <InstallationId>6b6e631f-2a94-447b-a11c-ae0d3ff7a2fd</InstallationId>
+        <ToolName>FetchXML Builder</ToolName>
+        <Type>Never</Type>
+        <Date>2024-09-16</Date>
+    </Supporter>
+    <Supporter>
+        <InstallationId>6b6e631f-2a94-447b-a11c-ae0d3ff7a2fd</InstallationId>
+        <ToolName>Bulk Data Updater</ToolName>
+        <Type>Never</Type>
+        <Date>2024-09-16</Date>
+    </Supporter>
+    <Supporter>
+        <InstallationId>6b6e631f-2a94-447b-a11c-ae0d3ff7a2fd</InstallationId>
+        <ToolName>Plugin Trace Viewer</ToolName>
+        <Type>Never</Type>
+        <Date>2024-09-16</Date>
+    </Supporter>
+    <Supporter>
         <InstallationId>4ddda1f1-56d2-4c0f-9e4b-46231071c48c</InstallationId>
         <ToolName>FetchXML Builder</ToolName>
         <Type>Personal</Type>
