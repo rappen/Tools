@@ -47,4 +47,10 @@
         <Type>Personal</Type>
         <Date>2024-09-17</Date>
     </Supporter>
+    <Supporter>
+        <InstallationId>8e92a19f-8d97-4b61-81a1-562f1ceb1930</InstallationId>
+        <ToolName>FetchXML Builder</ToolName>
+        <Type>Contribute</Type>
+        <Date>2024-09-18</Date>
+    </Supporter>
 </ArrayOfSupporter>
