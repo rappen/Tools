@@ -15,7 +15,7 @@
     <SupportableTool>
       <Name>Bulk Data Updater</Name>
       <Enabled>true</Enabled>
-      <ShowAutomatically>false</ShowAutomatically>
+      <ShowAutomatically>true</ShowAutomatically>
     </SupportableTool>
   </SupportableTools>
   <ShowMinutesAfterToolInstall>4320</ShowMinutesAfterToolInstall>
