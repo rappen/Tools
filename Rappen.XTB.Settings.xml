@@ -18,11 +18,11 @@
       <ShowAutomatically>true</ShowAutomatically>
     </SupportableTool>
   </SupportableTools>
-  <ShowMinutesAfterToolInstall>4320</ShowMinutesAfterToolInstall>
+  <ShowMinutesAfterToolInstall>1440</ShowMinutesAfterToolInstall>
   <ShowMinutesAfterToolNewVersion>120</ShowMinutesAfterToolNewVersion>
   <ShowMinutesAfterSupportingShown>2880</ShowMinutesAfterSupportingShown>
   <ShowMinutesAfterSubmitting>10080</ShowMinutesAfterSubmitting>
   <ShowAutoPercentChance>25</ShowAutoPercentChance>
-  <ShowAutoRepeatTimes>25</ShowAutoRepeatTimes>
+  <ShowAutoRepeatTimes>250</ShowAutoRepeatTimes>
   <ResetUnfinalizedSupportingAfterDays>7</ResetUnfinalizedSupportingAfterDays>
 </ToolSettings>
