@@ -1,26 +1,38 @@
 <ArrayOfSupporter>
-    <Supporter>
+    <Supporter> <!-- My T14p -->
         <InstallationId>6b6e631f-2a94-447b-a11c-ae0d3ff7a2fd</InstallationId>
         <ToolName>FetchXML Builder</ToolName>
         <Type>Company</Type>
         <Date>2014-01-01</Date>
     </Supporter>
-    <Supporter>
+    <Supporter> <!-- My T14p -->
         <InstallationId>6b6e631f-2a94-447b-a11c-ae0d3ff7a2fd</InstallationId>
         <ToolName>Bulk Data Updater</ToolName>
         <Type>Personal</Type>
         <Date>2015-01-01</Date>
     </Supporter>
-    <Supporter>
+    <Supporter> <!-- My T14p -->
+        <InstallationId>6b6e631f-2a94-447b-a11c-ae0d3ff7a2fd</InstallationId>
+        <ToolName>Plugin Trace Viewer</ToolName>
+        <Type>Company</Type>
+        <Date>2016-01-01</Date>
+    </Supporter>
+    <Supporter> <!-- My Yoga -->
+        <InstallationId>206c6f3e-f8d4-4f32-a512-18eb2224a418</InstallationId>
+        <ToolName>FetchXML Builder</ToolName>
+        <Type>Contribute</Type>
+        <Date>2015-01-01</Date>
+    </Supporter>
+    <Supporter> <!-- My Yoga -->
         <InstallationId>206c6f3e-f8d4-4f32-a512-18eb2224a418</InstallationId>
         <ToolName>Bulk Data Updater</ToolName>
         <Type>Contribute</Type>
         <Date>2015-01-01</Date>
     </Supporter>
-    <Supporter>
-        <InstallationId>6b6e631f-2a94-447b-a11c-ae0d3ff7a2fd</InstallationId>
+    <Supporter> <!-- My Yoga -->
+        <InstallationId>206c6f3e-f8d4-4f32-a512-18eb2224a418</InstallationId>
         <ToolName>Plugin Trace Viewer</ToolName>
-        <Type>Company</Type>
+        <Type>Contribute</Type>
         <Date>2016-01-01</Date>
     </Supporter>
     <Supporter>
