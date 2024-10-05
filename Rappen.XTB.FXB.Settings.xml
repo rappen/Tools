@@ -7,8 +7,10 @@
   </DeprecatedNames>
   <IntegratedToTools>
     <string>Bulk Data Updater</string>
-    <string>View Designer</string>
     <string>SQL 4 CDS</string>
+    <string>Export To Excel</string>
+    <string>Data Migration Tool</string>
+    <string>View Designer</string>
     <string>Bulk Workflow Execution</string>
     <string>BPF Manager</string>
   </IntegratedToTools>
