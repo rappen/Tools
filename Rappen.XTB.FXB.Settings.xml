@@ -5,4 +5,11 @@
     <string>*Deprecated*</string>
     <string>*Inaktuell*</string>
   </DeprecatedNames>
+  <IntegratedToTools>
+    <string>Bulk Data Updater</string>
+    <string>View Designer</string>
+    <string>SQL 4 CDS</string>
+    <string>Bulk Workflow Execution</string>
+    <string>BPF Manager</string>
+  </IntegratedToTools>
 </OnlineSettings>
