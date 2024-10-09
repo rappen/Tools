@@ -28,4 +28,6 @@
   <ShowAutoPercentChance>25</ShowAutoPercentChance>
   <ShowAutoRepeatTimes>250</ShowAutoRepeatTimes>
   <ResetUnfinalizedSupportingAfterDays>7</ResetUnfinalizedSupportingAfterDays>
+  <BMACLinkPositionRandom>true</BMACLinkPositionRandom>
+  <CloseLinkPositionRandom>true</CloseLinkPositionRandom>
 </ToolSettings>
