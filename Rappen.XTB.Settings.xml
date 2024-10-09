@@ -6,16 +6,19 @@
       <Name>FetchXML Builder</Name>
       <Enabled>true</Enabled>
       <ShowAutomatically>true</ShowAutomatically>
+      <ShowAutoPercentChance>25</ShowAutoPercentChance>
     </SupportableTool>
     <SupportableTool>
       <Name>Plugin Trace Viewer</Name>
       <Enabled>true</Enabled>
       <ShowAutomatically>true</ShowAutomatically>
+      <ShowAutoPercentChance>75</ShowAutoPercentChance>
     </SupportableTool>
     <SupportableTool>
       <Name>Bulk Data Updater</Name>
       <Enabled>true</Enabled>
       <ShowAutomatically>true</ShowAutomatically>
+      <ShowAutoPercentChance>50</ShowAutoPercentChance>
     </SupportableTool>
   </SupportableTools>
   <ShowMinutesAfterToolInstall>1440</ShowMinutesAfterToolInstall>
