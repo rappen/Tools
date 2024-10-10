@@ -119,4 +119,10 @@
         <Type>Personal</Type>
         <Date>2024-10-07</Date>
     </Supporter>
+    <Supporter>
+        <InstallationId>e60e57bb-4a33-4c99-9bdb-35f315dc4397</InstallationId>
+        <ToolName>Bulk Data Updater</ToolName>
+        <Type>Contribute</Type>
+        <Date>2024-10-10</Date>
+    </Supporter>
 </ArrayOfSupporter>
