@@ -21,10 +21,16 @@
       <ShowAutoPercentChance>50</ShowAutoPercentChance>
     </SupportableTool>
     <SupportableTool>
+      <Name>Latebound Constants Generator</Name>
+      <Enabled>true</Enabled>
+      <ShowAutomatically>true</ShowAutomatically>
+      <ShowAutoPercentChance>50</ShowAutoPercentChance>
+    </SupportableTool>
+    <SupportableTool>
       <Name>UML Diagram Generator</Name>
       <Enabled>true</Enabled>
       <ShowAutomatically>true</ShowAutomatically>
-      <ShowAutoPercentChance>100</ShowAutoPercentChance>
+      <ShowAutoPercentChance>50</ShowAutoPercentChance>
     </SupportableTool>
   </SupportableTools>
   <ShowMinutesAfterToolInstall>1440</ShowMinutesAfterToolInstall>
