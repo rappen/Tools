@@ -20,6 +20,12 @@
       <ShowAutomatically>true</ShowAutomatically>
       <ShowAutoPercentChance>50</ShowAutoPercentChance>
     </SupportableTool>
+    <SupportableTool>
+      <Name>UML Diagram Generator</Name>
+      <Enabled>true</Enabled>
+      <ShowAutomatically>true</ShowAutomatically>
+      <ShowAutoPercentChance>100</ShowAutoPercentChance>
+    </SupportableTool>
   </SupportableTools>
   <ShowMinutesAfterToolInstall>1440</ShowMinutesAfterToolInstall>
   <ShowMinutesAfterToolNewVersion>120</ShowMinutesAfterToolNewVersion>
