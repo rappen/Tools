@@ -137,4 +137,22 @@
         <Type>Company</Type>
         <Date>2024-10-14</Date>
     </Supporter>
+    <Supporter>
+        <InstallationId>a92fd171-fa84-4b0d-b434-daa090651b95</InstallationId>
+        <ToolName>FetchXML Builder</ToolName>
+        <Type>Contribute</Type>
+        <Date>2024-10-18</Date>
+    </Supporter>
+    <Supporter>
+        <InstallationId>9f08890e-525c-4c2f-aa98-5f41c23f3df5</InstallationId>
+        <ToolName>FetchXML Builder</ToolName>
+        <Type>Personal</Type>
+        <Date>2024-10-18</Date>
+    </Supporter>
+    <Supporter>
+        <InstallationId>ef72282e-e992-419e-b673-47264c428af0</InstallationId>
+        <ToolName>FetchXML Builder</ToolName>
+        <Type>Contribute</Type>
+        <Date>2024-10-18</Date>
+    </Supporter>
 </ArrayOfSupporter>
