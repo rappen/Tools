@@ -161,4 +161,10 @@
         <Type>Personal</Type>
         <Date>2024-10-23</Date>
     </Supporter>
+    <Supporter>
+        <InstallationId>6f26e49e-b4cf-4c6c-bc64-49589008f004</InstallationId>
+        <ToolName>Plugin Trace Viewer</ToolName>
+        <Type>Personal</Type>
+        <Date>2016-01-01</Date>
+    </Supporter>
 </ArrayOfSupporter>
