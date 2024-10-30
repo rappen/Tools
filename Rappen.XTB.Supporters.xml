@@ -173,4 +173,10 @@
         <Type>Company</Type>
         <Date>2024-10-29</Date>
     </Supporter>
+    <Supporter>
+        <InstallationId>09ed74de-2a30-478c-89fe-0bca499b4ada</InstallationId>
+        <ToolName>FetchXML Builder</ToolName>
+        <Type>Personal</Type>
+        <Date>2024-10-30</Date>
+    </Supporter>
 </ArrayOfSupporter>
