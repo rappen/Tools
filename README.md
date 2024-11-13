@@ -14,3 +14,6 @@ These files and tools may be updated and improved without needing a new release 
 
 ## FetchXML Builder
 [Rappen.XTB.FXB.Settings.xml](Rappen.XTB.FXB.Settings.xml)
+
+## Latebound Constants Generator<br/>UML Diagram Generator
+[Rappen.XTB.LCG.Settings.xml](Rappen.XTB.LCG.Settings.xml)
