@@ -115,4 +115,49 @@
     <string>bot_</string>
     <string>botcomponent_</string>
   </MicrosoftPrefixes>
+  <PlantUMLThemes>
+    <string>amiga</string>
+    <string>aws-orange</string>
+    <string>black-knight</string>
+    <string>bluegray</string>
+    <string>blueprint</string>
+    <string>carbon-gray</string>
+    <string>cerulean</string>
+    <string>cerulean-outline</string>
+    <string>cloudscape-design</string>
+    <string>crt-amber</string>
+    <string>crt-green</string>
+    <string>cyborg</string>
+    <string>cyborg-outline</string>
+    <string>hacker</string>
+    <string>lightgray</string>
+    <string>mars</string>
+    <string>materia</string>
+    <string>materia-outline</string>
+    <string>metal</string>
+    <string>mimeograph</string>
+    <string>minty</string>
+    <string>mono</string>
+    <string>plain</string>
+    <string>reddress-darkblue</string>
+    <string>reddress-darkgreen</string>
+    <string>reddress-darkorange</string>
+    <string>reddress-darkred</string>
+    <string>reddress-lightblue</string>
+    <string>reddress-lightgreen</string>
+    <string>reddress-lightorange</string>
+    <string>reddress-lightred</string>
+    <string>sandstone</string>
+    <string>silver</string>
+    <string>sketchy</string>
+    <string>sketchy-outline</string>
+    <string>spacelab</string>
+    <string>spacelab-white</string>
+    <string>sunlust</string>
+    <string>superhero</string>
+    <string>superhero-outline</string>
+    <string>toy</string>
+    <string>united</string>
+    <string>vibrant</string>
+  </PlantUMLThemes>
 </OnlineSettings>
