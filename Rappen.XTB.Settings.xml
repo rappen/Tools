@@ -38,7 +38,7 @@
   <ShowMinutesAfterSupportingShown>2880</ShowMinutesAfterSupportingShown>
   <ShowMinutesAfterSubmitting>10080</ShowMinutesAfterSubmitting>
   <ShowAutoPercentChance>25</ShowAutoPercentChance>
-  <ShowAutoRepeatTimes>250</ShowAutoRepeatTimes>
+  <ShowAutoRepeatTimes>1000</ShowAutoRepeatTimes>
   <ResetUnfinalizedSupportingAfterDays>7</ResetUnfinalizedSupportingAfterDays>
   <BMACLinkPositionRandom>true</BMACLinkPositionRandom>
   <CloseLinkPositionRandom>true</CloseLinkPositionRandom>
