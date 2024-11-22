@@ -203,4 +203,16 @@
         <Type>Personal</Type>
         <Date>2024-11-21</Date>
     </Supporter>
+    <Supporter>
+        <InstallationId>5b2e7a36-7168-4077-b82d-2538a9c8093d</InstallationId>
+        <ToolName>Plugin Trace Viewer</ToolName>
+        <Type>Personal</Type>
+        <Date>2024-11-22</Date>
+    </Supporter>
+    <Supporter>
+        <InstallationId>e9de2413-3f0b-411c-9133-9f92054dd406</InstallationId>
+        <ToolName>Bulk Data Updater</ToolName>
+        <Type>Personal</Type>
+        <Date>2024-11-22</Date>
+    </Supporter>
 </ArrayOfSupporter>
