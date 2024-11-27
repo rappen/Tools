@@ -220,4 +220,17 @@
         <ToolName>FetchXML Builder</ToolName>
         <Type>Personal</Type>
         <Date>2024-11-26</Date>
-    </Supporter></ArrayOfSupporter>
+    </Supporter>
+    <Supporter>
+        <InstallationId>520e71f1-3ab8-4330-b99a-6793f18bcd1e</InstallationId>
+        <ToolName>FetchXML Builder</ToolName>
+        <Type>Personal</Type>
+        <Date>2024-11-27</Date>
+    </Supporter>
+    <Supporter>
+        <InstallationId>09536676-0416-4e0a-985f-9acd22dc79c0</InstallationId>
+        <ToolName>Bulk Data Updater</ToolName>
+        <Type>Personal</Type>
+        <Date>2024-11-27</Date>
+    </Supporter>
+</ArrayOfSupporter>
