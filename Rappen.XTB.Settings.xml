@@ -33,10 +33,10 @@
       <ShowAutoPercentChance>50</ShowAutoPercentChance>
     </SupportableTool>
   </SupportableTools>
-  <ShowMinutesAfterToolInstall>1440</ShowMinutesAfterToolInstall>
-  <ShowMinutesAfterToolNewVersion>120</ShowMinutesAfterToolNewVersion>
-  <ShowMinutesAfterSupportingShown>2880</ShowMinutesAfterSupportingShown>
-  <ShowMinutesAfterSubmitting>10080</ShowMinutesAfterSubmitting>
+  <ShowMinutesAfterToolInstall>1440</ShowMinutesAfterToolInstall> <!-- 1 day -->
+  <ShowMinutesAfterToolNewVersion>120</ShowMinutesAfterToolNewVersion> <!-- 2 hours -->
+  <ShowMinutesAfterSupportingShown>2880</ShowMinutesAfterSupportingShown> <!-- 2 days -->
+  <ShowMinutesAfterSubmitting>10080</ShowMinutesAfterSubmitting> <!-- 1 week -->
   <ShowAutoPercentChance>25</ShowAutoPercentChance>
   <ShowAutoRepeatTimes>1000</ShowAutoRepeatTimes>
   <ResetUnfinalizedSupportingAfterDays>7</ResetUnfinalizedSupportingAfterDays>
