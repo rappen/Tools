@@ -239,4 +239,22 @@
         <Type>Personal</Type>
         <Date>2024-11-27</Date>
     </Supporter>
+    <Supporter>
+        <InstallationId>14a1c39c-db6c-4eba-95f8-a65a20844db6</InstallationId>
+        <ToolName>Plugin Trace Viewer</ToolName>
+        <Type>Personal</Type>
+        <Date>2024-11-29</Date>
+    </Supporter>
+    <Supporter>
+        <InstallationId>14a1c39c-db6c-4eba-95f8-a65a20844db6</InstallationId>
+        <ToolName>FetchXML Builder</ToolName>
+        <Type>Personal</Type>
+        <Date>2024-11-29</Date>
+    </Supporter>
+    <Supporter>
+        <InstallationId>14a1c39c-db6c-4eba-95f8-a65a20844db6</InstallationId>
+        <ToolName>Related Records Analyzer</ToolName>
+        <Type>Personal</Type>
+        <Date>2024-11-29</Date>
+    </Supporter>
 </ArrayOfSupporter>
