@@ -269,4 +269,10 @@
         <Type>Company</Type>
         <Date>2024-12-04</Date>
     </Supporter>
+    <Supporter>
+        <InstallationId>38d79209-bd95-4577-91ed-c5fe389a2d65</InstallationId>
+        <ToolName>Plugin Trace Viewer</ToolName>
+        <Type>Personal</Type>
+        <Date>2024-12-05</Date>
+    </Supporter>
 </ArrayOfSupporter>
