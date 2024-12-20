@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ArrayOfSupporter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Supporter>
-    <InstallationId>6b6e631f-2a94-447b-a11c-ae0d3ff7a2fd</InstallationId>
-    <ToolName>FetchXML Builder</ToolName>
-    <Type>Contribute</Type>
-    <Date>2014-01-01</Date>
-  </Supporter>
-  <Supporter>
     <InstallationId>206c6f3e-f8d4-4f32-a512-18eb2224a418</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Contribute</Type>
