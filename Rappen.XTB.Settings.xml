@@ -42,4 +42,18 @@
   <ResetUnfinalizedSupportingAfterDays>7</ResetUnfinalizedSupportingAfterDays>
   <BMACLinkPositionRandom>true</BMACLinkPositionRandom>
   <CloseLinkPositionRandom>true</CloseLinkPositionRandom>
+  <HelpInfoText>Your entered name, company, country, email, and amount will not be stored in any official system. The information will only be saved in my personal Excel file and in my own Power Platform app, mostly for me, myself and I to learn even more about how the platform could help us. I also do this to ensure that you can get an invoice, and if needed we need to communicate by email.
+The email you share with me, only to me, will never be sold to any company. I won't try to sell anything. Period.
+
+You will receive an official receipt immediately and, if needed, an invoice. Supporting can be done with a credit card. Other options like Google Pay will be available depending on your location. Stripe handles the payment.
+
+When you click the big button here, the information you entered here will be included in the form on my website, jonasr.app, and a few hidden info: tool name, version, and your XrmToolBox 'InstallationId' (a random Guid generated the first time you use the toolbox). If you are curious, you can see how to find your ID on this link: https://jonasr.app/xtb-finding-installationid.
+
+Since I would like to be very clear and transparent - we store your XrmToolBox InstallationId on a server to be able to know that this installation is supporting it in some way. There is nothing about your name, the amount or contribution; I am not interested in hacking this info.
+
+The button in the top-right corner opens this info. You can also right-click on it and find more options, especially:
+* I have already supported this tool — use this to tell me that you already support this tool in some way so that this popup prompt will not ask you again.
+* I will never support this tool — use it if you think it is a bad idea, and you probably won't use the tool again; it won't ask you again.
+
+For questions, contact me at https://jonasr.app/contact.</HelpInfoText>
 </ToolSettings>
