@@ -294,4 +294,10 @@
     <Type>Personal</Type>
     <Date>2024-12-20</Date>
   </Supporter>
+  <Supporter>
+    <InstallationId>0b4b2a99-ee4b-451d-9dfa-0f6abed859e2</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Personal</Type>
+    <Date>2024-12-30</Date>
+  </Supporter>
 </ArrayOfSupporter>
