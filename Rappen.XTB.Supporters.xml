@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ArrayOfSupporter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Supporter>
+    <InstallationId>09536676-0416-4e0a-985f-9acd22dc79c0</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Personal</Type>
+    <Date>2024-11-27</Date>
+  </Supporter>
+  <Supporter>
     <InstallationId>520e71f1-3ab8-4330-b99a-6793f18bcd1e</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
