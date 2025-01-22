@@ -360,4 +360,10 @@
     <Type>Personal</Type>
     <Date>2025-01-17</Date>
   </Supporter>
+  <Supporter>
+    <InstallationId>56be4be0-f5ea-49c3-a8d2-3e01ba9b07c7</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-01-21</Date>
+  </Supporter>
 </ArrayOfSupporter>
