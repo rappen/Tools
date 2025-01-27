@@ -378,4 +378,10 @@
     <Type>Personal</Type>
     <Date>2025-01-23</Date>
   </Supporter>
+  <Supporter>
+    <InstallationId>32ff5ec5-6cc1-408e-88ef-586922aec27c</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Company</Type>
+    <Date>2025-01-27</Date>
+  </Supporter>
 </ArrayOfSupporter>
