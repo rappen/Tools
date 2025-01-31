@@ -384,4 +384,10 @@
     <Type>Company</Type>
     <Date>2025-01-27</Date>
   </Supporter>
+  <Supporter>
+    <InstallationId>d6c89df1-fee9-46b7-ab40-25ee32949cae</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Company</Type>
+    <Date>2025-01-29</Date>
+  </Supporter>
 </ArrayOfSupporter>
