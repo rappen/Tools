@@ -390,4 +390,10 @@
     <Type>Company</Type>
     <Date>2025-01-29</Date>
   </Supporter>
+  <Supporter>
+    <InstallationId>4fa3048d-2095-4ac3-beeb-30d98a5a4b9a</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-01-31</Date>
+  </Supporter>
 </ArrayOfSupporter>
