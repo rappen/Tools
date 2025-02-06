@@ -402,4 +402,10 @@
     <Type>Personal</Type>
     <Date>2025-02-03</Date>
   </Supporter>
+  <Supporter>
+    <InstallationId>3dae9bef-4e49-4d46-afd4-6b297d477293</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-02-06</Date>
+  </Supporter>
 </ArrayOfSupporter>
