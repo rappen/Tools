@@ -420,4 +420,10 @@
     <Type>Personal</Type>
     <Date>2025-02-06</Date>
   </Supporter>
+  <Supporter>
+    <InstallationId>a176e309-c5b4-4bd5-900a-cc6991cfe89b</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-02-10</Date>
+  </Supporter>
 </ArrayOfSupporter>
