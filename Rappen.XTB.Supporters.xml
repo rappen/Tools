@@ -444,4 +444,10 @@
     <Type>Personal</Type>
     <Date>2025-02-19</Date>
   </Supporter>
+  <Supporter>
+    <InstallationId>808ef91e-0d64-4b22-8b57-e1cea3688911</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-02-20</Date>
+  </Supporter>
 </ArrayOfSupporter>
