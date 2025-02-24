@@ -456,4 +456,10 @@
     <Type>Personal</Type>
     <Date>2025-02-23</Date>
   </Supporter>
+  <Supporter>
+    <InstallationId>d523e70c-bbaa-4033-9c0e-b5604cfb4b7b</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-02-24</Date>
+  </Supporter>
 </ArrayOfSupporter>
