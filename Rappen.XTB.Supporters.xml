@@ -486,4 +486,10 @@
     <Type>Personal</Type>
     <Date>2025-03-12</Date>
   </Supporter>
+  <Supporter>
+    <InstallationId>636cb418-c614-4885-8c71-b25bc24f546b</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Company</Type>
+    <Date>2025-03-13</Date>
+  </Supporter>
 </ArrayOfSupporter>
