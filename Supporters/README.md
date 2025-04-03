@@ -1,9 +1,6 @@
-Company/Person|Type|Tool
---|--|--
-Firman AB|Support|FXB
-Jonas|Contribute|PTV
-Lisa|Already|FXB
+Supporter|Type|Tool|Why/How|User
+--|--|--|--|--
+Firman AB|Support|FetchXML Boulder|Save time|Developer, Customer
+Jonas|Contribute|Plugin Trace Viewer|Suggests, Bug reports
+Lisa|Already|Bulk Data Updater
 
----
-
-[Back to Tools](https://rappen.github.io/Tools/)
