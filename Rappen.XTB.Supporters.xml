@@ -1,75 +1,10 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ArrayOfSupporter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Supporter>
-    <InstallationId>09536676-0416-4e0a-985f-9acd22dc79c0</InstallationId>
-    <ToolName>Bulk Data Updater</ToolName>
-    <Type>Personal</Type>
-    <Date>2024-11-27</Date>
-  </Supporter>
-  <Supporter>
-    <InstallationId>520e71f1-3ab8-4330-b99a-6793f18bcd1e</InstallationId>
-    <ToolName>FetchXML Builder</ToolName>
-    <Type>Personal</Type>
-    <Date>2024-11-27</Date>
-  </Supporter>
-  <Supporter>
-    <InstallationId>55b94470-3a15-40f8-9431-ea143859d377</InstallationId>
-    <ToolName>FetchXML Builder</ToolName>
-    <Type>Personal</Type>
-    <Date>2024-12-03</Date>
-  </Supporter>
-  <Supporter>
-    <InstallationId>e809d0e3-f1cc-4318-9122-575f2e6addd0</InstallationId>
-    <ToolName>Bulk Data Updater</ToolName>
-    <Type>Company</Type>
-    <Date>2024-12-20</Date>
-  </Supporter>
-  <Supporter>
-    <InstallationId>edc1310f-6b2c-4c0e-903f-487a79bc814b</InstallationId>
-    <ToolName>Bulk Data Updater</ToolName>
-    <Type>Personal</Type>
-    <Date>2024-12-20</Date>
-  </Supporter>
-  <Supporter>
-    <InstallationId>e809d0e3-f1cc-4318-9122-575f2e6addd0</InstallationId>
-    <ToolName>Bulk Data Updater</ToolName>
-    <Type>Company</Type>
-    <Date>2024-12-21</Date>
-  </Supporter>
-  <Supporter>
     <InstallationId>71f2bc4d-9de3-43a3-8205-ed3341049ae5</InstallationId>
     <ToolName>Plugin Trace Viewer</ToolName>
     <Type>Contribute</Type>
     <Date>2025-01-06</Date>
-  </Supporter>
-  <Supporter>
-    <InstallationId>e7b12ef5-b7c1-4c32-af91-a3ca4ea1dd81</InstallationId>
-    <ToolName>FetchXML Builder</ToolName>
-    <Type>Personal</Type>
-    <Date>2025-01-06</Date>
-  </Supporter>
-  <Supporter>
-    <InstallationId>e7b12ef5-b7c1-4c32-af91-a3ca4ea1dd81</InstallationId>
-    <ToolName>FetchXML Builder</ToolName>
-    <Type>Personal</Type>
-    <Date>2025-01-07</Date>
-  </Supporter>
-  <Supporter>
-    <InstallationId>2d80627c-8d23-4c09-8203-160f320ec653</InstallationId>
-    <ToolName>FetchXML Builder</ToolName>
-    <Type>Personal</Type>
-    <Date>2025-01-17</Date>
-  </Supporter>
-  <Supporter>
-    <InstallationId>38d79209-bd95-4577-91ed-c5fe389a2d65</InstallationId>
-    <ToolName>FetchXML Builder</ToolName>
-    <Type>Contribute</Type>
-    <Date>2025-01-23</Date>
-  </Supporter>
-  <Supporter>
-    <InstallationId>d6c89df1-fee9-46b7-ab40-25ee32949cae</InstallationId>
-    <ToolName>FetchXML Builder</ToolName>
-    <Type>Company</Type>
-    <Date>2025-01-29</Date>
+    <Published>2025-04-03T22:23:54.423835+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
