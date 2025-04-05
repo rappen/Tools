@@ -15,10 +15,17 @@
     <Published>2025-04-03T20:28:16Z</Published>
   </Supporter>
   <Supporter>
+    <InstallationId>1de4e377-bcbe-4d20-8ad5-2a6c3a1baff9</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-02-17</Date>
+    <Published>2025-04-05T09:53:20.2344744+02:00</Published>
+  </Supporter>
+  <Supporter>
     <InstallationId>33a9e6e4-9a90-4127-90cb-6451518db017</InstallationId>
     <ToolName>Bulk Data Updater</ToolName>
     <Type>Personal</Type>
     <Date>2025-02-24</Date>
-    <Published>2025-04-05T09:50:08.1613857+02:00</Published>
+    <Published>2025-04-05T07:50:09Z</Published>
   </Supporter>
 </ArrayOfSupporter>
