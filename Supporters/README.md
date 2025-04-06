@@ -1,6 +1,6 @@
 Supporter|Country|Type|Tool|Why/How|Users
 ---|---|---|---|---|---
-_anonymous_|brazil|Contribute|FXB|Bug Reports<br/>Helping Users|
+_anonymous_|Brazil|Contribute|FXB|Bug Reports<br/>Helping Users|
 **John Mensah**|USA|Personal|FXB|Save Time|Developer
 **Robora AB**|Sweden|Company|FXB|Save Time|Customizer
 **Martin Wegner**|Germany|Personal|FXB|Save Time<br/>Impossible In Oob|Developer<br/>Administrator
