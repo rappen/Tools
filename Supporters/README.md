@@ -4,6 +4,6 @@ Supporter|Country|Type|Tool|Why/How|Users
 [**Carlos Novas**](https://www.linkedin.com/in/carlosnovas/){:target="_blank"}|Spain|Personal|FXB|Impossible In Oob|Developer
 [**Hexalinks Solutions**](https://www.hexalinks.com/){:target="_blank"}|United States|Company|BDU|Impossible In Oob|Administrator
 _anonymous_|UK|Contribute|PTV|Save Time<br/>Assure Quality<br/>Impossible In Oob|
-_anonymous_|Czechia|Personal|FXB<br/>OTPMTB||Developer
+_anonymous_|Czechia|Personal|FXB||Developer
 **ModulAcht GmbH & Co. KG**|Germany|Company|FXB<br/>BDU||Developer<br/>Administrator
 **ModulAcht GmbH & Co. KG**|Germany|Company|FXB||Developer<br/>Administrator
