@@ -9,7 +9,7 @@ _anonymous_|Netherlands|Personal|FXB|Assure Quality<br/>Impossible In Oob|Develo
 **Carlos Novas**|Spain|Personal|FXB|Impossible In Oob|Developer
 **Ovidiu Beches-Puia**|Romania|Personal|FXB|Save Time<br/>Impossible In Oob|Developer
 [**IPM Global**](https://www.ipmglobal.net/){:target="_blank"}|Australia|Company|FXB|Save Time|Developer<br/>Customizer
-[_anonymous_](https://hexalinks.com){:target="_blank"}|USA|Company|BDU|Impossible In Oob|Administrator
+_anonymous_|USA|Company|BDU|Impossible In Oob|Administrator
 _anonymous_|USA|Contribute|FXB|Pr<br/>Bug Reports<br/>Docs<br/>Helping Users|
 **Roland Pot**|Netherlands|Personal|FXB|Save Time<br/>Assure Quality|Developer<br/>Customizer<br/>Administrator<br/>Support
 _anonymous_||Contribute|FXB|Suggests<br/>Bug Reports|
@@ -34,7 +34,7 @@ _anonymous_|Czechia|Personal|FXB||Developer
 **Juan Antonio López Romero**|Spain|Personal|PTV|Save Time<br/>Impossible In Oob|Developer
 _anonymous_|Germany|Contribute|FXB|Suggests|
 _anonymous_|UK|Contribute|FXB|Pr|
-[_anonymous_](https://carpet-rug.org){:target="_blank"}|USA|Company|FXB||Customizer<br/>Administrator<br/>End User
+_anonymous_|USA|Company|FXB||Customizer<br/>Administrator<br/>End User
 **Thomas Passad**|Sweden|Personal|FXB|Save Time<br/>Assure Quality<br/>Impossible In Oob|Customizer<br/>Administrator<br/>End User
 _anonymous_|Austria|Contribute|BDU|Suggests|
 **Mike Gowland**|UK|Personal|FXB|Save Time<br/>Impossible In Oob|
