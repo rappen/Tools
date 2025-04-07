@@ -1,5 +1,5 @@
 Supporter|Country|Tool|Why/How|Users|When
----|---|---|---|---|---|---
+---|---|---|---|---|---
 Contribute<br/>[**Jonna Rappety**](https://rappen.net){:target="_blank"}|SE| Plugin Trace Viewer<br/>Custom API Tester<br/>UML Diagram Generator|||April 2025
 Personal<br/>[**Jonna Rappety**](https://rappen.net){:target="_blank"}|SE| Plugin Trace Viewer<br/>Custom API Tester<br/>UML Diagram Generator|||April 2025
 Contribute<br/>**raphael medeiros**|brazil|FetchXML Builder|Bug Reports<br/>Helping Users|Developer<br/>Customizer|April 2025
