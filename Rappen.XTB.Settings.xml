@@ -6,7 +6,7 @@
       <Name>FetchXML Builder</Name>
       <Enabled>true</Enabled>
       <ShowAutomatically>true</ShowAutomatically>
-      <ShowAutoPercentChance>25</ShowAutoPercentChance>
+      <ShowAutoPercentChance>50</ShowAutoPercentChance>
     </SupportableTool>
     <SupportableTool>
       <Name>Plugin Trace Viewer</Name>
@@ -35,11 +35,11 @@
   </SupportableTools>
   <ShowMinutesAfterToolInstall>1440</ShowMinutesAfterToolInstall> <!-- 1 day -->
   <ShowMinutesAfterToolNewVersion>120</ShowMinutesAfterToolNewVersion> <!-- 2 hours -->
-  <ShowMinutesAfterSupportingShown>2880</ShowMinutesAfterSupportingShown> <!-- 2 days -->
-  <ShowMinutesAfterSubmitting>10080</ShowMinutesAfterSubmitting> <!-- 1 week -->
-  <ShowAutoPercentChance>25</ShowAutoPercentChance>
-  <ShowAutoRepeatTimes>1000</ShowAutoRepeatTimes>
-  <ResetUnfinalizedSupportingAfterDays>7</ResetUnfinalizedSupportingAfterDays>
+  <ShowMinutesAfterSupportingShown>760</ShowMinutesAfterSupportingShown> <!-- 2 days=2880, 1d=1440, 12h=760 -->
+  <ShowMinutesAfterSubmitting>5760</ShowMinutesAfterSubmitting> <!-- 1 week=10080, 4d=5760 -->
+  <ShowAutoPercentChance>40</ShowAutoPercentChance>
+  <ShowAutoRepeatTimes>10000</ShowAutoRepeatTimes>
+  <ResetUnfinalizedSupportingAfterDays>4</ResetUnfinalizedSupportingAfterDays>
   <BMACLinkPositionRandom>true</BMACLinkPositionRandom>
   <CloseLinkPositionRandom>true</CloseLinkPositionRandom>
   <HelpInfoText>Your entered name, company, country, email, and amount will not be stored in any official system. The information will only be saved in my personal Excel file and in my own Power Platform app, mostly for me, myself and I to learn even more about how the platform could help us. I also do this to ensure that you can get an invoice, and if needed we need to communicate by email.
