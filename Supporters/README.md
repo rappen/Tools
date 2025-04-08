@@ -45,5 +45,3 @@ Contribute<br/>_anonymous_|Nepal|FetchXML Builder|Suggests<br/>Bug Reports||Sept
 Personal<br/>**Brett Law**|USA|FetchXML Builder|Save Time<br/>Assure Quality|Developer|September 2024
 Personal<br/>_anonymous_|South Africa|FetchXML Builder|Save Time|Customizer|September 2024
 Company<br/>[**Polynoma i Skåne**](https://polynomait.se){:target="_blank"}|Sweden| FetchXML Builder<br/>Bulk Data Updater<br/>Plugin Trace Viewer|Save Time<br/>Assure Quality<br/>Impossible In Oob|Developer|August 2024
-Contribute<br/>_anonymous_|Sweden|FetchXML Builder|||January 2024
-Contribute<br/>_anonymous_|Sweden|FetchXML Builder|||January 2024
