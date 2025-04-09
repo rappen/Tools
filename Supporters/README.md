@@ -26,7 +26,7 @@ _anonymous_<br/>UK|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:ta
 **Bernerd Wijaya**<br/>Indonesia|Personal|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Save Time<br/>Quality|Administrator<br/>Support|November 2024
 _anonymous_<br/>USA|Personal|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer|November 2024
 **Linn Zaw Win**, Australia|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}||Developer|November 2024
-**Herbert Granofszky**<br/>Germany|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time|Developer|November 2024
+**Herbert Granofszky**, Germany|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time|Developer|November 2024
 _anonymous_, Czechia|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}||Developer|November 2024
 **Roman Mellenberger**<br/>Switzerland|Personal|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Save Time<br/>Quality|Developer<br/>Customizer<br/>Administrator|November 2024
 [**ModulAcht GmbH & Co. KG**](https://www.modulacht.de/){:target="_blank"}<br/>Germany|Company|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}<br/>[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Administrator|November 2024
