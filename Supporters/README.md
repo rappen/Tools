@@ -1,11 +1,11 @@
 Supporter|Country|Tool|Why/How|Users|When
 ---|---|---|---|---|---
-Contribute<br/>[**Jonna Rappety**](https://rappen.net){:target="_blank"}|SE| Plugin Trace Viewer<br/>Custom API Tester<br/>UML Diagram Generator|||April 2025
-Personal<br/>[**Jonna Rappety**](https://rappen.net){:target="_blank"}|SE| Plugin Trace Viewer<br/>Custom API Tester<br/>UML Diagram Generator|||April 2025
-Contribute<br/>**raphael medeiros**|brazil|FetchXML Builder|Bug Reports<br/>Helping Users|Developer<br/>Customizer|April 2025
-Personal<br/>[**Carlos Novas**](https://www.linkedin.com/in/carlosnovas/){:target="_blank"}|Spain|FetchXML Builder|Impossible In Oob|Developer|February 2025
-Company<br/>[**Hexalinks Solutions**](https://www.hexalinks.com/){:target="_blank"}|United States|Bulk Data Updater|Impossible In Oob|Administrator|January 2025
-Contribute<br/>_anonymous_|UK|Plugin Trace Viewer|Save Time<br/>Assure Quality<br/>Impossible In Oob||January 2025
-Personal<br/>_anonymous_|Czechia| FetchXML Builder||Developer|November 2024
-Company<br/>**ModulAcht GmbH & Co. KG**|Germany| FetchXML Builder<br/>Bulk Data Updater||Developer<br/>Administrator|November 2024
-Company<br/>**ModulAcht GmbH & Co. KG**|Germany|FetchXML Builder||Developer<br/>Administrator|November 2024
+[**Jonna Rappety**](https://rappen.net){:target="_blank"}, SE|Contribute| FetchXML Builder<br/>UML Diagram Generator|<small></small>|<small></small>|<small>April 2025</small>
+[**Jonna Rappety**](https://rappen.net){:target="_blank"}, SE|Personal| Plugin Trace Viewer<br/>Custom API Tester<br/>UML Diagram Generator|<small></small>|<small></small>|<small>April 2025</small>
+**raphael medeiros**, brazil|Contribute|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|<small>Report Bugs<br/>Helping</small>|<small>Developer<br/>Customizer</small>|<small>April 2025</small>
+[**Carlos Novas**](https://www.linkedin.com/in/carlosnovas/){:target="_blank"}, Spain|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|<small>OOB can't</small>|<small>Developer</small>|<small>February 2025</small>
+[**Hexalinks Solutions**](https://www.hexalinks.com/){:target="_blank"}, United States|Company|Bulk Data Updater|<small>OOB can't</small>|<small>Administrator</small>|<small>January 2025</small>
+_anonymous_, UK|Contribute|Plugin Trace Viewer|<small>Save Time<br/>Quality<br/>OOB can't</small>|<small></small>|<small>January 2025</small>
+_anonymous_, Czechia|Personal| FetchXML Builder|<small></small>|<small>Developer</small>|<small>November 2024</small>
+**ModulAcht GmbH & Co. KG**, Germany|Company| FetchXML Builder<br/>Bulk Data Updater|<small></small>|<small>Developer<br/>Administrator</small>|<small>November 2024</small>
+**ModulAcht GmbH & Co. KG**, Germany|Company|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|<small></small>|<small>Developer<br/>Administrator</small>|<small>November 2024</small>
