@@ -1,6 +1,5 @@
 Supporter|Country|Tool|Why/How|Users|When
 ---|---|---|---|---|---
-**Jonas Privat Rapp**<br/>Sweden|Contribute|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Suggests<br/>Documentation<br/>Helping||April 2025
 **Stephen King**<br/>USA|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time|Developer<br/>Customizer|April 2025
 _anonymous_<br/>Brazil|Contribute|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Report Bugs<br/>Helping||April 2025
 **John Mensah**, USA|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time|Developer|March 2025
