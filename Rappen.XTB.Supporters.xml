@@ -581,4 +581,25 @@
     <Date>2025-04-01</Date>
     <Published>2025-03-31T22:00:00Z</Published>
   </Supporter>
+  <Supporter>
+    <InstallationId>c01e6a6e-8e0f-4e86-a579-91ff784e2317</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Contribute</Type>
+    <Date>2025-04-14</Date>
+    <Published>2025-04-17T19:23:27.2860916+02:00</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>d66f8e35-49cf-4b09-867a-548b1315162c</InstallationId>
+    <ToolName>Plugin Trace Viewer</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-04-14</Date>
+    <Published>2025-04-17T19:23:27.2861055+02:00</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>6d3c4627-e904-44e6-a216-47052bec81e4</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-04-16</Date>
+    <Published>2025-04-17T19:23:27.286113+02:00</Published>
+  </Supporter>
 </ArrayOfSupporter>
