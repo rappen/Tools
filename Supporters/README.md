@@ -41,7 +41,7 @@ _anonymous_<br/>USA|Company|[FetchXML Builder](https://fethchxmlbuilder.com){:ta
 **Thomas Passad**<br/>Sweden|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Customizer<br/>Administrator<br/>EndUser|October 2024
 _anonymous_, Austria|Contribute|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Suggests||October 2024
 **Mike Gowland**<br/>UK|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't||October 2024
-**Göran Roseen**<br/>Sweden|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer|October 2024
+[**Göran Roseen**](https://mastodon.nu/@roseen){:target="_blank"}<br/>Sweden|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer|October 2024
 _anonymous_, USA|Contribute|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Videos||September 2024
 **Noor Syed**<br/>India|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Developer|September 2024
 _anonymous_<br/>Nepal|Contribute|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Suggests<br/>Report Bugs||September 2024
