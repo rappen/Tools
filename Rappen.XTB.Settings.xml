@@ -32,6 +32,18 @@
       <ShowAutomatically>true</ShowAutomatically>
       <ShowAutoPercentChance>50</ShowAutoPercentChance>
     </SupportableTool>
+    <SupportableTool>
+      <Name>Custom API Tester</Name>
+      <Enabled>true</Enabled>
+      <ShowAutomatically>true</ShowAutomatically>
+      <ShowAutoPercentChance>50</ShowAutoPercentChance>
+    </SupportableTool>
+    <SupportableTool>
+      <Name>Custom Action Tester</Name>
+      <Enabled>true</Enabled>
+      <ShowAutomatically>true</ShowAutomatically>
+      <ShowAutoPercentChance>50</ShowAutoPercentChance>
+    </SupportableTool>
   </SupportableTools>
   <ShowMinutesAfterToolInstall>1440</ShowMinutesAfterToolInstall> <!-- 1 day -->
   <ShowMinutesAfterToolNewVersion>120</ShowMinutesAfterToolNewVersion> <!-- 2 hours -->
