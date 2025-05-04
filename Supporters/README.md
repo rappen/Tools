@@ -1,5 +1,6 @@
 Supporter|Country|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+[**Petrus Ruiter**](https://powerpete.com){:target="_blank"}<br/>Netherlands|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Customizer|May 2025
 _anonymous_, Denmark|Contribute|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Report Bugs||April 2025
 **Daryl LaBar**<br/>USA|Contribute|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Suggests<br/>Report Bugs||April 2025
 **Stephen King**<br/>USA|Personal|[FetchXML Builder](https://fethchxmlbuilder.com){:target="_blank"}|Save Time|Developer<br/>Customizer|April 2025
