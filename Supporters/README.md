@@ -2,7 +2,7 @@ Supporter|Country|Tool|Why/How|Users|When
 ---|---|---|---|---|---
 **Varun Singh**, Australia|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests||May 2025
 [**Veljko Vidovic**](https://devamo.com){:target="_blank"}<br/>Canada|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}<br/>[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}<br/>Custom API Tester|Save Time<br/>Quality<br/>OOB can't|Developer<br/>Customizer<br/>Administrator|May 2025
-_anonymous_<br/>Austria|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Customizer<br/>End User|May 2025
+_anonymous_<br/>Austria|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Customizer<br/>End user|May 2025
 [**Petrus Ruiter**](https://powerpete.com){:target="_blank"}<br/>Netherlands|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Customizer|May 2025
 _anonymous_, Denmark|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Report Bugs||April 2025
 **Daryl LaBar**<br/>USA|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Suggests<br/>Report Bugs||April 2025
@@ -41,8 +41,8 @@ _anonymous_<br/>Czechia|Personal|[FetchXML Builder](https://fetchxmlbuilder.com)
 **Juan Antonio López Romero**<br/>Spain|Personal|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Save Time<br/>OOB can't|Developer|October 2024
 _anonymous_, Germany|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Suggests||October 2024
 _anonymous_, UK|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests||October 2024
-_anonymous_<br/>USA|Company|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}||Customizer<br/>Administrator<br/>End User|October 2024
-**Thomas Passad**<br/>Sweden|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Customizer<br/>Administrator<br/>End User|October 2024
+_anonymous_<br/>USA|Company|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}||Customizer<br/>Administrator<br/>End user|October 2024
+**Thomas Passad**<br/>Sweden|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Customizer<br/>Administrator<br/>End user|October 2024
 _anonymous_, Austria|Contribute|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Suggests||October 2024
 **Mike Gowland**<br/>UK|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't||October 2024
 [**Göran Roseen**](https://mastodon.nu/@roseen){:target="_blank"}<br/>Sweden|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer|October 2024
