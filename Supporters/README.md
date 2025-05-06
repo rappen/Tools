@@ -1,4 +1,4 @@
-Supporter|Country|Tool|Why/How|Users|When
+Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
 **Bob Capel**<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer<br/>Customizer|May 2025
 **Varun Singh**, Australia|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests||May 2025
