@@ -1,5 +1,6 @@
 Supporter|Country|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+**Varun Singh**, Australia|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests||May 2025
 [**Veljko Vidovic**](https://devamo.com){:target="_blank"}<br/>Canada|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}<br/>[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}<br/>Custom API Tester|Save Time<br/>Quality<br/>OOB can't|Developer<br/>Customizer<br/>Administrator|May 2025
 _anonymous_<br/>Austria|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Customizer<br/>End User|May 2025
 [**Petrus Ruiter**](https://powerpete.com){:target="_blank"}<br/>Netherlands|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Customizer|May 2025
