@@ -656,6 +656,13 @@
     <ToolName>Bulk Data Updater</ToolName>
     <Type>Personal</Type>
     <Date>2025-05-06</Date>
-    <Published>2025-05-06T18:57:36.5982824+02:00</Published>
+    <Published>2025-05-06T16:57:38Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>d86ccdb9-8ae7-409a-a648-fa903a892b3e</InstallationId>
+    <ToolName>Plugin Trace Viewer</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-05-07</Date>
+    <Published>2025-05-07T09:22:34.3024896+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
