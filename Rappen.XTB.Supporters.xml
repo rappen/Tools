@@ -663,6 +663,13 @@
     <ToolName>Plugin Trace Viewer</ToolName>
     <Type>Personal</Type>
     <Date>2025-05-07</Date>
-    <Published>2025-05-07T09:22:34.3024896+02:00</Published>
+    <Published>2025-05-07T07:22:35Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>8275743d-395c-455d-a6de-a62bd6dd7f7c</InstallationId>
+    <ToolName>Plugin Trace Viewer</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-05-08</Date>
+    <Published>2025-05-08T19:40:52.1390246+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
