@@ -684,6 +684,13 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
     <Date>2025-05-15</Date>
-    <Published>2025-05-15T16:11:53.298411+02:00</Published>
+    <Published>2025-05-15T14:11:54Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>6f8e959c-652a-456f-b66e-2084d3229f6a</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-05-16</Date>
+    <Published>2025-05-16T10:44:58.077975+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
