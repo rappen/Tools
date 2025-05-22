@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+**Bruno Mendes**, Portugal|Contribute|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|||May 2025
 [**Blaine Wildrick**](https://www.linkedin.com/in/blainewildrick/){:target="_blank"}<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Customizer|May 2025
 **Molly Ragonnet**<br/>UK|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Developer|May 2025
 **Vladimir Mijalkovic**<br/>Serbia|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Customizer<br/>Administrator|May 2025
