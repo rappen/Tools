@@ -18,19 +18,14 @@
     <AiSupplier>
       <Name>Anthropic</Name>
       <Models>
-        <string>Claude-3-5-haiku-20241022</string>
-        <string>Claude-4</string>
-      </Models>
-      <Url>https://api.anthropic.com/v1/messages</Url>
-    </AiSupplier>
-    <AiSupplier>
-      <Name>AzureOpenAI</Name>
-      <Models>
-        <string>GPT-4</string>
-        <string>GPT-4 Turbo</string>
-        <string>GPT-4 Turbo 16k</string>
-        <string>GPT-4 Turbo 32k</string>
-        <string>GPT-4 Turbo 32k</string>
+        <AiModel>
+          <Name>Claude-3-5-haiku-20241022</Name>
+          <Url>https://api.anthropic.com/v1/messages</Url>
+        </AiModel>
+        <AiModel>
+          <Name>Claude-4</Name>
+          <Url>https://api.anthropic.com/v2/messages</Url>
+        </AiModel>
       </Models>
     </AiSupplier>
   </AiSuppliers>
