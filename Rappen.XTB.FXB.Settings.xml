@@ -16,6 +16,19 @@
   </IntegratedToTools>
   <AiSuppliers>
     <AiSupplier>
+      <Name>OpenAI</Name>
+      <Models>
+        <AiModel>
+          <Name>gpt-3.5-turbo</Name>
+          <Url>https://platform.openai.com/docs/models/gpt-3-5</Url>
+        </AiModel>
+        <AiModel>
+          <Name>gpt-4</Name>
+          <Url>https://platform.openai.com/docs/models/gpt-4</Url>
+        </AiModel>
+      </Models>
+    </AiSupplier>
+    <AiSupplier>
       <Name>Anthropic</Name>
       <Models>
         <AiModel>
