@@ -14,7 +14,7 @@
     <string>Bulk Workflow Execution</string>
     <string>BPF Manager</string>
   </IntegratedToTools>
-  <AiSuppliers>
+  <AiSupported>
     <AiSupplier>
       <Name>OpenAI</Name>
       <Models>
@@ -35,7 +35,7 @@
           <Name>claude-3-5-haiku-20241022</Name>
           <Url>https://api.anthropic.com/v1/messages</Url>
         </AiModel>
- 	<AiModel>
+      	<AiModel>
           <Name>claude-3-7-sonnet-20250219</Name>
           <Url>https://api.anthropic.com/v1/messages</Url>
         </AiModel>
@@ -45,5 +45,5 @@
         </AiModel>
       </Models>
     </AiSupplier>
-  </AiSuppliers>
+  </AiSupported>
 </OnlineSettings>
