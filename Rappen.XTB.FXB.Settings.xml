@@ -32,12 +32,16 @@
       <Name>Anthropic</Name>
       <Models>
         <AiModel>
-          <Name>Claude-3-5-haiku-20241022</Name>
+          <Name>claude-3-5-haiku-20241022</Name>
+          <Url>https://api.anthropic.com/v1/messages</Url>
+        </AiModel>
+ 	<AiModel>
+          <Name>claude-3-7-sonnet-20250219</Name>
           <Url>https://api.anthropic.com/v1/messages</Url>
         </AiModel>
         <AiModel>
-          <Name>Claude-4</Name>
-          <Url>https://api.anthropic.com/v2/messages</Url>
+          <Name>claude-sonnet-4-20250514</Name>
+          <Url>https://api.anthropic.com/v1/messages</Url>
         </AiModel>
       </Models>
     </AiSupplier>
