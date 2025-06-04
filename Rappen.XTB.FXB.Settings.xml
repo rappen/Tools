@@ -17,6 +17,7 @@
   <AiSupported>
     <AiSupplier>
       <Name>OpenAI</Name>
+      <Url>https://openai.com/</Url>
       <Models>
         <AiModel>
           <Name>gpt-3.5-turbo</Name>
@@ -30,6 +31,7 @@
     </AiSupplier>
     <AiSupplier>
       <Name>Anthropic</Name>
+      <Url>https://www.anthropic.com/</Url>
       <Models>
         <AiModel>
           <Name>claude-3-5-haiku-20241022</Name>
