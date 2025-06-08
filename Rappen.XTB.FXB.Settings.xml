@@ -19,13 +19,17 @@
       <Name>OpenAI</Name>
       <Url>https://openai.com/</Url>
       <Models>
-        <AiModel>
-          <Name>gpt-3.5-turbo</Name>
-          <Url>https://platform.openai.com/docs/models/gpt-3-5</Url>
+         <AiModel>
+          <Name>gpt-4.1</Name>
+          <Url>https://platform.openai.com/docs/models/gpt-4.1</Url>
         </AiModel>
-        <AiModel>
-          <Name>gpt-4</Name>
-          <Url>https://platform.openai.com/docs/models/gpt-4</Url>
+         <AiModel>
+          <Name>gpt-4.1-mini</Name>
+          <Url>https://platform.openai.com/docs/models/gpt-4.1-mini</Url>
+        </AiModel>
+         <AiModel>
+          <Name>gpt-4.1-nano</Name>
+          <Url>https://platform.openai.com/docs/models/gpt-4.1-nano</Url>
         </AiModel>
       </Models>
     </AiSupplier>
