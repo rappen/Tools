@@ -14,7 +14,7 @@
     <string>Bulk Workflow Execution</string>
     <string>BPF Manager</string>
   </IntegratedToTools>
-  <AiSupported>
+  <AiSuppliers>
     <AiSupplier>
       <Name>OpenAI</Name>
       <Url>https://openai.com/</Url>
@@ -51,5 +51,5 @@
         </AiModel>
       </Models>
     </AiSupplier>
-  </AiSupported>
+  </AiSuppliers>
 </OnlineSettings>
