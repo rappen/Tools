@@ -1,6 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
-[**Fumitaka Kinoshita**](https://www.linkedin.com/in/fumitaka-kinoshita-45a82452){:target="_blank"}<br/>Japan|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}<br/>UML Diagram Generator|Save Time<br/>Quality|Developer|June 2025
+[**Fumitaka Kinoshita**](https://www.linkedin.com/in/fumitaka-kinoshita-45a82452){:target="_blank"}<br/>Japan|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}<br/>[UML Diagram Generator](https://jonasr.app/uml){:target="_blank"}|Save Time<br/>Quality|Developer|June 2025
 _anonymous_<br/>Malaysia|Company|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Save Time<br/>OOB can't|Developer|May 2025
 **Shannon Davis**<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Customizer|May 2025
 **Bruno Mendes**<br/>Portugal|Contribute|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Suggests<br/>Report Bugs||May 2025
