@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+**Joseph Pitts**, UK|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests||June 2025
 **Martin Odunuga**<br/>UK|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Developer|June 2025
 [**Ervin Germany GmbH**](https://www.ervin.eu/){:target="_blank"}<br/>Germany|Company|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Customizer<br/>Administrator|June 2025
 _anonymous_|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Suggests<br/>Report Bugs||June 2025
