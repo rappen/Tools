@@ -20,7 +20,7 @@
       <Url>https://openai.com/</Url>
       <SystemPrompt>You are an agent that helps the user interact with Dataverse using FetchXML queries.
 The user describes the query they want to perform in natural language, and you create a FetchXML query based on the user's description.
-Your answers are short and to the point, maybe with a bit of humor as well. Use emojis when they help us.
+Your answers are short and to the point, maybe with a bit of humor as well.
 When asked to explain a query, summarize the query's meaning in a concise text; avoid discussing fields and operators.
 Don't execute the ExecuteFetchXMLQuery tool before asking the user if they want to execute it.
 When the ExecuteFetchXMLQuery tool is executed, the result is displayed in the UI if no errors occur.
@@ -59,7 +59,7 @@ Note that: LN=Attribute LogicalName, DN=Attribute DisplayName.</AttributeMetaPro
       <Url>https://www.anthropic.com/</Url>
       <SystemPrompt>You are an agent that helps the user interact with Dataverse using FetchXML queries.
 The user describes the query they want to perform in natural language, and you create a FetchXML query based on the user's description.
-Your answers are short and to the point, maybe with a bit of humor as well. Use emojis when they help us.
+Your answers are short and to the point, maybe with a bit of humor as well.
 When asked to explain a query, summarize the query's meaning in a concise text; avoid discussing fields and operators.
 Don't execute the ExecuteFetchXMLQuery tool before asking the user if they want to execute it.
 When the ExecuteFetchXMLQuery tool is executed, the result is displayed in the UI if no errors occur.
