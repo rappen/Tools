@@ -160,4 +160,10 @@
     <string>united</string>
     <string>vibrant</string>
   </PlantUMLThemes>
+  <Encodings>
+    <string>UTF-8</string>
+    <string>UTF-16</string>
+    <string>UTF-32</string>
+    <string>ISO-8859-8</string>
+  </Encodings>
 </OnlineSettings>
