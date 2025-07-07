@@ -15,7 +15,7 @@
     <string>Bulk Workflow Execution</string>
     <string>BPF Manager</string>
   </IntegratedToTools>
-  <AiSuppliers>
+  <AiSupport>
     <Prompts>
         <System>You are an agent that helps the user interact with Dataverse using FetchXML queries.
 The user describes the query they want to perform in natural language, and you create a
@@ -42,7 +42,7 @@ entity '{entityname}'. See the JSON below:
 {metadata}
 Note that: LN=Attribute LogicalName, DN=Attribute DisplayName.</AttributeMeta>
     </Prompts>
-    <Suppliers>
+    <AiSuppliers>
       <AiSupplier>
         <Name>OpenAI</Name>
         <Url>https://openai.com/</Url>
@@ -79,6 +79,6 @@ Note that: LN=Attribute LogicalName, DN=Attribute DisplayName.</AttributeMeta>
           </AiModel>
         </Models>
       </AiSupplier>
-    </Suppliers>
-  </AiSuppliers>
+    </AiSuppliers>
+  </AiSupport>
 </OnlineSettings>
