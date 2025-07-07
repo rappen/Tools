@@ -28,19 +28,19 @@ The original FetchXML we are working with is:
 {fetchxml}
 This FetchXML can be modified as the conversation progresses.
 If you modify the current FetchXML, please call the tool UpdateCurrentFetchXml and send the modified FetchXML query as a parameter.
-If you don't know an entity or table, the GetMetadataForUnknownEntity tool will inform you of it in JSON format when executed. The same works for missing attributes with the GetMetadataForUnknownAttribute tool.</SystemPrompt>
+If you don't know an entity or table, the GetMetadataForUnknownEntity tool will inform you of it in JSON format when executed. The same works for missing attributes with the GetMetadataForUnknownAttribute tool.</System>
         <CallMe>Please always call me: {callme}</CallMe>
         <Update>I have updated the FetchXML query to:
 {fetchxml}
-This is the FetchXml that we are currently working with.</UpdatePrompt>
+This is the FetchXml that we are currently working with.</Update>
         <EntityMeta>Retrieved all unknown tables; you were missing entity '{entityname}'. See
 the JSON below:
 {metadata}
-Note that: LN=Entity LogicalName, DN=Entity DisplayName.</EntityMetaPrompt>
+Note that: LN=Entity LogicalName, DN=Entity DisplayName.</EntityMeta>
         <AttributeMeta>Retrieved all unknown attributes for the missing attribute in the
 entity '{entityname}'. See the JSON below:
 {metadata}
-Note that: LN=Attribute LogicalName, DN=Attribute DisplayName.</AttributeMetaPrompt>
+Note that: LN=Attribute LogicalName, DN=Attribute DisplayName.</AttributeMeta>
     </Prompts>
     <Suppliers>
       <AiSupplier>
