@@ -29,8 +29,6 @@ If you modify the current FetchXML, please call the tool UpdateCurrentFetchXml a
 If you have made a suggestion for a FetchXml query, make sure that you always call the tool UpdateCurrentFetchXml before you call ExecuteFetchXMLQuery to execute the query. 
 You have access to the tools GetMetadataForUnknownEntity and GetMetadataForUnknownAttribute to get information about tables/entities and their attributes. Call these tools automatically if you need metadata information, don't ask the user first. 
 Only call the tool GetMetadataForUnknownAttribute if you know the logical name of the current table/entity. 
-If the user wants to retrieve standard Dataverse entities (for example contact, opportunity and lead), don't call GetMetadataForUnknownEntity and GetMetadataForUnknownAttribute unless you absolutely have to. Instead rely on your existing knowledge about these standard entities and their attributes. 
-Call GetMetadataForUnknownEntity and GetMetadataForUnknownAttribute mainly for custom tables and attributes - that is tables and attributes that have '_' in their logical names. 
 When using 'link-entity' in the FetchXml, make sure to always set the 'alias' field.</System>
         <CallMe>Please always call me: {callme}</CallMe>
         <Update>I have updated the FetchXML query to:
