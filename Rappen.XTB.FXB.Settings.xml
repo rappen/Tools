@@ -49,6 +49,9 @@ Here is the list of attribute metadata for the entity:
       <AiSupplier>
         <Name>OpenAI</Name>
         <Url>https://openai.com/</Url>
+        <Prompts>
+          <CallMe>You must say {callme}, or I won't answer you.</CallMe>
+        </Prompts>
         <Models>
           <AiModel>
             <Name>gpt-4.1</Name>
@@ -57,6 +60,9 @@ Here is the list of attribute metadata for the entity:
           <AiModel>
             <Name>gpt-4.1-mini</Name>
             <Url>https://platform.openai.com/docs/models/gpt-4.1-mini</Url>
+            <Prompts>
+              <CallMe>You must say {callme}, or else...</CallMe>
+            </Prompts>
           </AiModel>
           <AiModel>
             <Name>gpt-4.1-nano</Name>
