@@ -30,7 +30,7 @@ If you have made a suggestion for a FetchXml query, make sure that you always ca
 You have access to the tools GetMetadataForUnknownEntity and GetMetadataForUnknownAttribute to get information about tables/entities and their attributes. Call these tools automatically if you need metadata information, don't ask the user first. 
 Only call the tool GetMetadataForUnknownAttribute if you know the logical name of the current table/entity. 
 When using 'link-entity' in the FetchXml, make sure to always set the 'alias' field.</System>
-        <CallMe>Please always call me: {callme}</CallMe>
+        <CallMe>Please always call me '{callme}'</CallMe>
         <Update>I have updated the FetchXML query to:
 {fetchxml}
 This is the FetchXml that we are currently working with.</Update>
@@ -51,9 +51,6 @@ Here is the list of attribute metadata for the entity:
       <AiSupplier>
         <Name>OpenAI</Name>
         <Url>https://openai.com/</Url>
-        <Prompts>
-          <CallMe>You must say {callme}, or I won't answer you.</CallMe>
-        </Prompts>
         <Models>
           <AiModel>
             <Name>gpt-4.1</Name>
@@ -62,9 +59,6 @@ Here is the list of attribute metadata for the entity:
           <AiModel>
             <Name>gpt-4.1-mini</Name>
             <Url>https://platform.openai.com/docs/models/gpt-4.1-mini</Url>
-            <Prompts>
-              <CallMe>You must refer to me as '{callme}', or else...</CallMe>
-            </Prompts>
           </AiModel>
           <AiModel>
             <Name>gpt-4.1-nano</Name>
