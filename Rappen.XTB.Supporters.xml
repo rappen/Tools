@@ -789,6 +789,13 @@
     <ToolName>Bulk Data Updater</ToolName>
     <Type>Personal</Type>
     <Date>2025-07-09</Date>
-    <Published>2025-07-09T15:06:57.2798463+02:00</Published>
+    <Published>2025-07-09T13:06:58Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>b3027f43-12b0-4de6-99a2-3554f906de12</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-07-18</Date>
+    <Published>2025-07-18T13:47:21.5984359+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
