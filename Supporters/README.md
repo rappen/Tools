@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+_anonymous_|Contribute|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|||July 2025
 **Joseph Pitts**, UK|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests||June 2025
 **Martin Odunuga**<br/>UK|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Developer|June 2025
 [**Ervin Germany GmbH**](https://www.ervin.eu/){:target="_blank"}<br/>Germany|Company|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Customizer<br/>Administrator|June 2025
