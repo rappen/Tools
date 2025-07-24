@@ -85,5 +85,38 @@ Here is the list of attribute metadata for the entity:
         </Models>
       </AiSupplier>
     </AiSuppliers>
+    <PopupByCallNos>
+      <PopupByCallNo>
+        <StartAtCallNo>10</StartAtCallNo>
+        <RepeatEvery>0</RepeatEvery>
+        <StopAtCallNo>0</StopAtCallNo>
+        <SuggestsSupporting>false</SuggestsSupporting>
+        <Message>Welcome to the AI Chat in FetchXML Builder! 🎉
+You have already made {calls} calls to the AI robot - any good responses?
+Just keep it up! 🤓
+
+If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
+        <HelpUrl>https://github.com/rappen/FetchXMLBuilder/discussions</HelpUrl>
+      </PopupByCallNo>
+      <PopupByCallNo>
+        <StartAtCallNo>25</StartAtCallNo>
+        <RepeatEvery>50</RepeatEvery>
+        <StopAtCallNo>1000</StopAtCallNo>
+        <SuggestsSupporting>true</SuggestsSupporting>
+        <Message>You have made {calls} calls to the AI service. It's probably time to support this tool now, right?</Message>
+      </PopupByCallNo>
+      <PopupByCallNo>
+        <StartAtCallNo>100</StartAtCallNo>
+        <RepeatEvery>100</RepeatEvery>
+        <StopAtCallNo>1000</StopAtCallNo>
+        <SuggestsSupporting>false</SuggestsSupporting>
+        <Message>Wow! A big WOW!
+You have made {calls} calls to the AI robot.
+That's awesome - good job! 😍
+
+If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
+        <HelpUrl>https://github.com/rappen/FetchXMLBuilder/discussions</HelpUrl>
+      </PopupByCallNo>
+    </PopupByCallNos>
   </AiSupport>
 </OnlineSettings>
