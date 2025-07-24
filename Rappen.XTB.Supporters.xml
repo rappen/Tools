@@ -799,10 +799,17 @@
     <Published>2025-07-18T11:47:22Z</Published>
   </Supporter>
   <Supporter>
+    <InstallationId>451b1478-b3a3-41fb-86a2-b90c75950ba5</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Contribute</Type>
+    <Date>2025-07-24</Date>
+    <Published>2025-07-24T17:31:43.8190331+02:00</Published>
+  </Supporter>
+  <Supporter>
     <InstallationId>d6066f53-ecc1-4631-b26e-e4b689cba96e</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
     <Date>2025-07-24</Date>
-    <Published>2025-07-24T11:00:31.3327964+02:00</Published>
+    <Published>2025-07-24T09:00:32Z</Published>
   </Supporter>
 </ArrayOfSupporter>
