@@ -803,7 +803,7 @@
     <ToolName>Bulk Data Updater</ToolName>
     <Type>Contribute</Type>
     <Date>2025-07-24</Date>
-    <Published>2025-07-24T17:31:43.8190331+02:00</Published>
+    <Published>2025-07-24T15:31:45Z</Published>
   </Supporter>
   <Supporter>
     <InstallationId>d6066f53-ecc1-4631-b26e-e4b689cba96e</InstallationId>
@@ -811,5 +811,12 @@
     <Type>Personal</Type>
     <Date>2025-07-24</Date>
     <Published>2025-07-24T09:00:32Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>e75f1b1a-d092-461c-97f8-689a978c95af</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-07-25</Date>
+    <Published>2025-07-25T10:18:44.3062934+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
