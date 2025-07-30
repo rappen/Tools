@@ -819,4 +819,11 @@
     <Date>2025-07-25</Date>
     <Published>2025-07-25T08:18:46Z</Published>
   </Supporter>
+  <Supporter>
+    <InstallationId>c4d4b3e8-2e03-4cdb-8d96-43435337c3cc</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-07-30</Date>
+    <Published>2025-07-30T14:00:41.8253667+02:00</Published>
+  </Supporter>
 </ArrayOfSupporter>
