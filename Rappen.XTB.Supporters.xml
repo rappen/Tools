@@ -824,7 +824,7 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
     <Date>2025-07-30</Date>
-    <Published>2025-07-30T18:45:42.1189987+02:00</Published>
+    <Published>2025-07-30T16:45:43Z</Published>
   </Supporter>
   <Supporter>
     <InstallationId>c4d4b3e8-2e03-4cdb-8d96-43435337c3cc</InstallationId>
@@ -832,5 +832,12 @@
     <Type>Personal</Type>
     <Date>2025-07-30</Date>
     <Published>2025-07-30T12:00:43Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>6f82db78-5658-4e34-a450-c3eb3143012b</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-08-05</Date>
+    <Published>2025-08-05T21:50:44.1703624+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
