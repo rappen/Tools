@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+_anonymous_<br/>South Africa|Company|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time|Customizer<br/>Administrator|August 2025
 _anonymous_, Australia|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time|Developer|August 2025
 **Bob Capel**, USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||July 2025
 **Kabelo Shale**, South Africa|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||July 2025
