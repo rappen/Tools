@@ -52,6 +52,18 @@ Here is the list of attribute metadata for the entity:
         <Name>OpenAI</Name>
         <Url>https://openai.com/</Url>
         <Models>
+           <AiModel>
+            <Name>gpt-5</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5</Url>
+          </AiModel>
+           <AiModel>
+            <Name>gpt-5-mini</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5-mini</Url>
+          </AiModel>
+           <AiModel>
+            <Name>gpt-5-nano</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5-nano</Url>
+          </AiModel>
           <AiModel>
             <Name>gpt-4.1</Name>
             <Url>https://platform.openai.com/docs/models/gpt-4.1</Url>
@@ -125,3 +137,4 @@ If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
     </PopupByCallNos>
   </AiSupport>
 </OnlineSettings>
+
