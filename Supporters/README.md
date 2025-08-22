@@ -1,5 +1,7 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+_anonymous_, Norway|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests||August 2025
+_anonymous_<br/>Australia|Contribute|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Pull Requests<br/>Suggests<br/>Report Bugs<br/>Documentation<br/>Helping||August 2025
 [**Arian Atapour**](https://www.linkedin.com/in/atapour-arian){:target="_blank"}<br/>Romania|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Quality|Developer|August 2025
 _anonymous_<br/>South Africa|Company|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time|Customizer<br/>Administrator|August 2025
 _anonymous_, Australia|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time|Developer|August 2025
