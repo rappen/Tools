@@ -880,6 +880,20 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
     <Date>2025-08-21</Date>
-    <Published>2025-08-21T08:35:48.3518473+02:00</Published>
+    <Published>2025-08-21T06:35:49Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>42183496-f8f1-4b75-b406-9a09d5427cf6</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Contribute</Type>
+    <Date>2025-08-22</Date>
+    <Published>2025-08-22T09:38:20.7477413+02:00</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>ffeed740-d052-415f-b24b-26c0b2aa46dc</InstallationId>
+    <ToolName>Plugin Trace Viewer</ToolName>
+    <Type>Contribute</Type>
+    <Date>2025-08-22</Date>
+    <Published>2025-08-22T09:38:20.7477631+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
