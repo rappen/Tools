@@ -9,6 +9,7 @@
   <IntegratedToTools>
     <string>Bulk Data Updater</string>
     <string>SQL 4 CDS</string>
+    <string>Dataverse REST Builder</string>
     <string>Export To Excel</string>
     <string>Data Migration Tool</string>
     <string>View Designer</string>
@@ -137,4 +138,5 @@ If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
     </PopupByCallNos>
   </AiSupport>
 </OnlineSettings>
+
 
