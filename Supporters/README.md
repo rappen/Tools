@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+_anonymous_, Sweden|FreeAi|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||August 2025
 _anonymous_, Norway|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests||August 2025
 _anonymous_<br/>Australia|Contribute|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Pull Requests<br/>Suggests<br/>Report Bugs<br/>Documentation<br/>Helping||August 2025
 [**Arian Atapour**](https://www.linkedin.com/in/atapour-arian){:target="_blank"}<br/>Romania|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Quality|Developer|August 2025
