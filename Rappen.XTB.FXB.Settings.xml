@@ -8,10 +8,166 @@
   <IntegratedToTools>
     <string>Bulk Data Updater</string>
     <string>SQL 4 CDS</string>
+    <string>Dataverse REST Builder</string>
     <string>Export To Excel</string>
     <string>Data Migration Tool</string>
     <string>View Designer</string>
     <string>Bulk Workflow Execution</string>
     <string>BPF Manager</string>
   </IntegratedToTools>
+  <AiSupport>
+    <Prompts>
+      <System>You are an agent that helps the user interact with Dataverse using FetchXML queries. 
+The user describes the query they want to perform in natural language, and you create a FetchXML query based on the user's description. 
+Your answers are short and to the point, maybe with a bit of humor as well. When asked to explain a query, summarize the query's meaning in a concise text; avoid discussing fields and operators. 
+Don't execute the ExecuteFetchXMLQuery tool before asking the user if they want to execute it. 
+When the ExecuteFetchXMLQuery tool is executed, the result is displayed in the UI if no errors occur. 
+The original FetchXML we are working with is: 
+{fetchxml}. 
+This FetchXML can be modified as the conversation progresses. 
+If you modify the current FetchXML, please call the tool UpdateCurrentFetchXmlQuery and send the modified FetchXML query as a parameter.
+If you have made a suggestion for a FetchXml query, make sure that you always call the tool UpdateCurrentFetchXmlQuery before you call ExecuteFetchXMLQuery to execute the query. 
+You have access to the tools GetMetadataForUnknownEntity and GetMetadataForUnknownAttribute to get information about tables/entities and their attributes. Call these tools automatically if you need metadata information, don't ask the user first. 
+Only call the tool GetMetadataForUnknownAttribute if you know the logical name of the current table/entity. 
+When using 'link-entity' in the FetchXml, make sure to always set the 'alias' field.</System>
+      <CallMe>Please always call me '{callme}'</CallMe>
+      <Update>I have updated the FetchXML query to:
+{fetchxml}
+This is the FetchXml that we are currently working with.</Update>
+      <EntityMeta>You are an agent that is given a list of table metadata in the format {"L":"[logical name of entity]","D":"[display name of entity]"}.
+You help the user find one or many entries that matches a description supplied by the user.
+You return the found items as a JSON array with entries in the format {"L":"[logical name of entity]","D":"[display name of entity]"}.
+If nothing is found, return an empty array.
+Here is the list of metadata:
+{metadata}</EntityMeta>
+      <AttributeMeta>You are an agent that is given a list of attribute metadata in the format {"L":"[logical name of attribute]","D":"[display name of attribute]","T":"[type of attribute]","E":"[if type is Lookup this targets the entity]"}.
+You help the user find one or many entries that matches a description supplied by the user, and you inspect both the logical names and display names for potential matches, using fuzzy matching.
+You return all the matching items as a JSON array with entries in the format {"L":"[logical name of attribute]","D":"[display name of attribute]","T":"[type of attribute]","E":"[if type is Lookup this targets the entity]"}.
+If nothing is found, return an empty array.
+Here is the list of attribute metadata for the entity:
+{metadata}</AttributeMeta>
+    </Prompts>
+    <AiSuppliers>
+      <AiSupplier>
+        <Name>Azure AI Foundry</Name>
+        <Url>https://ai.azure.com/</Url>
+        <Prompts />
+        <Models>
+          <AiModel>
+            <Name>gpt-5-mini</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5-mini</Url>
+            <Key>abcdef</Key>
+            <Prompts />
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5-nano</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5-nano</Url>
+            <Prompts />
+          </AiModel>
+        </Models>
+      </AiSupplier>
+      <AiSupplier>
+        <Name>OpenAI</Name>
+        <Url>https://openai.com/</Url>
+        <Prompts />
+        <Models>
+          <AiModel>
+            <Name>gpt-5</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5</Url>
+            <Prompts />
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5-mini</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5-mini</Url>
+            <Prompts />
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5-nano</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5-nano</Url>
+            <Prompts />
+          </AiModel>
+          <AiModel>
+            <Name>gpt-4.1</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-4.1</Url>
+            <Prompts />
+          </AiModel>
+          <AiModel>
+            <Name>gpt-4.1-mini</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-4.1-mini</Url>
+            <Prompts />
+          </AiModel>
+          <AiModel>
+            <Name>gpt-4.1-nano</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-4.1-nano</Url>
+            <Prompts />
+          </AiModel>
+        </Models>
+      </AiSupplier>
+      <AiSupplier>
+        <Name>Anthropic</Name>
+        <Url>https://www.anthropic.com/</Url>
+        <Prompts />
+        <Models>
+          <AiModel>
+            <Name>claude-3-5-haiku-20241022</Name>
+            <Url>https://api.anthropic.com/v1/messages</Url>
+            <Prompts />
+          </AiModel>
+          <AiModel>
+            <Name>claude-3-7-sonnet-20250219</Name>
+            <Url>https://api.anthropic.com/v1/messages</Url>
+            <Prompts />
+          </AiModel>
+          <AiModel>
+            <Name>claude-sonnet-4-20250514</Name>
+            <Url>https://api.anthropic.com/v1/messages</Url>
+            <Prompts />
+          </AiModel>
+        </Models>
+      </AiSupplier>
+    </AiSuppliers>
+    <PopupByCallNos>
+      <PopupByCallNo>
+        <StartAtCallNo>10</StartAtCallNo>
+        <RepeatEvery>0</RepeatEvery>
+        <StopAtCallNo>0</StopAtCallNo>
+        <SuggestsSupporting>false</SuggestsSupporting>
+        <Message>Welcome to the AI Chat in FetchXML Builder! 🎉
+
+You have already made {calls} calls to the AI robot - any good responses?
+Just keep it up! 🤓
+
+If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
+        <HelpUrl>https://github.com/rappen/FetchXMLBuilder/discussions</HelpUrl>
+      </PopupByCallNo>
+      <PopupByCallNo>
+        <StartAtCallNo>25</StartAtCallNo>
+        <RepeatEvery>50</RepeatEvery>
+        <StopAtCallNo>1000</StopAtCallNo>
+        <SuggestsSupporting>true</SuggestsSupporting>
+        <Message>You have now called the AI robot {calls} times, that's pretty awesome!
+I guess it's probably time to support this tool now, right?
+
+Click the OK button, and select the support as Corporate or Personal.</Message>
+      </PopupByCallNo>
+      <PopupByCallNo>
+        <StartAtCallNo>100</StartAtCallNo>
+        <RepeatEvery>100</RepeatEvery>
+        <StopAtCallNo>1000</StopAtCallNo>
+        <SuggestsSupporting>false</SuggestsSupporting>
+        <Message>Wow! A big WOW!
+
+You have made {calls} calls to the AI robot.
+That's awesome - good job! 😍
+
+If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
+        <HelpUrl>https://github.com/rappen/FetchXMLBuilder/discussions</HelpUrl>
+      </PopupByCallNo>
+    </PopupByCallNos>
+  </AiSupport>
+  <Colors>
+    <DarkColor>FF0042AD</DarkColor>
+    <MediumColor>FF0063FF</MediumColor>
+    <BrightColor>FFFFFF00</BrightColor>
+  </Colors>
 </OnlineSettings>
