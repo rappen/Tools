@@ -1,1 +1,10 @@
-
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfAiUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AiUser>
+    <InstallationId>206c6f3e-f8d4-4f32-a512-18eb2224a417</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Free</Type>
+    <Date>2025-08-30</Date>
+    <Published>2025-08-30T13:18:14.7772634+02:00</Published>
+  </AiUser>
+</ArrayOfAiUser>
