@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+_anonymous_, SE|FreeAi|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||August 2025
 [**Jonna Rappety**](https://rappen.net){:target="_blank"}<br/>SE|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[UML Diagram Generator](https://jonasr.app/uml){:target="_blank"}|||April 2025
 [**Jonna Rappety**](https://rappen.net){:target="_blank"}<br/>SE|Personal|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}<br/>Custom API Tester<br/>[UML Diagram Generator](https://jonasr.app/uml){:target="_blank"}|||April 2025
 **raphael medeiros**<br/>brazil|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Report Bugs<br/>Helping|Developer<br/>Customizer|April 2025
