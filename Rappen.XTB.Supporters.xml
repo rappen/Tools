@@ -887,13 +887,20 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Contribute</Type>
     <Date>2025-08-22</Date>
-    <Published>2025-08-22T09:38:20.7477413+02:00</Published>
+    <Published>2025-08-22T07:38:22Z</Published>
   </Supporter>
   <Supporter>
     <InstallationId>ffeed740-d052-415f-b24b-26c0b2aa46dc</InstallationId>
     <ToolName>Plugin Trace Viewer</ToolName>
     <Type>Contribute</Type>
     <Date>2025-08-22</Date>
-    <Published>2025-08-22T09:38:20.7477631+02:00</Published>
+    <Published>2025-08-22T07:38:22Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>7ba01eee-d30c-4bac-94ff-3ffda8996929</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-09-01</Date>
+    <Published>2025-09-01T08:49:56.3854813+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
