@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+**Michael Bauer**, Germany|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||September 2025
 **Michael Bauer**<br/>Germany|Personal|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer|September 2025
 _anonymous_, Norway|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests||August 2025
 _anonymous_<br/>Australia|Contribute|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Pull Requests<br/>Suggests<br/>Report Bugs<br/>Documentation<br/>Helping||August 2025
