@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+**Erik Cousin**<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Developer<br/>Administrator<br/>Support|September 2025
 [**Mark Johnston**](https://johnstonsoftwaresolutions.com/){:target="_blank"}<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer<br/>Customizer|September 2025
 **Daniel Lelchuk**, Spain|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Suggests||September 2025
 [**Mark Johnston**](https://johnstonsoftwaresolutions.com/){:target="_blank"}<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}<br/>Custom API Tester|Save Time<br/>Quality<br/>OOB can't|Developer<br/>Customizer|September 2025
