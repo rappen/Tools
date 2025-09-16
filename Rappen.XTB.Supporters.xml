@@ -915,7 +915,7 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
     <Date>2025-09-15</Date>
-    <Published>2025-09-15T16:04:41.249726+02:00</Published>
+    <Published>2025-09-15T14:04:42Z</Published>
   </Supporter>
   <Supporter>
     <InstallationId>9bea80a3-1b26-4c22-9ed0-8310cef9c83f</InstallationId>
@@ -923,5 +923,12 @@
     <Type>Contribute</Type>
     <Date>2025-09-15</Date>
     <Published>2025-09-15T06:37:52Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>a54cc7b0-adcb-422e-9701-ea94e5c7d80f</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-09-16</Date>
+    <Published>2025-09-16T20:33:10.3114785+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
