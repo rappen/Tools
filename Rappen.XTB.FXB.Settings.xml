@@ -50,6 +50,28 @@ Here is the list of attribute metadata for the entity:
     </Prompts>
     <AiSuppliers>
       <AiSupplier>
+        <Name>Free Foundry OpenAI</Name>
+        <FullName>Azure AI Foundry OpenAI: Free by Jonas</FullName>
+        <Url>https://jonasr.app/free-ai-by-jonas</Url>
+        <Free>true</Free>
+        <Models>
+          <AiModel>
+            <Name>gpt-5-nano</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5-nano</Url>
+            <Endpoint>https://skynet-ai-foundry.cognitiveservices.azure.com/</Endpoint>
+            <ApiKey>NVFqYwTkzODclVZ2kq3QXZPkQm1tVjnJsbmiw0dXgvwbTBiebnc3Yh0oyVTkZvdnBu6cmpRcMTNCMxUx3UEcpRUUoy5OUJJsQUNmaxE1rNVwhKM3cbzQUFBtQUFDTs0dqd2hJN</ApiKey>
+            <LogConversation>true</LogConversation>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5-mini</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5-mini</Url>
+            <Endpoint>https://skynet-ai-foundry.cognitiveservices.azure.com/</Endpoint>
+            <ApiKey>NVFqYrTkzODblVZ2kx3QXZPbQm1tVsnJsbmyw0dXgowbTBimbnc3Yh0oyVTtZvdnBk6cmpRqMTNCMkUx3UEbpRUUon5OUJJdQUNmabE1rNVmhKM3cyzQUFBbQUFDTl0dqd2uJN</ApiKey>
+            <LogConversation>false</LogConversation>
+          </AiModel>
+        </Models>
+      </AiSupplier>
+      <AiSupplier>
         <Name>OpenAI</Name>
         <Url>https://openai.com/</Url>
         <Models>
@@ -118,7 +140,7 @@ If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
         <StopAtCallNo>1000</StopAtCallNo>
         <SuggestsSupporting>true</SuggestsSupporting>
         <Message>You have now called the AI robot {calls} times, that's pretty awesome!
-I guess it's probably time to support this tool now, right?
+It might be time to support this tool now, right?
 
 Click the OK button, and select the support as Corporate or Personal.</Message>
       </PopupByCallNo>
@@ -135,8 +157,21 @@ That's awesome - good job! 😍
 If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
         <HelpUrl>https://github.com/rappen/FetchXMLBuilder/discussions</HelpUrl>
       </PopupByCallNo>
+      <PopupByCallNo>
+        <StartAtCallNo>250</StartAtCallNo>
+        <RepeatEvery>200</RepeatEvery>
+        <StopAtCallNo>10000</StopAtCallNo>
+        <SuggestsSupporting>false</SuggestsSupporting>
+        <ForFreeProviders>true</ForFreeProviders>
+        <Message>You have now made {calls} calls to provider '{provider}'.
+Maybe it is time to use your own AI...?
+
+Click the Help button to read the docs on how to do it!</Message>
+        <HelpUrl>https://fetchxmlbuilder.com/features/ai/#settings</HelpUrl>
+      </PopupByCallNo>
     </PopupByCallNos>
   </AiSupport>
 </OnlineSettings>
+
 
 
