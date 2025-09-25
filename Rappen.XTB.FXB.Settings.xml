@@ -56,13 +56,6 @@ Here is the list of attribute metadata for the entity:
         <Free>true</Free>
         <Models>
           <AiModel>
-            <Name>gpt-5-nano</Name>
-            <Url>https://ai.azure.com/catalog/models/gpt-5-nano</Url>
-            <Endpoint>https://skynet-ai-foundry.cognitiveservices.azure.com/</Endpoint>
-            <ApiKey>NVFqYwTkzODclVZ2kq3QXZPkQm1tVjnJsbmiw0dXgvwbTBiebnc3Yh0oyVTkZvdnBu6cmpRcMTNCMxUx3UEcpRUUoy5OUJJsQUNmaxE1rNVwhKM3cbzQUFBtQUFDTs0dqd2hJN</ApiKey>
-            <LogConversation>true</LogConversation>
-          </AiModel>
-          <AiModel>
             <Name>gpt-5-mini</Name>
             <Url>https://ai.azure.com/catalog/models/gpt-5-mini</Url>
             <Endpoint>https://skynet-ai-foundry.cognitiveservices.azure.com/</Endpoint>
@@ -172,6 +165,7 @@ Click the Help button to read the docs on how to do it!</Message>
     </PopupByCallNos>
   </AiSupport>
 </OnlineSettings>
+
 
 
 
