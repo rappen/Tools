@@ -48,22 +48,72 @@ If nothing is found, return an empty array.
 Here is the list of attribute metadata for the entity:
 {metadata}</AttributeMeta>
     </Prompts>
-    <AiSuppliers>
-      <AiSupplier>
+    <AiProviders>
+      <AiProvider>
         <Name>Free Foundry OpenAI</Name>
         <FullName>Azure AI Foundry OpenAI: Free by Jonas</FullName>
         <Url>https://jonasr.app/free-ai-by-jonas</Url>
+        <ApiKey>NVFqYwTkzODclVZ2kq3QXZPkQm1tVjnJsbmiw0dXgvwbTBiebnc3Yh0oyVTkZvdnBu6cmpRcMTNCMxUx3UEcpRUUoy5OUJJsQUNmaxE1rNVwhKM3cbzQUFBtQUFDTs0dqd2hJN</ApiKey>
         <Free>true</Free>
         <Models>
           <AiModel>
             <Name>gpt-5-mini</Name>
             <Url>https://ai.azure.com/catalog/models/gpt-5-mini</Url>
             <Endpoint>https://skynet-ai-foundry.cognitiveservices.azure.com/</Endpoint>
-            <ApiKey>NVFqYrTkzODblVZ2kx3QXZPbQm1tVsnJsbmyw0dXgowbTBimbnc3Yh0oyVTtZvdnBk6cmpRqMTNCMkUx3UEbpRUUon5OUJJdQUNmabE1rNVmhKM3cyzQUFBbQUFDTl0dqd2uJN</ApiKey>
             <LogConversation>true</LogConversation>
           </AiModel>
         </Models>
-      </AiSupplier>
+      </AiProvider>
+      <AiProvider>
+        <Name>OpenAI</Name>
+        <Url>https://openai.com/</Url>
+        <Models>
+          <AiModel>
+            <Name>gpt-5</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5-mini</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5-mini</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5-nano</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5-nano</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-4.1</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-4.1</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-4.1-mini</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-4.1-mini</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-4.1-nano</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-4.1-nano</Url>
+          </AiModel>
+        </Models>
+      </AiProvider>
+      <AiProvider>
+        <Name>Anthropic</Name>
+        <Url>https://www.anthropic.com/</Url>
+        <Models>
+          <AiModel>
+            <Name>claude-3-5-haiku-20241022</Name>
+            <Url>https://api.anthropic.com/v1/messages</Url>
+          </AiModel>
+          <AiModel>
+            <Name>claude-3-7-sonnet-20250219</Name>
+            <Url>https://api.anthropic.com/v1/messages</Url>
+          </AiModel>
+          <AiModel>
+            <Name>claude-sonnet-4-20250514</Name>
+            <Url>https://api.anthropic.com/v1/messages</Url>
+          </AiModel>
+        </Models>
+      </AiProvider>
+    </AiProviders>
+    <AiSuppliers>
       <AiSupplier>
         <Name>OpenAI</Name>
         <Url>https://openai.com/</Url>
@@ -165,9 +215,3 @@ Click the Help button to read the docs on how to do it!</Message>
     </PopupByCallNos>
   </AiSupport>
 </OnlineSettings>
-
-
-
-
-
-
