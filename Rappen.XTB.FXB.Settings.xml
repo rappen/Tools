@@ -26,6 +26,7 @@ Read my blog to learn more at:
    https://jonasr.app/free-ai-by-jonas
 
 Note that there will be a slight lag between your submission and when it is activated.</TextToRequestFreeAi>
+    <OnlyInfoName>introspective</OnlyInfoName>
     <Prompts>
       <System>You are an agent that helps the user interact with Dataverse using FetchXML queries. 
 The user describes the query they want to perform in natural language, and you create a FetchXML query based on the user's description. 
