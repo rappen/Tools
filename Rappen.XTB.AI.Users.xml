@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ArrayOfAiUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <AiUser>
-    <InstallationId>164eff7d-cd66-420f-bd14-36bcfb2596ec</InstallationId>
-    <ToolName>FetchXML Builder</ToolName>
-    <Type>Free</Type>
-    <Date>2025-08-30</Date>
-    <Published>2025-08-30T14:53:27Z</Published>
-  </AiUser>
-  <AiUser>
     <InstallationId>8739a20a-97d4-4e36-9001-8625dfe0fe2c</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Free</Type>
     <Date>2025-09-01</Date>
     <Published>2025-09-01T11:06:38Z</Published>
-  </AiUser>
-  <AiUser>
-    <InstallationId>206c6f3e-f8d4-4f32-a512-18eb2224a417</InstallationId>
-    <ToolName>FetchXML Builder</ToolName>
-    <Type>Free</Type>
-    <Date>2025-09-21</Date>
-    <Published>2025-09-21T10:28:47Z</Published>
   </AiUser>
   <AiUser>
     <InstallationId>9afc2dd7-c27f-4206-b16d-e8435b415665</InstallationId>
@@ -40,6 +26,6 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Free</Type>
     <Date>2025-09-27</Date>
-    <Published>2025-09-27T10:10:50.8762243+02:00</Published>
+    <Published>2025-09-27T10:25:50.6805199+02:00</Published>
   </AiUser>
 </ArrayOfAiUser>
