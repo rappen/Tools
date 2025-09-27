@@ -28,4 +28,11 @@
     <Date>2025-09-27</Date>
     <Published>2025-09-27T08:39:50Z</Published>
   </AiUser>
+  <AiUser>
+    <InstallationId>36b5c95e-ebd4-407e-8a19-8cf9cbbbb1fb</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Free</Type>
+    <Date>2025-09-27</Date>
+    <Published>2025-09-27T20:34:50.3485747+02:00</Published>
+  </AiUser>
 </ArrayOfAiUser>
