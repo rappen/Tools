@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+**Aravindan Muniappan**<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Developer|September 2025
 _anonymous_, USA|Contribute|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|||September 2025
 _anonymous_<br/>UK|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Suggests<br/>Report Bugs<br/>Helping||September 2025
 **Erik Cousin**<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Developer<br/>Administrator<br/>Support|September 2025
