@@ -943,6 +943,13 @@
     <ToolName>Bulk Data Updater</ToolName>
     <Type>Contribute</Type>
     <Date>2025-09-22</Date>
-    <Published>2025-09-22T19:02:05.1687512+02:00</Published>
+    <Published>2025-09-22T17:02:06Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>7ba01eee-d30c-4bac-94ff-3ffda8996929</InstallationId>
+    <ToolName>Plugin Trace Viewer</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-09-29</Date>
+    <Published>2025-09-29T09:02:22.0382746+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
