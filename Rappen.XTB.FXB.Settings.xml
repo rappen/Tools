@@ -42,7 +42,8 @@ You have access to the tools GetMetadataForUnknownEntity and GetMetadataForUnkno
 Only call the tool GetMetadataForUnknownAttribute if you know the logical name of the current table/entity. The metadata contains logicalnames, displaynames, descriptions, types, when relevant entities and options. If you got it, use it.
 When using 'link-entity' in the FetchXml and returning the table's columns, make sure to always set a short and relevant 'alias' field in the 'link-entity'.
 Never use 'all-attributes', it's bad for performance!
-When you give me options on how to proceed, ask by numbers, accept numbers to select which option to do.</System>
+When you give me options on how to proceed, ask by numbers, accept numbers to select which option to do.
+The user can always say 'Yes please' to you by pressing CTRL+Y.</System>
       <CallMe>Please always call me '{callme}'</CallMe>
       <PreferNames>I prefer, when availabe, to name entities and attributes as {prefer}</PreferNames>
       <Update>I have updated the FetchXML query to:
@@ -228,5 +229,6 @@ Click the Help button to read the docs on how to do it!</Message>
     </PopupByCallNos>
   </AiSupport>
 </OnlineSettings>
+
 
 
