@@ -217,6 +217,20 @@ If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
         <HelpUrl>https://github.com/rappen/FetchXMLBuilder/discussions</HelpUrl>
       </PopupByCallNo>
       <PopupByCallNo>
+        <StartAtCallNo>40</StartAtCallNo>
+        <RepeatEvery>45</RepeatEvery>
+        <StopAtCallNo>10000</StopAtCallNo>
+        <SuggestsSupporting>false</SuggestsSupporting>
+        <ForFreeProviders>true</ForFreeProviders>
+        <Message>You have now made {calls} calls to provider '{provider}'.
+
+Have you learned anything about how to communicate with the AI?
+Let me know! :)
+
+Click the Help button to contact me!</Message>
+        <HelpUrl>https://jonasr.app/contact/</HelpUrl>
+      </PopupByCallNo>
+      <PopupByCallNo>
         <StartAtCallNo>250</StartAtCallNo>
         <RepeatEvery>200</RepeatEvery>
         <StopAtCallNo>10000</StopAtCallNo>
@@ -231,6 +245,7 @@ Click the Help button to read the docs on how to do it!</Message>
     </PopupByCallNos>
   </AiSupport>
 </OnlineSettings>
+
 
 
 
