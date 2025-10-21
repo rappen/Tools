@@ -971,6 +971,13 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Contribute</Type>
     <Date>2025-10-17</Date>
-    <Published>2025-10-17T22:11:08.2447657+02:00</Published>
+    <Published>2025-10-17T20:11:09Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>570e17f9-06ed-45d5-ab06-ec164badc12d</InstallationId>
+    <ToolName>Power Apps Checker</ToolName>
+    <Type>Contribute</Type>
+    <Date>2025-10-21</Date>
+    <Published>2025-10-21T19:15:34.1871243+02:00</Published>
   </Supporter>
 </ArrayOfSupporter>
