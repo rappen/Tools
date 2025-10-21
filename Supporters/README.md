@@ -1,6 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
-_anonymous_, Sweden|Contribute|Power Apps Checker|Pull Requests||October 2025
+_anonymous_, Sweden|Contribute|[Power Apps Checker](https://jonasr.app/pac){:target="_blank"}|Pull Requests||October 2025
 **Eyoel Getachew**, USA|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||October 2025
 [**Zsolt Zombik**](https://elca.ch){:target="_blank"}<br/>Switzerland|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests<br/>Suggests<br/>Report Bugs<br/>Documentation<br/>Helping<br/>Videos||October 2025
 _anonymous_<br/>Australia|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Customizer<br/>Administrator|October 2025
