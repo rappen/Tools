@@ -44,6 +44,12 @@
       <ShowAutomatically>true</ShowAutomatically>
       <ShowAutoPercentChance>30</ShowAutoPercentChance>
     </SupportableTool>
+    <SupportableTool>
+      <Name>Power Apps Checker</Name>
+      <Enabled>true</Enabled>
+      <ShowAutomatically>true</ShowAutomatically>
+      <ShowAutoPercentChance>30</ShowAutoPercentChance>
+    </SupportableTool>
   </SupportableTools>
   <ShowMinutesAfterToolInstall>1440</ShowMinutesAfterToolInstall> <!-- 1 day -->
   <ShowMinutesAfterToolNewVersion>120</ShowMinutesAfterToolNewVersion> <!-- 2 hours -->
@@ -69,4 +75,5 @@ The button in the top-right corner opens this info. You can also right-click on 
 
 For questions, contact me at https://jonasr.app/contact.</HelpInfoText>
 </ToolSettings>
+
 
