@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ArrayOfSupporter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Supporter>
+    <InstallationId>636cb418-c614-4885-8c71-b25bc24f546b</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Company</Type>
+    <Date>2024-11-01</Date>
+    <Published>2025-04-04T16:35:36Z</Published>
+  </Supporter>
+  <Supporter>
     <InstallationId>71f2bc4d-9de3-43a3-8205-ed3341049ae5</InstallationId>
     <ToolName>Plugin Trace Viewer</ToolName>
     <Type>Contribute</Type>
@@ -11,8 +18,8 @@
     <InstallationId>1de4e377-bcbe-4d20-8ad5-2a6c3a1baff9</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
-    <Date>2025-02-17</Date>
-    <Published>2025-04-05T07:53:21Z</Published>
+    <Date>2025-02-18</Date>
+    <Published>2025-04-05T08:09:11Z</Published>
   </Supporter>
   <Supporter>
     <InstallationId>33a9e6e4-9a90-4127-90cb-6451518db017</InstallationId>
@@ -20,5 +27,19 @@
     <Type>Personal</Type>
     <Date>2025-02-24</Date>
     <Published>2025-04-05T07:50:09Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>88ab8ddb-3d07-430d-9cca-ded0be88dc45</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Contribute</Type>
+    <Date>2025-04-01</Date>
+    <Published>2025-04-05T08:11:47Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>ca1267ff-3d60-46cc-93d5-09355890f88e</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Contribute</Type>
+    <Date>2025-10-27</Date>
+    <Published>2025-10-29T19:47:22.055333+01:00</Published>
   </Supporter>
 </ArrayOfSupporter>
