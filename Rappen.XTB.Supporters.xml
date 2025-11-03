@@ -980,4 +980,11 @@
     <Date>2025-10-27</Date>
     <Published>2025-10-27T18:51:29Z</Published>
   </Supporter>
+  <Supporter>
+    <InstallationId>c5443dbb-91fd-4124-98a4-37b202791156</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2025-11-03</Date>
+    <Published>2025-11-03T10:15:51.227447+00:00</Published>
+  </Supporter>
 </ArrayOfSupporter>
