@@ -1,6 +1,5 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
-_anonymous_, Spain|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||November 2025
 **Tadhg Conneely**<br/>Ireland|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Suggests<br/>Report Bugs<br/>Documentation<br/>Helping||October 2025
 **Eyoel Getachew**, USA|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||October 2025
 [**Zsolt Zombik**](https://elca.ch){:target="_blank"}<br/>Switzerland|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests<br/>Suggests<br/>Report Bugs<br/>Documentation<br/>Helping<br/>Videos||October 2025
