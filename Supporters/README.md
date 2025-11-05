@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+**Huu Minh Hai Nguyen**<br/>Australia|Contribute|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Pull Requests<br/>Helping||November 2025
 **Carlos Novas**, Spain|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||November 2025
 **Tadhg Conneely**<br/>Ireland|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Suggests<br/>Report Bugs<br/>Documentation<br/>Helping||October 2025
 _anonymous_, Sweden|Contribute|[Power Apps Checker](https://jonasr.app/pac){:target="_blank"}|Pull Requests||October 2025
