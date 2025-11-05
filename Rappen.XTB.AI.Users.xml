@@ -337,10 +337,17 @@
     <Published>2025-11-04T13:02:05Z</Published>
   </AiUser>
   <AiUser>
+    <InstallationId>7a6093e8-8c0f-4ec4-a220-b3ca9f204fe4</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Free</Type>
+    <Date>2025-11-05</Date>
+    <Published>2025-11-05T15:16:05.1861005+00:00</Published>
+  </AiUser>
+  <AiUser>
     <InstallationId>b6492fe7-8fea-4c48-b100-6675cf004e1c</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Free</Type>
     <Date>2025-11-05</Date>
-    <Published>2025-11-05T14:24:46.8665244+00:00</Published>
+    <Published>2025-11-05T14:24:48Z</Published>
   </AiUser>
 </ArrayOfAiUser>
