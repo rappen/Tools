@@ -51,6 +51,17 @@
       <ShowAutoPercentChance>30</ShowAutoPercentChance>
     </SupportableTool>
   </SupportableTools>
+  <ToastableTools>
+    <ToastableTool>
+      <Name>FetchXML Builder</Name>
+      <Enabled>true</Enabled>
+      <ExecuteStart>47</ExecuteStart>
+      <ExecuteEnd>0</ExecuteEnd>
+      <ExecuteInterval>87</ExecuteInterval>
+      <ExecutePercentChance>70</ExecutePercentChance>
+      <OpenPercentChance>80</OpenPercentChance>
+    </ToastableTool>
+  </ToastableTools>
   <ShowMinutesAfterToolInstall>1440</ShowMinutesAfterToolInstall> <!-- 1 day -->
   <ShowMinutesAfterToolNewVersion>120</ShowMinutesAfterToolNewVersion> <!-- 2 hours -->
   <ShowMinutesAfterSupportingShown>760</ShowMinutesAfterSupportingShown> <!-- 2 days=2880, 1d=1440, 12h=760 -->
@@ -75,5 +86,3 @@ The button in the top-right corner opens this info. You can also right-click on 
 
 For questions, contact me at https://jonasr.app/contact.</HelpInfoText>
 </ToolSettings>
-
-
