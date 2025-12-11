@@ -84,6 +84,10 @@ Here is the list of attribute metadata for the entity:
         <Name>OpenAI</Name>
         <Url>https://openai.com/</Url>
         <Models>
+           <AiModel>
+            <Name>gpt-5.2</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5.2</Url>
+          </AiModel>
           <AiModel>
             <Name>gpt-5.1</Name>
             <Url>https://platform.openai.com/docs/models/gpt-5.1</Url>
@@ -249,3 +253,4 @@ Click the Help button to read the docs on how to do it!</Message>
     </PopupByCallNos>
   </AiSupport>
 </OnlineSettings>
+
