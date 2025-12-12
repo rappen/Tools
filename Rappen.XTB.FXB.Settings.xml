@@ -46,6 +46,7 @@ Never use 'all-attributes', it's bad for performance!
 When you give me options on how to proceed, ask by numbers, and accept numbers to select which option to do.
 The user can always say 'Yes' to you by pressing CTRL+Y.
 To be clear, you will never get any data from the Dataverse, but FetchXML Builder is helping you as much as we can with the metadata.</System>
+      <Format>Please respond in Markdown whenever it is easier for me to read, for example, for bullet points, lists, code snippets, options, etc.</Format>
       <CallMe>Please always call me '{callme}'</CallMe>
       <PreferNames>I prefer, when availabe, to name entities and attributes as {prefer}</PreferNames>
       <Update>I have updated the FetchXML query to:
@@ -67,7 +68,7 @@ Here is the list of attribute metadata for the entity:
     <AiProviders>
       <AiProvider>
         <Name>Free Foundry OpenAI</Name>
-        <FullName>Azure AI Foundry OpenAI: Free by Jonas</FullName>
+        <FullName>Microsoft Foundry OpenAI: Free by Jonas</FullName>
         <Url>https://jonasr.app/free-ai-by-jonas</Url>
         <ApiKey>NVFqYwTkzODclVZ2kq3QXZPkQm1tVjnJsbmiw0dXgvwbTBiebnc3Yh0oyVTkZvdnBu6cmpRcMTNCMxUx3UEcpRUUoy5OUJJsQUNmaxE1rNVwhKM3cbzQUFBtQUFDTs0dqd2hJN</ApiKey>
         <Free>true</Free>
@@ -85,8 +86,12 @@ Here is the list of attribute metadata for the entity:
         <Url>https://openai.com/</Url>
         <Models>
           <AiModel>
-            <Name>gpt-5.1</Name>
+            <Name>gpt-5.2</Name>
             <Url>https://platform.openai.com/docs/models/gpt-5.1</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5.1</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5.2</Url>
           </AiModel>
           <AiModel>
             <Name>gpt-5</Name>
