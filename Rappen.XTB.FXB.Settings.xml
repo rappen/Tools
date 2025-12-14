@@ -46,7 +46,9 @@ Never use 'all-attributes', it's bad for performance!
 When you give me options on how to proceed, ask by numbers, and accept numbers to select which option to do.
 The user can always say 'Yes' to you by pressing CTRL+Y.
 To be clear, you will never get any data from the Dataverse, but FetchXML Builder is helping you as much as we can with the metadata.</System>
-      <Format>Please respond in Markdown whenever it is easier for me to read, for example, for bullet points, lists, code snippets, options, etc.</Format>
+      <Format>Please respond in Markdown whenever it is easier for me to read, for example, for bullet points, lists, code snippets, options, etc.
+When presenting steps or lists, you may use simple emojis that render well in standard desktop fonts (for example 👍 🙂 🚀 💡 ✅).
+Avoid using keycap number emojis (1️⃣ 2️⃣ 3️⃣ …) or other complex/outlined emojis that depend on advanced emoji fonts; instead, use plain text numbering (e.g. 1. 2. 3.) with optional simple emojis after the text.</Format>
       <CallMe>Please always call me '{callme}'</CallMe>
       <PreferNames>I prefer, when availabe, to name entities and attributes as {prefer}</PreferNames>
       <Update>I have updated the FetchXML query to:
@@ -70,6 +72,7 @@ Here is the list of attribute metadata for the entity:
         <Name>Free Foundry OpenAI</Name>
         <FullName>Microsoft Foundry OpenAI: Free by Jonas</FullName>
         <Url>https://jonasr.app/free-ai-by-jonas</Url>
+        <EndpointFixed>true</EndpointFixed>
         <ApiKey>NVFqYwTkzODclVZ2kq3QXZPkQm1tVjnJsbmiw0dXgvwbTBiebnc3Yh0oyVTkZvdnBu6cmpRcMTNCMxUx3UEcpRUUoy5OUJJsQUNmaxE1rNVwhKM3cbzQUFBtQUFDTs0dqd2hJN</ApiKey>
         <Free>true</Free>
         <Models>
@@ -82,16 +85,52 @@ Here is the list of attribute metadata for the entity:
         </Models>
       </AiProvider>
       <AiProvider>
-        <Name>OpenAI</Name>
-        <Url>https://openai.com/</Url>
+        <Name>Microsoft Foundry OpenAI</Name>
+        <Url>https://ai.azure.com/</Url>
+        <FromVersion>1.2025.12</FromVersion>
         <Models>
           <AiModel>
             <Name>gpt-5.2</Name>
-            <Url>https://platform.openai.com/docs/models/gpt-5.1</Url>
+            <Url>https://ai.azure.com/catalog/models/gpt-5.2</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5.2-chat</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5.2-chat</Url>
           </AiModel>
           <AiModel>
             <Name>gpt-5.1</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5.1</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5-mini</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5-mini</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5-nano</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5-nano</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-4.1</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-4.1</Url>
+          </AiModel>
+        </Models>
+      </AiProvider>
+      <AiProvider>
+        <Name>OpenAI</Name>
+        <Url>https://openai.com/</Url>
+        <EndpointFixed>true</EndpointFixed>
+        <Models>
+          <AiModel>
+            <Name>gpt-5.2</Name>
             <Url>https://platform.openai.com/docs/models/gpt-5.2</Url>
+          </AiModel>
+          <AiModel>
+            <Name>gpt-5.1</Name>
+            <Url>https://platform.openai.com/docs/models/gpt-5.1</Url>
           </AiModel>
           <AiModel>
             <Name>gpt-5</Name>
@@ -122,6 +161,7 @@ Here is the list of attribute metadata for the entity:
       <AiProvider>
         <Name>Anthropic</Name>
         <Url>https://www.anthropic.com/</Url>
+        <EndpointFixed>true</EndpointFixed>
         <Models>
           <AiModel>
             <Name>claude-3-5-haiku-20241022</Name>
@@ -194,6 +234,7 @@ Here is the list of attribute metadata for the entity:
         <RepeatEvery>0</RepeatEvery>
         <StopAtCallNo>0</StopAtCallNo>
         <SuggestsSupporting>false</SuggestsSupporting>
+        <Title>Welcome to AI Chat</Title>
         <Message>Welcome to the AI Chat in FetchXML Builder! 🎉
 
 You have already made {calls} calls to the AI robot - any good responses?
@@ -203,10 +244,11 @@ If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
         <HelpUrl>https://github.com/rappen/FetchXMLBuilder/discussions</HelpUrl>
       </PopupByCallNo>
       <PopupByCallNo>
-        <StartAtCallNo>25</StartAtCallNo>
+        <StartAtCallNo>45</StartAtCallNo>
         <RepeatEvery>50</RepeatEvery>
         <StopAtCallNo>1000</StopAtCallNo>
         <SuggestsSupporting>true</SuggestsSupporting>
+        <Title>AI Chat - time to support?</Title>
         <Message>You have now called the AI robot {calls} times, that's pretty awesome!
 It might be time to support this tool now, right?
 
@@ -245,6 +287,7 @@ Click the Help button to contact me!</Message>
         <StopAtCallNo>10000</StopAtCallNo>
         <SuggestsSupporting>false</SuggestsSupporting>
         <ForFreeProviders>true</ForFreeProviders>
+        <Title>AI Chat for FREE</Title>
         <Message>You have now made {calls} calls to provider '{provider}'.
 Maybe it is time to use your own AI...?
 
