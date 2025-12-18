@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+**John MacHale**, Ireland|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time|Developer|December 2025
 **Peter Biehler**<br/>Germany|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}<br/>[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Customizer|November 2025
 _anonymous_<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer|November 2025
 **Huu Minh Hai Nguyen**<br/>Australia|Contribute|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Pull Requests<br/>Helping||November 2025
