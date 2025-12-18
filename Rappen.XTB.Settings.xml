@@ -12,7 +12,7 @@
       <Name>Plugin Trace Viewer</Name>
       <Enabled>true</Enabled>
       <ShowAutomatically>true</ShowAutomatically>
-      <ShowAutoPercentChance>25</ShowAutoPercentChance>
+      <ShowAutoPercentChance>15</ShowAutoPercentChance>
     </SupportableTool>
     <SupportableTool>
       <Name>Bulk Data Updater</Name>
@@ -60,6 +60,16 @@
       <ExecuteInterval>50</ExecuteInterval>
       <ExecutePercentChance>100</ExecutePercentChance>
       <OpenPercentChance>80</OpenPercentChance>
+      <MinMinutesBetweenToasts>60</MinMinutesBetweenToasts>
+    </ToastableTool>
+    <ToastableTool>
+      <Name>Plugin Trace Viewer</Name>
+      <Enabled>true</Enabled>
+      <ExecuteStart>25</ExecuteStart>
+      <ExecuteEnd>0</ExecuteEnd>
+      <ExecuteInterval>50</ExecuteInterval>
+      <ExecutePercentChance>80</ExecutePercentChance>
+      <OpenPercentChance>50</OpenPercentChance>
       <MinMinutesBetweenToasts>60</MinMinutesBetweenToasts>
     </ToastableTool>
   </ToastableTools>
