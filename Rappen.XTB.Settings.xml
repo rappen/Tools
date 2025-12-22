@@ -58,8 +58,8 @@
       <ExecuteStart>25</ExecuteStart>
       <ExecuteEnd>0</ExecuteEnd>
       <ExecuteInterval>50</ExecuteInterval>
-      <ExecutePercentChance>100</ExecutePercentChance>
-      <OpenPercentChance>80</OpenPercentChance>
+      <ExecutePercentChance>90</ExecutePercentChance>
+      <OpenPercentChance>50</OpenPercentChance>
       <MinMinutesBetweenToasts>60</MinMinutesBetweenToasts>
     </ToastableTool>
     <ToastableTool>
