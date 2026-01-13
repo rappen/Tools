@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+_anonymous_, Sweden|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||January 2026
 **Luis Alvarez**<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Developer<br/>Administrator|January 2026
 _anonymous_<br/>Croatia|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer<br/>Customizer<br/>Administrator|December 2025
 **Sergio Nuzzi**<br/>Canada|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Customizer|December 2025
