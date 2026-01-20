@@ -1054,14 +1054,21 @@
     <InstallationId>7b7244c3-7dc5-494d-a12b-f35a78aed804</InstallationId>
     <ToolName>Bulk Data Updater</ToolName>
     <Type>Personal</Type>
-    <Date>2026-01-08</Date>
-    <Published>2026-01-08T14:55:42Z</Published>
+    <Date>2026-01-15</Date>
+    <Published>2026-01-15T16:31:07Z</Published>
   </Supporter>
   <Supporter>
     <InstallationId>49543339-e6cc-4711-af38-a7b640250347</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
     <Date>2026-01-13</Date>
-    <Published>2026-01-13T08:18:29.346941+00:00</Published>
+    <Published>2026-01-13T08:18:32Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>7b7244c3-7dc5-494d-a12b-f35a78aed804</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2026-01-20</Date>
+    <Published>2026-01-20T13:47:59.9619267+00:00</Published>
   </Supporter>
 </ArrayOfSupporter>
