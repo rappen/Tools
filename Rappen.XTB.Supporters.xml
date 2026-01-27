@@ -1071,4 +1071,11 @@
     <Date>2026-01-20</Date>
     <Published>2026-01-20T13:48:01Z</Published>
   </Supporter>
+  <Supporter>
+    <InstallationId>02293754-d569-43ec-878c-697156679596</InstallationId>
+    <ToolName>Plugin Trace Viewer</ToolName>
+    <Type>Personal</Type>
+    <Date>2026-01-27</Date>
+    <Published>2026-01-27T15:27:58Z</Published>
+  </Supporter>
 </ArrayOfSupporter>
