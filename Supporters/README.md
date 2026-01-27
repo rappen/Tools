@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+**Marc Coomans**|Personal|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Save Time|Developer|January 2026
 **Maureen Bunting**, USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|OOB can't|Developer|January 2026
 **Scott Sewell**<br/>USA|Personal|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time|Developer<br/>Customizer<br/>Administrator|January 2026
 _anonymous_, Sweden|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||January 2026
