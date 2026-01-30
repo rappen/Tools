@@ -1078,4 +1078,11 @@
     <Date>2026-01-27</Date>
     <Published>2026-01-27T15:27:58Z</Published>
   </Supporter>
+  <Supporter>
+    <InstallationId>3b313c91-761f-40e2-93c2-a358539eb312</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Personal</Type>
+    <Date>2026-01-30</Date>
+    <Published>2026-01-30T17:02:51.1422077+00:00</Published>
+  </Supporter>
 </ArrayOfSupporter>
