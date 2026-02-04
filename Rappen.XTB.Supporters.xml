@@ -1083,6 +1083,13 @@
     <ToolName>Bulk Data Updater</ToolName>
     <Type>Personal</Type>
     <Date>2026-01-30</Date>
-    <Published>2026-01-30T17:02:51.1422077+00:00</Published>
+    <Published>2026-01-30T17:02:53Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>98b1f6fb-615c-4b81-ba3b-432174c1f8f6</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Personal</Type>
+    <Date>2026-02-03</Date>
+    <Published>2026-02-04T07:39:46.727324+00:00</Published>
   </Supporter>
 </ArrayOfSupporter>
