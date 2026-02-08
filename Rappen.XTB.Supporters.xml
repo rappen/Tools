@@ -1090,6 +1090,13 @@
     <ToolName>Bulk Data Updater</ToolName>
     <Type>Personal</Type>
     <Date>2026-02-03</Date>
-    <Published>2026-02-04T07:39:46.727324+00:00</Published>
+    <Published>2026-02-04T07:39:48Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>dac1aff0-9289-4718-94fe-ced569441444</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Contribute</Type>
+    <Date>2026-02-07</Date>
+    <Published>2026-02-08T09:44:12.5209249+00:00</Published>
   </Supporter>
 </ArrayOfSupporter>
