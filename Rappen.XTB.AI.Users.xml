@@ -554,10 +554,24 @@
     <Published>2026-03-12T10:29:52Z</Published>
   </AiUser>
   <AiUser>
+    <InstallationId>0c9d033d-0a67-44a9-b558-ceba2786477e</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Free</Type>
+    <Date>2026-03-13</Date>
+    <Published>2026-03-14T09:03:18.8187955+00:00</Published>
+  </AiUser>
+  <AiUser>
+    <InstallationId>3f385e3c-052e-4df0-a84c-d6e1d0117040</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Free</Type>
+    <Date>2026-03-13</Date>
+    <Published>2026-03-14T09:03:18.8188029+00:00</Published>
+  </AiUser>
+  <AiUser>
     <InstallationId>c2288721-9a05-4f07-a239-12f34f3230a4</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Free</Type>
     <Date>2026-03-13</Date>
-    <Published>2026-03-13T11:50:39.6716337+00:00</Published>
+    <Published>2026-03-13T11:50:42Z</Published>
   </AiUser>
 </ArrayOfAiUser>
