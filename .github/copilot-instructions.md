@@ -6,6 +6,7 @@
 - Ensure instructions are concise and actionable; prefer clearer, more accessible summaries for better understanding.
 - Use imperative mood ("Use X", not "You should use X").
 - Avoid redundant phrases.
+- When improving docs/AI instruction pages, prefer minimal, non-messy visual adjustments; avoid adding extra explanatory blocks unless necessary.
 
 ## Code Style
 - Follow specific formatting rules.
