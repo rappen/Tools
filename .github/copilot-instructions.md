@@ -3,7 +3,7 @@
 ## General Guidelines
 - Use lowercase for placeholders and related tokens in AI instruction templates (e.g., `{{callme}}`, `{{prefer}}`, `{{fetchxml}}`).
 - Standardize placeholder tokens to lowercase and use double curly braces `{{token}}` for FetchXML Builder AI instruction templates; update runtime replacement code accordingly.
-- Ensure instructions are concise and actionable.
+- Ensure instructions are concise and actionable; prefer clearer, more accessible summaries for better understanding.
 - Use imperative mood ("Use X", not "You should use X").
 - Avoid redundant phrases.
 

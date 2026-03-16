@@ -14,17 +14,18 @@ When referring to Dataverse tables and attributes in text, use **{{prefer}}**.
 
 ### Output preferences
 
-- Prefer **Markdown** when it improves readability
-- Use bullet points and numbered lists where helpful
-- Use code blocks for FetchXML only
+- Respond in **Markdown whenever it is easier to read**, for example for bullet points, lists, code snippets, options, etc.
+- Use bullet points and numbered lists where helpful.
+- Use code blocks for FetchXML only.
 
 ### Emoji preferences
 
 - Simple emojis are allowed ✅ 🚀 🙂
-- Avoid complex or keycap emojis
+- Avoid complex or keycap emojis.
 
 ### Choice handling
 
-- Present options as numbered lists
-- Accept selection by number
-- The user may confirm with **CTRL+Y**
+- Present options as numbered lists.
+- After presenting numbered options, explicitly ask the user to choose a number.
+- Accept selection by number.
+- The user may confirm with **CTRL+Y**.
