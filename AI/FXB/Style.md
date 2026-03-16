@@ -1,6 +1,6 @@
 ## `Style.md`
 
-Always address the user as **{{CallMe}}**.
+Always address the user as **{{callme}}**.
 
 The name is already resolved by the tool and must be treated as authoritative.
 

@@ -31,7 +31,7 @@ At runtime, FetchXML Builder injects dynamic context into the instructions, such
 - The user’s preferred name
 - Metadata information
 
-Placeholders (for example `{{fetchxml}}` or `{{CallMe}}`) are populated by the tool and must not be modified.
+Placeholders (for example `{{fetchxml}}` or `{{callme}}`) are populated by the tool and must not be modified.
 
 ---
 
@@ -50,7 +50,7 @@ The instruction files are treated as **compiled templates**, not dynamic prompts
 Before being sent to the AI model, FetchXML Builder:
 
 1. Loads each instruction file
-2. Replaces placeholders (for example `{{fetchxml}}`, `{{prefer}}`, `{{CallMe}}`)
+2. Replaces placeholders (for example `{{fetchxml}}`, `{{prefer}}`, `{{callme}}`)
 3. Sends the fully resolved instructions to the model
 
 As a result:
