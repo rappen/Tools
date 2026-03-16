@@ -1,26 +1,13 @@
-## 📄 `Preferences.md`
-**(Domain & presentation preferences — soft rules)**
+## `Preferences.md`
 
-### Naming conventions
+### Naming
 
-- Prefer **Display Names** when referring to:
-  - Tables / entities
-  - Columns / attributes
-- Use **Logical Names** only inside FetchXML
+When referring to Dataverse tables and attributes in text, use **{{prefer}}**.
 
-### Output preferences
+### FetchXML
 
-- Prefer **Markdown** when it improves readability
-- Use bullet points and numbered lists where helpful
-- Use code blocks for FetchXML only
+- Always use **Logical Names** inside FetchXML.
 
-### Emoji preferences
+### Metadata
 
-- Simple emojis are allowed ✅ 🚀 🙂
-- Avoid complex or keycap emojis
-
-### Choice handling
-
-- Present options as numbered lists
-- Accept selection by number
-- The user may confirm with **CTRL+Y**
+- Use metadata to resolve the correct names when available.

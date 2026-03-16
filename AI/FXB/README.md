@@ -40,3 +40,23 @@ Placeholders (for example `{{fetchxml}}` or `{{CallMe}}`) are populated by the t
 - The AI does not have access to live Dataverse data
 - All schema knowledge comes from metadata provided by FetchXML Builder
 - Instructions are written in Markdown for readability and maintainability
+
+---
+
+## Instruction architecture
+
+The instruction files are treated as **compiled templates**, not dynamic prompts.
+
+Before being sent to the AI model, FetchXML Builder:
+
+1. Loads each instruction file
+2. Replaces placeholders (for example `{{fetchxml}}`, `{{prefer}}`, `{{CallMe}}`)
+3. Sends the fully resolved instructions to the model
+
+As a result:
+
+- The AI never sees placeholders
+- All preferences are already decided
+- Instructions are interpreted as factual and authoritative
+
+This design avoids conditional logic in prompts and produces more deterministic behavior.
