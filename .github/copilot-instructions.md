@@ -20,3 +20,4 @@
 - If they complement each other, merge them into a single, cohesive instruction.
 - Group semantically related instructions together, placing general instructions before specific ones.
 - Create new sections only when the instruction doesn't fit existing categories.
+- For FetchXML Builder AI instructions, prefer inner joins (link-entity default) unless the user requests otherwise.
