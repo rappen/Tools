@@ -558,14 +558,14 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Free</Type>
     <Date>2026-03-13</Date>
-    <Published>2026-03-14T09:03:18.8187955+00:00</Published>
+    <Published>2026-03-14T09:03:21Z</Published>
   </AiUser>
   <AiUser>
     <InstallationId>3f385e3c-052e-4df0-a84c-d6e1d0117040</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Free</Type>
     <Date>2026-03-13</Date>
-    <Published>2026-03-14T09:03:18.8188029+00:00</Published>
+    <Published>2026-03-14T09:03:21Z</Published>
   </AiUser>
   <AiUser>
     <InstallationId>c2288721-9a05-4f07-a239-12f34f3230a4</InstallationId>
@@ -573,5 +573,12 @@
     <Type>Free</Type>
     <Date>2026-03-13</Date>
     <Published>2026-03-13T11:50:42Z</Published>
+  </AiUser>
+  <AiUser>
+    <InstallationId>6fa5cea3-8b22-4f3e-a121-a8ea677e0bd1</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Free</Type>
+    <Date>2026-03-19</Date>
+    <Published>2026-03-19T09:42:59.5934689+00:00</Published>
   </AiUser>
 </ArrayOfAiUser>
