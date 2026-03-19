@@ -21,6 +21,9 @@ They are intentionally split into separate files to avoid overlapping responsibi
 - [Preferences.md](Preferences.md)  
   Contains naming conventions and formatting preferences.
 
+- [UserFlavors.md](UserFlavors.md)
+  Containg wrapping for possible specific user flavors on what AI should know.
+
 ---
 
 ## Runtime context
