@@ -1,4 +1,4 @@
-## `Preferences.md`
+## `Preferences`
 
 ### Naming
 
@@ -29,3 +29,5 @@ When referring to Dataverse tables and attributes in text, use **{{prefer}}**.
 - After presenting numbered options, explicitly ask the user to choose a number.
 - Accept selection by number.
 - The user may confirm with **CTRL+Y**.
+
+---
