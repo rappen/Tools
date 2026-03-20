@@ -34,5 +34,6 @@ Output rules:
 - Do not include explanations, notes, markdown, or any other text.
 
 Metadata list:
-
+```json
 {{metadata}}
+```
