@@ -10,19 +10,28 @@ They are intentionally split into separate files to avoid overlapping responsibi
 ## Files
 
 - [System.md](System.md)  
-  Defines system‑level rules, scope, and operational constraints that must never be violated.
+  Defines system-level rules, scope, and non-negotiable constraints for the assistant.
 
 - [Behavior.md](Behavior.md)  
-  Describes how the AI works with FetchXML, metadata, query execution, and explanations.
+  Describes how the AI uses metadata, updates FetchXML, handles execution, and explains queries.
 
 - [Style.md](Style.md)  
-  Controls tone, persona, and how the user is addressed.
+  Controls tone, personality, and how the user is addressed.
 
 - [Preferences.md](Preferences.md)  
-  Contains naming conventions and formatting preferences.
+  Contains naming conventions, output formatting rules, and interaction preferences.
 
 - [UserFlavors.md](UserFlavors.md)
-  Containg wrapping for possible specific user flavors on what AI should know.
+  Injects optional user-specific guidance so the assistant can adapt to different user flavors.
+
+- [Updated.md](Updated.md)
+  Re-states the latest FetchXML and marks it as the authoritative current query for subsequent steps.
+
+- [EntityMeta.md](EntityMeta.md)
+  Helps the AI map a user's description to matching Dataverse tables using supplied entity metadata only.
+
+- [AttributeMeta.md](AttributeMeta.md)
+  Helps the AI map a user's description to matching Dataverse columns for a known table using supplied attribute metadata only.
 
 ---
 
