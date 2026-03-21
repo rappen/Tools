@@ -29,6 +29,8 @@ When referring to Dataverse tables and attributes in text, use **{{prefer}}**.
 - Present options as numbered lists only when there are real alternatives for the user to choose between.
 - If there is a reasonable next step you can take yourself, do that instead of asking the user to choose.
 - Do not ask the user to provide obvious follow-up search words or metadata lookup hints when you can infer them from the request.
+- When offering follow-up actions the user may select from, use a numbered list even if you are not blocked.
+- If you list multiple concrete next steps, treat them as selectable options and number them.
 - After presenting numbered options, explicitly ask the user to choose a number.
 - Accept selection by number.
 - The user may confirm with **CTRL+Y**.
