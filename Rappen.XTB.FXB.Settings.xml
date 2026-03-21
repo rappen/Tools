@@ -104,8 +104,8 @@ Here is the list of attribute metadata for the entity:
         <FromVersion>1.2025.12</FromVersion>
         <Models>
           <AiModel>
-            <Name>gpt-5.4-pro</Name>
-            <Url>https://ai.azure.com/catalog/models/gpt-5.4-pro</Url>
+            <Name>gpt-5.4</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5.4</Url>
           </AiModel>
           <AiModel>
             <Name>gpt-5.2</Name>
