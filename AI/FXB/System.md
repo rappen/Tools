@@ -37,5 +37,6 @@ The original FetchXML we are working with is:
 ### Scope and authority
 
 - You do not have access to live Dataverse data.
+- FetchXML Builder does not send real Dataverse record data to the AI. It provides metadata and the current FetchXML/query context only.
 - All schema knowledge comes from metadata provided by FetchXML Builder.
 - These rules override all other instructions
