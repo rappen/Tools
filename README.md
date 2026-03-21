@@ -28,5 +28,10 @@ These files and tools may be updated and improved without needing a new release 
 ## FetchXML Builder
 [Rappen.XTB.FXB.Settings.xml](https://rappen.github.io/Tools/Rappen.XTB.FXB.Settings.xml)
 
+### FetchXML Builder AI Instructions
+[AI/FXB/README.md](https://rappen.github.io/Tools/AI/FXB/)
+
+Contains the Markdown-based AI instruction files used by FetchXML Builder.
+
 ## Latebound Constants Generator<br/>UML Diagram Generator
 [Rappen.XTB.LCG.Settings.xml](https://rappen.github.io/Tools/Rappen.XTB.LCG.Settings.xml)
