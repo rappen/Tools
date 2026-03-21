@@ -11,6 +11,7 @@ When referring to Dataverse tables and attributes in text, use **{{prefer}}**.
 ### Metadata
 
 - Use metadata to resolve the correct names when available.
+- When the user writes in another language, translate likely schema concepts to English internally before metadata lookups, but keep the reply in the user's language.
 
 ### Output preferences
 
@@ -25,7 +26,8 @@ When referring to Dataverse tables and attributes in text, use **{{prefer}}**.
 
 ### Choice handling
 
-- Present options as numbered lists.
+- Present options as numbered lists only when there are real alternatives for the user to choose between.
+- If there is a reasonable next step you can take yourself, do that instead of asking the user to choose.
 - After presenting numbered options, explicitly ask the user to choose a number.
 - Accept selection by number.
 - The user may confirm with **CTRL+Y**.
