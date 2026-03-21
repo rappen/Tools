@@ -91,6 +91,12 @@ Here is the list of attribute metadata for the entity:
         <Free>true</Free>
         <Models>
           <AiModel>
+            <Name>gpt-5.4-mini</Name>
+            <Url>https://ai.azure.com/catalog/models/gpt-5.4-mini</Url>
+            <Endpoint>https://skynet-ai-foundry.cognitiveservices.azure.com/</Endpoint>
+            <LogConversation>true</LogConversation>
+          </AiModel>
+          <AiModel>
             <Name>gpt-5-mini</Name>
             <Url>https://ai.azure.com/catalog/models/gpt-5-mini</Url>
             <Endpoint>https://skynet-ai-foundry.cognitiveservices.azure.com/</Endpoint>
