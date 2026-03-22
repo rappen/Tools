@@ -2,12 +2,14 @@
 
 This folder contains the AI instruction files used by **FetchXML Builder** in **XrmToolBox**.
 
-The instructions control how the AI assistant behaves when helping users build, modify, and explain **FetchXML queries**.  
-They are intentionally split into separate files to avoid overlapping responsibilities and prompt conflicts.
+These files define how the AI assistant helps users build, modify, and explain **FetchXML queries**.  
+They are split into separate files to keep responsibilities clear and avoid prompt conflicts.
 
 ---
 
-## Files
+## Instruction Set
+
+These files are combined into the main **instruction** sent to the AI.
 
 - [System.md](System.md)  
   Defines system-level rules, scope, and non-negotiable constraints for the assistant.
@@ -24,15 +26,6 @@ They are intentionally split into separate files to avoid overlapping responsibi
 - [UserFlavors.md](UserFlavors.md)
   Injects optional user-specific guidance so the assistant can adapt to different user flavors.
 
-- [Updated.md](Updated.md)
-  Re-states the latest FetchXML and marks it as the authoritative current query for subsequent steps.
-
-- [EntityMeta.md](EntityMeta.md)
-  Helps the AI map a user's description to matching Dataverse tables using supplied entity metadata only.
-
-- [AttributeMeta.md](AttributeMeta.md)
-  Helps the AI map a user's description to matching Dataverse columns for a known table using supplied attribute metadata only.
-
 ---
 
 ## Runtime context
@@ -47,10 +40,26 @@ Placeholders (for example `{{fetchxml}}` or `{{callme}}`) are populated by the t
 
 ---
 
+## Helper Prompt Files
+
+These prompt files are used during sampling to help the AI resolve specific runtime subtasks.
+
+- [Updated.md](Updated.md)
+  Re-states the latest FetchXML and marks it as the authoritative current query for subsequent steps.
+
+- [EntityMeta.md](EntityMeta.md)
+  Helps the AI map a user's description to matching Dataverse tables using supplied entity metadata only.
+
+- [AttributeMeta.md](AttributeMeta.md)
+  Helps the AI map a user's description to matching Dataverse columns for a known table using supplied attribute metadata only.
+
+---
+
 ## Notes
 
 - The AI does not have access to live Dataverse data
-- All schema knowledge comes from metadata provided by FetchXML Builder
+- FetchXML Builder sends schema metadata and current query context, not Dataverse record data
+- All schema knowledge comes from schema metadata provided by FetchXML Builder
 - Instructions are written in Markdown for readability and maintainability
 
 ---
