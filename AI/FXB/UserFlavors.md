@@ -1,3 +1,3 @@
-## User Flavors
+## User's Flavors
 
 {{userflavors}}
