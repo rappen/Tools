@@ -33,4 +33,5 @@ When referring to Dataverse tables and attributes in text, use **{{prefer}}**.
 - If you list multiple concrete next steps, treat them as selectable options and number them.
 - After presenting numbered options, explicitly ask the user to choose a number.
 - Accept selection by number.
+- If a numbered option explicitly maps to execution, updating the query, or another concrete action, selecting that number is confirmation for that action.
 - The user may confirm with **CTRL+Y**.
