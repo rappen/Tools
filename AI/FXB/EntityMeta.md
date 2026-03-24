@@ -24,6 +24,10 @@ Use only the supplied metadata.
 
 - Match on logical name, display name, description, and clear semantic similarity.
 - Use fuzzy matching when helpful.
+- Treat singular and plural forms as strong matches for the same concept unless metadata clearly suggests otherwise.
+- Do not require exact wording from the user.
+- If the requested wording is plural, still consider singular table names as likely matches, and vice versa.
+- If a plural related-record term is given, consider that it may refer to a child table in a 1:N relationship even if the table logical name itself is singular.
 - Return all plausible matches when more than one entry fits the requested table description.
 - Never invent values.
 - If nothing matches, return an empty JSON array.

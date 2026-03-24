@@ -30,6 +30,9 @@ Use only the supplied metadata.
 
 - Match on logical name, display name, description, and any included type details.
 - Use fuzzy matching when helpful.
+- Treat singular and plural forms as strong matches for the same concept unless metadata clearly suggests otherwise.
+- Do not require exact wording from the user.
+- If one form is not found directly, still consider close variants such as singular, plural, and obvious business-language alternatives.
 - Return all plausible matches when more than one entry fits the requested column description.
 - Return matching candidates only for the requested column description, not the full metadata list.
 - Never invent values.
