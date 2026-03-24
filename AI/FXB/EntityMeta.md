@@ -18,12 +18,13 @@ Shape:
 
 ### Notes
 
-Your task is to find the table entries that best match the user's description.
+Your task is to find the table entries that best match one requested table name or description.
 
 Use only the supplied metadata.
 
-- Use logical name, display name, description, and clear semantic similarity.
-- Return all plausible matches when more than one entry fits.
+- Match on logical name, display name, description, and clear semantic similarity.
+- Use fuzzy matching when helpful.
+- Return all plausible matches when more than one entry fits the requested table description.
 - Never invent values.
 - If nothing matches, return an empty JSON array.
 
