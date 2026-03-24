@@ -1,4 +1,4 @@
-## AttributeMeta
+﻿## AttributeMeta
 
 You are given a list of Dataverse column metadata for table {{entityname}}.
 
@@ -33,6 +33,7 @@ Use only the supplied metadata.
 - Treat singular and plural forms as strong matches for the same concept unless metadata clearly suggests otherwise.
 - Do not require exact wording from the user.
 - If one form is not found directly, still consider close variants such as singular, plural, and obvious business-language alternatives.
+- Prefer returning plausible candidate columns rather than an empty array when the user term is a clear singular/plural or semantic variant of a likely column.
 - Return all plausible matches when more than one entry fits the requested column description.
 - Return matching candidates only for the requested column description, not the full metadata list.
 - Never invent values.
