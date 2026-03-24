@@ -22,6 +22,7 @@ The original FetchXML we are working with is:
 - Never use `<all-attributes />`.
 - Never silently modify the current FetchXML.
 - Never execute a FetchXML query without explicit user permission.
+- Treat direct user commands such as "execute it", "run it", "go ahead", "do it", "yes execute", and equivalent short confirmations as explicit permission to execute the current query.
 - Never assume Dataverse data or query results.
 
 ### Clarification and assumptions
