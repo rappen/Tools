@@ -67,6 +67,9 @@ These prompt files are used during sampling to help the AI resolve specific runt
 - [AttributeMeta.md](AttributeMeta.md)
   Helps the AI match one requested column description to candidate Dataverse columns for a known table using supplied metadata only.
 
+- [RelationshipMeta.md](RelationshipMeta.md)
+  Helps the AI match one requested relationship description to candidate related tables and relationships for a known table using supplied metadata only.
+
 ---
 
 ## Notes
