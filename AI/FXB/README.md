@@ -26,6 +26,19 @@ These files are combined into the main **instruction** sent to the AI.
 - [UserFlavors.md](UserFlavors.md)
   Injects optional user-specific guidance so the assistant can adapt to different user flavors.
 
+### Strictness profiles
+
+One strictness file can also be included in the instruction set to control how cautiously or boldly the AI should interpret the user's request.
+
+- [Strictness.Relaxed.md](Strictness.Relaxed.md)
+  Favors progress and likely interpretations when the intent seems clear enough.
+
+- [Strictness.Balanced.md](Strictness.Balanced.md)
+  Balances helpful inference with brief verification when uncertainty matters.
+
+- [Strictness.Exact.md](Strictness.Exact.md)
+  Favors literal interpretation and verification over guesswork.
+
 ---
 
 ## Runtime context
@@ -34,7 +47,8 @@ At runtime, FetchXML Builder injects dynamic context into the instructions, such
 
 - The current FetchXML query
 - The user’s preferred name
-- Metadata information
+- Schema metadata information
+- The active strictness mode, when used
 
 Placeholders (for example `{{fetchxml}}` or `{{callme}}`) are populated by the tool and must not be modified.
 
@@ -48,10 +62,10 @@ These prompt files are used during sampling to help the AI resolve specific runt
   Re-states the latest FetchXML and marks it as the authoritative current query for subsequent steps.
 
 - [EntityMeta.md](EntityMeta.md)
-  Helps the AI map a user's description to matching Dataverse tables using supplied entity metadata only.
+  Helps the AI match one requested table name or description to candidate Dataverse tables using supplied metadata only.
 
 - [AttributeMeta.md](AttributeMeta.md)
-  Helps the AI map a user's description to matching Dataverse columns for a known table using supplied attribute metadata only.
+  Helps the AI match one requested column description to candidate Dataverse columns for a known table using supplied metadata only.
 
 ---
 
