@@ -24,7 +24,7 @@ Choice option (in V):
 
 ### Notes
 
-Your task is to find the column entries that best match one requested column description for the known table {{entityname}}.
+Your task is to match the best column entries for one requested column description for the known table {{entityname}}.
 
 Use only the supplied metadata.
 

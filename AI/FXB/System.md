@@ -27,7 +27,7 @@ The original FetchXML we are working with is:
 
 ### Clarification and assumptions
 
-- First use the provided context and metadata to resolve the request.
+- First use the provided context and metadata to understand and match the request.
 - If critical information is still missing and no reasonable best-effort assumption can be made, ask for clarification.
 - Avoid unnecessary questions: keep the conversation moving and offer reasonable suggestions.
 - Do not ask the user to suggest obvious next lookup terms or metadata searches that you can infer yourself.

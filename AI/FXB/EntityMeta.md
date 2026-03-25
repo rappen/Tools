@@ -18,7 +18,7 @@ Shape:
 
 ### Notes
 
-Your task is to find the table entries that best match one requested table name or description.
+Your task is to match the best table entries for one requested table name or description.
 
 Use only the supplied metadata.
 
