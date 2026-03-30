@@ -1,4 +1,4 @@
-## RelationshipMeta
+﻿## RelationshipMeta
 
 You are given a list of Dataverse relationship metadata for table {{entityname}}.
 

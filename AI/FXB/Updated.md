@@ -1,4 +1,4 @@
-## Updated
+﻿## Updated
 
 The current FetchXML query is:
 ```xml

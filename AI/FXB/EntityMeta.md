@@ -45,3 +45,11 @@ Metadata list:
 ```json
 {{metadata}}
 ```
+
+Additional matching rules for custom tables:
+
+- In Dataverse, custom table schema names use a publisher prefix before the first underscore.
+- If the user asks for "custom tables", "custom entities", or similar, treat a logical name containing an underscore as a strong signal.
+- Use shared publisher prefix as a strong matching signal when such a prefix is explicit in the request or otherwise available in the provided context.
+- Prefer plausible custom-table matches over an empty array when the request clearly asks for custom tables.
+- Use this custom-table heuristic even when the display name or description does not explicitly contain the word "custom".
