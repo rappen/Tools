@@ -103,8 +103,8 @@ This design avoids conditional logic in prompts and produces more deterministic 
 
 ## Links
 
-This page: [https://rappen.github.io/Tools/AI/FXB/](https://rappen.github.io/Tools/AI/FXB/)
+This page: <a href="https://rappen.github.io/Tools/AI/FXB/" target="_blank">https://rappen.github.io/Tools/AI/FXB/</a>
 
-FetchXML Builder: [https://fetchxmlbuilder.com/](https://fetchxmlbuilder.com/)
+FetchXML Builder: <a href="https://fetchxmlbuilder.com/" target="_blank">https://fetchxmlbuilder.com/</a>
 
-FXB AI Chat: [https://fetchxmlbuilder.com/features/ai/](https://fetchxmlbuilder.com/features/ai/)
+FXB AI Chat: <a href="https://fetchxmlbuilder.com/features/ai/" target="_blank">https://fetchxmlbuilder.com/features/ai/</a>
