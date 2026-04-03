@@ -104,5 +104,7 @@ This design avoids conditional logic in prompts and produces more deterministic 
 ## FetchXML Builder
 
 ### Semi-updated documentations
+
 The tool: https://fetchxmlbuilder.com/
+
 The AI Chat: https://fetchxmlbuilder.com/features/ai/
