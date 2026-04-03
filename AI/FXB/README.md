@@ -98,3 +98,11 @@ As a result:
 - Instructions are interpreted as factual and authoritative
 
 This design avoids conditional logic in prompts and produces more deterministic behavior.
+
+---
+
+## FetchXML Builder
+
+### Semi-updated documentations
+The tool: https://fetchxmlbuilder.com/
+The AI Chat: https://fetchxmlbuilder.com/features/ai/
