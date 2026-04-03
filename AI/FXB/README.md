@@ -101,10 +101,10 @@ This design avoids conditional logic in prompts and produces more deterministic 
 
 ---
 
-## FetchXML Builder
+## Links
 
-### Semi-updated documentations
+This page: [https://rappen.github.io/Tools/AI/FXB/](https://rappen.github.io/Tools/AI/FXB/)
 
-The tool: [https://fetchxmlbuilder.com/](https://fetchxmlbuilder.com/)
+FetchXML Builder: [https://fetchxmlbuilder.com/](https://fetchxmlbuilder.com/)
 
-The AI Chat: [https://fetchxmlbuilder.com/features/ai/](https://fetchxmlbuilder.com/features/ai/)
+FXB AI Chat: [https://fetchxmlbuilder.com/features/ai/](https://fetchxmlbuilder.com/features/ai/)
