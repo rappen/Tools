@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+**Janis Moeckelmann**<br/>Germany|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Support|April 2026
 _anonymous_<br/>Sweden|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality|Developer|April 2026
 [**Gabor Nähr**](https://www.linkedin.com/in/gabornahr/){:target="_blank"}<br/>Austria|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Customizer<br/>Support|April 2026
 **Ron Kochanowski**<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer|February 2026
