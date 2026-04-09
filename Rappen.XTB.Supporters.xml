@@ -1160,6 +1160,20 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
     <Date>2026-04-08</Date>
-    <Published>2026-04-08T13:36:27.0465105+00:00</Published>
+    <Published>2026-04-08T13:36:29Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>8fc34456-6983-4fbe-a718-3934dad10096</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2026-04-09</Date>
+    <Published>2026-04-09T11:39:21.8548902+00:00</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>a77dda09-6bbd-4f5c-b14f-f5bcef688e94</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2026-04-09</Date>
+    <Published>2026-04-09T11:39:21.8548981+00:00</Published>
   </Supporter>
 </ArrayOfSupporter>
