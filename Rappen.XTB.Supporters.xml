@@ -1167,13 +1167,20 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
     <Date>2026-04-09</Date>
-    <Published>2026-04-09T11:39:21.8548902+00:00</Published>
+    <Published>2026-04-09T11:39:24Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>a77dda09-6bbd-4f5c-b14f-f5bcef688e94</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Personal</Type>
+    <Date>2026-04-09</Date>
+    <Published>2026-04-09T13:30:25.1451875+00:00</Published>
   </Supporter>
   <Supporter>
     <InstallationId>a77dda09-6bbd-4f5c-b14f-f5bcef688e94</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
     <Date>2026-04-09</Date>
-    <Published>2026-04-09T11:39:21.8548981+00:00</Published>
+    <Published>2026-04-09T11:39:24Z</Published>
   </Supporter>
 </ArrayOfSupporter>
