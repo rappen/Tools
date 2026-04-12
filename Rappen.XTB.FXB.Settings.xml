@@ -27,18 +27,25 @@ Read my blog to learn more at:
 
 Note that there will be a slight lag between your submission and when it is activated.</TextToRequestFreeAi>
     <OnlyInfoName>introspective</OnlyInfoName>
-	<PromptsV2>
-		<System>https://rappen.github.io/Tools/AI/FXB/System.md</System>
-		<Style>https://rappen.github.io/Tools/AI/FXB/Style.md</Style>
-		<Behavior>https://rappen.github.io/Tools/AI/FXB/Behavior.md</Behavior>
-		<Preferences>https://rappen.github.io/Tools/AI/FXB/Preferences.md</Preferences>
-		<Strictness>https://rappen.github.io/Tools/AI/FXB/Strictness.{{strictness}}.md</Strictness>
-		<UserFlavors>https://rappen.github.io/Tools/AI/FXB/UserFlavors.md</UserFlavors>
-		<Updated>https://rappen.github.io/Tools/AI/FXB/Updated.md</Updated>
-		<EntityMeta>https://rappen.github.io/Tools/AI/FXB/EntityMeta.md</EntityMeta>
-		<RelationshipMeta>https://rappen.github.io/Tools/AI/FXB/RelationshipMeta.md</RelationshipMeta>
-		<AttributeMeta>https://rappen.github.io/Tools/AI/FXB/AttributeMeta.md</AttributeMeta>
-	</PromptsV2>
+    <PromptsV2>
+      <System>https://rappen.github.io/Tools/AI/FXB/System.md</System>
+      <Style>https://rappen.github.io/Tools/AI/FXB/Style.md</Style>
+      <Behavior>https://rappen.github.io/Tools/AI/FXB/Behavior.md</Behavior>
+      <Preferences>https://rappen.github.io/Tools/AI/FXB/Preferences.md</Preferences>
+      <Strictness>https://rappen.github.io/Tools/AI/FXB/Strictness.{{strictness}}.md</Strictness>
+      <UserFlavors>https://rappen.github.io/Tools/AI/FXB/UserFlavors.md</UserFlavors>
+      <Updated>https://rappen.github.io/Tools/AI/FXB/Updated.md</Updated>
+      <EntityMeta>https://rappen.github.io/Tools/AI/FXB/EntityMeta.md</EntityMeta>
+      <RelationshipMeta>https://rappen.github.io/Tools/AI/FXB/RelationshipMeta.md</RelationshipMeta>
+      <AttributeMeta>https://rappen.github.io/Tools/AI/FXB/AttributeMeta.md</AttributeMeta>
+    </PromptsV2>
+    <Tools>
+      <DescExecuteQuery>Execute the current FetchXML query in Dataverse. Use only when the user explicitly asks to run, test, or verify the current query.</DescExecuteQuery>
+      <DescUpdateQuery>Update the current FetchXML shown in the editor. Call this every time you change the query so the UI stays in sync.</DescUpdateQuery>
+      <DescMatchTable>Match one user-described Dataverse table against metadata. Prefer {{prefer}} names when relevant. Return JSON ONLY as original metadata objects. Return [] if no plausible match is found.</DescMatchTable>
+      <DescMatchColumn>Match one user-described Dataverse column for a known table. Prefer {{prefer}} names when relevant. Return JSON ONLY as matching attribute objects. Multiple matches are allowed.</DescMatchColumn>
+      <DescMatchRelationship>Match one user-described Dataverse relationship for a known table. Prefer {{prefer}} names when relevant. Return JSON ONLY as matching relationship objects. Multiple matches are allowed.</DescMatchRelationship>
+    </Tools>
     <Prompts>
       <System>You are an agent that helps the user interact with Dataverse using FetchXML queries.
 The user is communicating with you through the 'FetchXML Builder' tool in XrmToolBox.
