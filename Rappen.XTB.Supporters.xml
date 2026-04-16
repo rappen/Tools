@@ -1188,6 +1188,13 @@
     <ToolName>Plugin Trace Viewer</ToolName>
     <Type>Personal</Type>
     <Date>2026-04-14</Date>
-    <Published>2026-04-14T08:51:43.4371732+00:00</Published>
+    <Published>2026-04-14T08:51:45Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>8fc34456-6983-4fbe-a718-3934dad10096</InstallationId>
+    <ToolName>Plugin Trace Viewer</ToolName>
+    <Type>Personal</Type>
+    <Date>2026-04-16</Date>
+    <Published>2026-04-16T12:15:51.5327917+00:00</Published>
   </Supporter>
 </ArrayOfSupporter>
