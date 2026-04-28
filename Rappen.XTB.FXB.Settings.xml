@@ -207,6 +207,10 @@ Here is the list of attribute metadata for the entity:
         <EndpointFixed>true</EndpointFixed>
         <Models>
           <AiModel>
+            <Name>claude-sonnet-4-6</Name>
+            <Url>https://api.anthropic.com/v1/messages</Url>
+          </AiModel>
+          <AiModel>
             <Name>claude-3-5-haiku-20241022</Name>
             <Url>https://api.anthropic.com/v1/messages</Url>
           </AiModel>
