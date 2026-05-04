@@ -1206,10 +1206,17 @@
   </Supporter>
   <Supporter>
     <InstallationId>d99d46f9-70f0-4b3f-8027-835434b0227a</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Company</Type>
+    <Date>2026-05-04</Date>
+    <Published>2026-05-04T09:20:52.0108563+00:00</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>d99d46f9-70f0-4b3f-8027-835434b0227a</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Company</Type>
     <Date>2026-05-04</Date>
-    <Published>2026-05-04T08:47:56.2801004+00:00</Published>
+    <Published>2026-05-04T08:47:58Z</Published>
   </Supporter>
   <Supporter>
     <InstallationId>d99d46f9-70f0-4b3f-8027-835434b0227a</InstallationId>
