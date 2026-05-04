@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+[**Polynoma i Skåne**](https://polynomait.se){:target="_blank"}<br/>Sweden|Company|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer|May 2026
 [**Polynoma i Skåne**](https://polynomait.se){:target="_blank"}<br/>Sweden|Company|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Save Time<br/>Quality|Developer|May 2026
 [**CONSOS GmbH**](https://www.consos.de){:target="_blank"}<br/>Germany|Company|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Customizer<br/>Administrator<br/>End user|April 2026
 **Janis Moeckelmann**<br/>Germany|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Support|April 2026
