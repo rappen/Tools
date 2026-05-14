@@ -23,7 +23,7 @@ These files are combined into the main **instruction** sent to the AI.
 - [Preferences.md](Preferences.md)  
   Contains naming conventions, output formatting rules, and interaction preferences.
 
-- [UserFlavors.md](UserFlavors.md)
+- [UserFlavors.md](UserFlavors.md)  
   Injects optional user-specific guidance so the assistant can adapt to different user flavors.
 
 ### Strictness profiles
