@@ -108,3 +108,10 @@ This page: <a href="https://rappen.github.io/Tools/AI/FXB/" target="_blank">http
 FetchXML Builder: <a href="https://fetchxmlbuilder.com/" target="_blank">https://fetchxmlbuilder.com/</a>
 
 FXB AI Chat: <a href="https://fetchxmlbuilder.com/features/ai/" target="_blank">https://fetchxmlbuilder.com/features/ai/</a>
+
+
+# FXB AI Log Example
+
+This example will show both the initial instructions, and a few prompts between the user and the AO assistant.
+
+[FXB AI Log Example.md](FXB_AI_Log_Example.md)
