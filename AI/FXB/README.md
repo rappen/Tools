@@ -109,6 +109,7 @@ FetchXML Builder: <a href="https://fetchxmlbuilder.com/" target="_blank">https:/
 
 FXB AI Chat: <a href="https://fetchxmlbuilder.com/features/ai/" target="_blank">https://fetchxmlbuilder.com/features/ai/</a>
 
+---
 
 # FXB AI Log Example
 
