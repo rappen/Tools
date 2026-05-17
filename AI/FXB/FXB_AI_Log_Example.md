@@ -1,8 +1,21 @@
-Started:  2026-05-16 12:47:16
-Provider: Microsoft Foundry OpenAI
-Model:    gpt-5.4
+# AI Chat history
 
-2026-05-16 12:47:57 - system
+|  |  |
+| --- | ---: |
+| Started | 2026-05-17 12:24:00 |
+| Provider | Microsoft Foundry OpenAI |
+| Model | gpt-5.4 |
+| User | Jonas |
+| Prompts | 2 |
+| Responses | 16 |
+| System Prompts | 14 |
+| Internally | 30 |
+| Tokens Out | 2417 |
+| Tokens In | 123187 |
+
+---
+
+##### 2026-05-17 12:24:58 - system
 # Instructions
 
 ## System
@@ -18,8 +31,10 @@ You always operate on a **current FetchXML query**.
 The original FetchXML we are working with is:
 
 ```xml
-<fetch top="100">
-  <entity name="" />
+<fetch>
+  <entity name="rapp_rocket">
+    <attribute name="rapp_name" />
+  </entity>
 </fetch>
 ```
 
@@ -167,7 +182,7 @@ When referring to Dataverse tables and attributes in text, use **DisplayName**.
 - When offering follow-up actions the user may select from, use a numbered list even if you are not blocked.
 - If you list multiple concrete next steps, treat them as selectable options and number them.
 - After presenting numbered options, explicitly ask the user to choose a number.
-- Accept selection by number.
+- Accept selection by number. The UI can accept numbers by **CTRL+n** (where **n** is 1-9).
 - If a numbered option explicitly maps to execution, updating the query, or another concrete action, selecting that number is confirmation for that action.
 - The user may confirm with **CTRL+Y**.
 
@@ -188,163 +203,211 @@ If possible, be a bit flirty as well, wink wink... ;)
 
 ---
 
-2026-05-16 12:47:57 - Jonas
+##### 2026-05-17 12:24:58 - Jonas
 Get space ships that are built in a factory in Portorož, Slovenia, with all names and location details, statuses.
 
-2026-05-16 12:48:00 - AI Tools - only for info
-Asking FXB for entity metadata to find table 'space ships'
-
-2026-05-16 12:48:01 - Microsoft Foundry OpenAI
-```json
-[{"L":"rapp_rocket","D":"Rocket","Desc":"Getting out of the earth!"}]
-```
-
-2026-05-16 12:48:01 - AI Tools - only for info
-Found table: Rocket (rapp_rocket).
-
-2026-05-16 12:48:01 - AI Tools - only for info
-Asking FXB for entity metadata to find table 'factories'
-
-2026-05-16 12:48:03 - Microsoft Foundry OpenAI
-```json
-[
-  {"L":"account","D":"Account","Desc":"Business that represents a customer or potential customer. The company that is billed in business transactions."},
-  {"L":"organization","D":"Organization","Desc":"Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation."},
-  {"L":"businessunit","D":"Business Unit","Desc":"Business, division, or department in the Microsoft Dynamics 365 database."}
-]
-```
-2026-05-16 12:48:03 - AI Tools - only for info
-Found tables:
-* Account (account)
-* Organization (organization)
-* Business Unit (businessunit)
-
-2026-05-16 12:48:06 - Jonas
-The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'rapp_rocket' that matches the name 'name'
-
-2026-05-16 12:48:06 - AI Tools - only for info
-Asking FXB for attribute metadata to find 'name' in table 'rapp_rocket'
-
-2026-05-16 12:48:07 - Microsoft Foundry OpenAI
-```json
-[{"T":"String","L":"rapp_name","D":"Name","Desc":""}]
-```
-
-2026-05-16 12:48:07 - AI Tools - only for info
-Found attribute Name (rapp_name)
-
-2026-05-16 12:48:07 - Jonas
+##### 2026-05-17 12:25:01 - system
 The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'rapp_rocket' that matches the name 'status'
 
-2026-05-16 12:48:07 - AI Tools - only for info
+##### 2026-05-17 12:25:01 - internally *(only for info)*
 Asking FXB for attribute metadata to find 'status' in table 'rapp_rocket'
 
-2026-05-16 12:48:09 - Microsoft Foundry OpenAI
+##### 2026-05-17 12:25:03 - Microsoft Foundry OpenAI
 ```json
 [
   {
-    "T": "State",
-    "P": {
-      "V": [
-        { "N": 0, "D": "Active" },
-        { "N": 1, "D": "Inactive" }
-      ],
-      "L": "rapp_rocket_statecode",
-      "D": "Status"
-    },
-    "L": "statecode",
-    "D": "Status",
-    "Desc": "Status of the Rocket"
+    "T":"State",
+    "P":
+    {"V":[{"N":0,"D":"Active"},{"N":1,"D":"Inactive"}],"L":"rapp_rocket_statecode","D":"Status"},
+    "L":"statecode",
+    "D":"Status",
+    "Desc":"Status of the Rocket"
   },
   {
-    "T": "Status",
-    "P": {
-      "V": [
-        { "N": 1, "D": "Idle" },
-        { "N": 100000001, "D": "In Space" },
-        { "N": 100000000, "D": "Never Again" },
-        { "N": 2, "D": "Inactive" }
+    "T":"Status",
+    "P":
+    {
+      "V":
+      [
+        {"N":1,"D":"Idle"},
+        {"N":100000001,"D":"In Space"},
+        {"N":100000000,"D":"Never Again"},
+        {"N":2,"D":"Inactive"}
       ],
-      "L": "rapp_rocket_statuscode",
-      "D": "Status Reason"
+      "L":"rapp_rocket_statuscode",
+      "D":"Status Reason"
     },
-    "L": "statuscode",
-    "D": "Status Reason",
-    "Desc": "Reason for the status of the Rocket"
+    "L":"statuscode",
+    "D":"Status Reason",
+    "Desc":"Reason for the status of the Rocket"
   }
 ]
 ```
 
-2026-05-16 12:48:09 - AI Tools - only for info
+##### 2026-05-17 12:25:03 - internally *(only for info)*
 Found attributes:
 * Status (statecode)
 * Status Reason (statuscode).
 
-2026-05-16 12:48:09 - Jonas
-The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'rapp_rocket' that matches the name 'location details'
+##### 2026-05-17 12:25:03 - system
+The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'rapp_rocket' that matches the name 'factory'
 
-2026-05-16 12:48:09 - AI Tools - only for info
-Asking FXB for attribute metadata to find 'location details' in table 'rapp_rocket'
+##### 2026-05-17 12:25:03 - internally *(only for info)*
+Asking FXB for attribute metadata to find 'factory' in table 'rapp_rocket'
 
-2026-05-16 12:48:10 - Microsoft Foundry OpenAI
+##### 2026-05-17 12:25:04 - Microsoft Foundry OpenAI
 ```json
 []
 ```
 
-2026-05-16 12:48:10 - AI Tools - only for info
+##### 2026-05-17 12:25:04 - internally *(only for info)*
 Found no attributes matching.
 
-2026-05-16 12:48:10 - Jonas
-The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'rapp_rocket' that matches the name 'factory'
+##### 2026-05-17 12:25:04 - system
+The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'rapp_rocket' that matches the name 'location'
 
-2026-05-16 12:48:10 - AI Tools - only for info
-Asking FXB for attribute metadata to find 'factory' in table 'rapp_rocket'
+##### 2026-05-17 12:25:04 - internally *(only for info)*
+Asking FXB for attribute metadata to find 'location' in table 'rapp_rocket'
 
-2026-05-16 12:48:11 - Microsoft Foundry OpenAI
+##### 2026-05-17 12:25:05 - Microsoft Foundry OpenAI
 ```json
-[{"T":"Lookup","E":"account","L":"rapp_manufacturer","D":"Manufacturer","Desc":""}]
+[]
 ```
 
-2026-05-16 12:48:11 - AI Tools - only for info
-Found attribute Manufacturer (rapp_manufacturer)
+##### 2026-05-17 12:25:05 - internally *(only for info)*
+Found no attributes matching.
 
-2026-05-16 12:48:12 - Jonas
+##### 2026-05-17 12:25:05 - system
+The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'rapp_rocket' that matches the name 'built in'
+
+##### 2026-05-17 12:25:05 - internally *(only for info)*
+Asking FXB for attribute metadata to find 'built in' in table 'rapp_rocket'
+
+##### 2026-05-17 12:25:06 - Microsoft Foundry OpenAI
+```json
+[]
+```
+
+##### 2026-05-17 12:25:06 - internally *(only for info)*
+Found no attributes matching.
+
+##### 2026-05-17 12:25:06 - system
+The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'rapp_rocket' that matches the name 'space ship name'
+
+##### 2026-05-17 12:25:06 - internally *(only for info)*
+Asking FXB for attribute metadata to find 'space ship name' in table 'rapp_rocket'
+
+##### 2026-05-17 12:25:07 - Microsoft Foundry OpenAI
+```json
+[
+  {
+    "T":"String",
+    "L":"rapp_name",
+    "D":"Name"
+  }
+]
+```
+
+##### 2026-05-17 12:25:07 - internally *(only for info)*
+Found attribute Name (rapp_name)
+
+##### 2026-05-17 12:25:09 - internally *(only for info)*
+Asking FXB for entity metadata to find table 'factory'
+
+##### 2026-05-17 12:25:10 - Microsoft Foundry OpenAI
+```json
+[
+  {"L":"synapsedatabase","D":"Synapse Database","Desc":"This entity represents an external Synapse database and its associated datalake folder link."}
+]
+```
+
+##### 2026-05-17 12:25:10 - internally *(only for info)*
+Found table: Synapse Database (synapsedatabase).
+
+##### 2026-05-17 12:25:10 - internally *(only for info)*
+Asking FXB for entity metadata to find table 'location'
+
+##### 2026-05-17 12:25:13 - Microsoft Foundry OpenAI
+```json
+[
+  {"L":"sharepointdocumentlocation","D":"Document Location","Desc":"Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365."},
+  {"L":"sharepointsite","D":"SharePoint Site","Desc":"SharePoint site from where documents can be managed in Microsoft Dynamics 365."},
+  {"L":"customeraddress","D":"Address","Desc":"Address and shipping information. Used to store additional addresses for an account or contact."},
+  {"L":"internaladdress","D":"Internal Address","Desc":"Storage of addresses for a user, business unit, or site."},
+  {"L":"powerpagesite","D":"Site","Desc":""},
+  {"L":"adx_website","D":"Website","Desc":"Web Portal"},
+  {"L":"mspp_website","D":"Website","Desc":"Web Portal"},
+  {"L":"adx_sitemarker","D":"Site Marker","Desc":"Used by web page templates to locate a specific page of content."},
+  {"L":"mspp_sitemarker","D":"Site Marker","Desc":"Used by web page templates to locate a specific page of content."}
+]
+```
+
+##### 2026-05-17 12:25:13 - internally *(only for info)*
+Found tables:
+* Document Location (sharepointdocumentlocation)
+* SharePoint Site (sharepointsite)
+* Address (customeraddress)
+* Internal Address (internaladdress)
+* Site (powerpagesite)
+* Website (adx_website)
+* Website (mspp_website)
+* Site Marker (adx_sitemarker)
+* Site Marker (mspp_sitemarker)
+
+##### 2026-05-17 12:25:14 - system
+The tool GetMetadataForUnknownRelationship was called: retrieve relationships for table 'rapp_rocket' that matches the name 'factory'
+
+##### 2026-05-17 12:25:14 - internally *(only for info)*
+Asking FXB for relationships metadata to find 'factory' ino table 'rapp_rocket'
+
+##### 2026-05-17 12:25:16 - Microsoft Foundry OpenAI
+```json
+[
+  {
+    "R":"M:1",
+    "F":"accountid",
+    "T":"rapp_manufacturer",
+    "S":"rapp_Rocket_Manufacturer_Account",
+    "L":"account",
+    "D":"Account",
+    "Desc":"Business that represents a customer or potential customer. The company that is billed in business transactions."
+  }
+]
+```
+
+##### 2026-05-17 12:25:16 - internally *(only for info)*
+Found relationship: M:1 Account (rapp_manufacturer).
+
+##### 2026-05-17 12:25:19 - system
 The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'account' that matches the name 'name'
 
-2026-05-16 12:48:12 - AI Tools - only for info
+##### 2026-05-17 12:25:19 - internally *(only for info)*
 Asking FXB for attribute metadata to find 'name' in table 'account'
 
-2026-05-16 12:48:15 - Microsoft Foundry OpenAI
+##### 2026-05-17 12:25:22 - Microsoft Foundry OpenAI
 ```json
 [
   {"T":"String","L":"name","D":"Account Name","Desc":"Type the company or business name."},
   {"T":"String","L":"address1_name","D":"Address 1: Name","Desc":"Type a descriptive name for the primary address, such as Corporate Headquarters."},
   {"T":"String","L":"address2_name","D":"Address 2: Name","Desc":"Type a descriptive name for the secondary address, such as Corporate Headquarters."},
-  {"T":"String","L":"yominame","D":"Yomi Account Name","Desc":"Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications."},
-  {"T":"String","L":"address1_primarycontactname","D":"Address 1: Primary Contact Name","Desc":"Type the name of the main contact at the account's primary address."},
-  {"T":"String","L":"address2_primarycontactname","D":"Address 2: Primary Contact Name","Desc":"Type the name of the main contact at the account's secondary address."},
-  {"T":"String","L":"adx_createdbyusername","D":"Created By (User Name)","Desc":""},{"T":"String","L":"adx_modifiedbyusername","D":"Modified By (User Name)","Desc":""}
+  {"T":"String","L":"yominame","D":"Yomi Account Name","Desc":"Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications."}
 ]
 ```
 
-2026-05-16 12:48:15 - AI Tools - only for info
+##### 2026-05-17 12:25:22 - internally *(only for info)*
 Found attributes:
 * Account Name (name)
 * Address 1: Name (address1_name)
 * Address 2: Name (address2_name)
-* Yomi Account Name (yominame)
-* Address 1: Primary Contact Name (address1_primarycontactname)
-* Address 2: Primary Contact Name (address2_primarycontactname)
-* Created By (User Name) (adx_createdbyusername)
-* Modified By (User Name) (adx_modifiedbyusername).
+* Yomi Account Name (yominame).
 
-2026-05-16 12:48:15 - Jonas
+##### 2026-05-17 12:25:22 - system
 The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'account' that matches the name 'city'
 
-2026-05-16 12:48:15 - AI Tools - only for info
+##### 2026-05-17 12:25:22 - internally *(only for info)*
 Asking FXB for attribute metadata to find 'city' in table 'account'
 
-2026-05-16 12:48:17 - Microsoft Foundry OpenAI
+##### 2026-05-17 12:25:24 - Microsoft Foundry OpenAI
 ```json
 [
   {"T":"String","L":"address1_city","D":"Address 1: City","Desc":"Type the city for the primary address."},
@@ -352,18 +415,18 @@ Asking FXB for attribute metadata to find 'city' in table 'account'
 ]
 ```
 
-2026-05-16 12:48:17 - AI Tools - only for info
+##### 2026-05-17 12:25:24 - internally *(only for info)*
 Found attributes:
 * Address 1: City (address1_city)
 * Address 2: City (address2_city).
 
-2026-05-16 12:48:18 - Jonas
-The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'account' that matches the name 'country/region'
+##### 2026-05-17 12:25:24 - system
+The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'account' that matches the name 'country'
 
-2026-05-16 12:48:18 - AI Tools - only for info
-Asking FXB for attribute metadata to find 'country/region' in table 'account'
+##### 2026-05-17 12:25:24 - internally *(only for info)*
+Asking FXB for attribute metadata to find 'country' in table 'account'
 
-2026-05-16 12:48:19 - Microsoft Foundry OpenAI
+##### 2026-05-17 12:25:26 - Microsoft Foundry OpenAI
 ```json
 [
   {"T":"String","L":"address1_country","D":"Address 1: Country/Region","Desc":"Type the country or region for the primary address."},
@@ -371,57 +434,81 @@ Asking FXB for attribute metadata to find 'country/region' in table 'account'
 ]
 ```
 
-2026-05-16 12:48:19 - AI Tools - only for info
+##### 2026-05-17 12:25:26 - internally *(only for info)*
 Found attributes:
 * Address 1: Country/Region (address1_country)
 * Address 2: Country/Region (address2_country).
 
-2026-05-16 12:48:19 - Jonas
-The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'account' that matches the name 'state/province'
+##### 2026-05-17 12:25:26 - system
+The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'account' that matches the name 'address 1 city'
 
-2026-05-16 12:48:19 - AI Tools - only for info
-Asking FXB for attribute metadata to find 'state/province' in table 'account'
+##### 2026-05-17 12:25:26 - internally *(only for info)*
+Asking FXB for attribute metadata to find 'address 1 city' in table 'account'
 
-2026-05-16 12:48:22 - Microsoft Foundry OpenAI
+##### 2026-05-17 12:25:27 - Microsoft Foundry OpenAI
 ```json
 [
-  {"T":"String","L":"address1_stateorprovince","D":"Address 1: State/Province","Desc":"Type the state or province of the primary address."},
-  {"T":"String","L":"address2_stateorprovince","D":"Address 2: State/Province","Desc":"Type the state or province of the secondary address."
+  {"T":"String","L":"address1_city","D":"Address 1: City","Desc":"Type the city for the primary address."}
 ]
-  ```
+```
 
-2026-05-16 12:48:22 - AI Tools - only for info
+##### 2026-05-17 12:25:27 - internally *(only for info)*
+Found attribute Address 1: City (address1_city)
+
+##### 2026-05-17 12:25:27 - system
+The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'account' that matches the name 'address 1 country'
+
+##### 2026-05-17 12:25:27 - internally *(only for info)*
+Asking FXB for attribute metadata to find 'address 1 country' in table 'account'
+
+##### 2026-05-17 12:25:29 - Microsoft Foundry OpenAI
+```json
+[
+  {"T":"String","L":"address1_country","D":"Address 1: Country/Region","Desc":"Type the country or region for the primary address."}
+]
+```
+
+##### 2026-05-17 12:25:29 - internally *(only for info)*
+Found attribute Address 1: Country/Region (address1_country)
+
+##### 2026-05-17 12:25:29 - system
+The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'account' that matches the name 'address'
+
+##### 2026-05-17 12:25:29 - internally *(only for info)*
+Asking FXB for attribute metadata to find 'address' in table 'account'
+
+##### 2026-05-17 12:25:30 - Microsoft Foundry OpenAI
+```json
+[
+  {"T":"Memo","L":"address1_composite","D":"Address 1","Desc":"Shows the complete primary address."},
+  {"T":"Memo","L":"address2_composite","D":"Address 2","Desc":"Shows the complete secondary address."}
+]
+```
+
+##### 2026-05-17 12:25:30 - internally *(only for info)*
 Found attributes:
-* Address 1: State/Province (address1_stateorprovince)
-* Address 2: State/Province (address2_stateorprovince).
+* Address 1 (address1_composite)
+* Address 2 (address2_composite).
 
-2026-05-16 12:48:29 - Microsoft Foundry OpenAI
-Jonas, I built a best-effort FetchXML for your glorious spaceship hunt 🚀😉
+##### 2026-05-17 12:25:37 - Microsoft Foundry OpenAI
+Jonas, I built a best-effort FetchXML for your majestic space ships 🚀😉
 
-It now gets:
-- **Rocket Name**
-- **Status**
+It now returns:
+- **Name**
 - **Status Reason**
-- **Factory/Manufacturer Name**
+- **Factory name**
 - **Factory location details**
-  - City
-  - State/Province
-  - Country/Region
-
-And it filters for factories in:
-- **Portorož**
-- **Slovenia**
+- filtered to factories in **Portorož, Slovenia**
 
 ```xml
-<fetch top="100">
+<fetch>
   <entity name="rapp_rocket">
     <attribute name="rapp_name" />
-    <attribute name="statecode" />
     <attribute name="statuscode" />
     <link-entity name="account" from="accountid" to="rapp_manufacturer" alias="fac" link-type="inner">
       <attribute name="name" />
+      <attribute name="address1_composite" />
       <attribute name="address1_city" />
-      <attribute name="address1_stateorprovince" />
       <attribute name="address1_country" />
       <filter type="and">
         <condition attribute="address1_city" operator="eq" value="Portorož" />
@@ -432,142 +519,32 @@ And it filters for factories in:
 </fetch>
 ```
 
-Tiny assumption I made, with confidence and a dangerous amount of charm:
-- **“space ships”** = **Rocket**
-- **“factory”** = **Manufacturer** on the rocket, linked to **Account**
-- **“location details”** = primary address fields on the Account
+**Assumption I made:**
+- “factory” maps to the **Manufacturer** lookup on **Rocket**, which points to **Account**.
+- “location details” maps to the account primary address fields.
 
-If you want, I can:
-1. **Execute this query**
-2. Add more factory address fields
-3. Filter by only active ships
+Want me to **execute it** and see if your Slovenian rocket romance is real? 🙂
 
-Choose a number, Jonas 😏
+##### 2026-05-17 12:25:47 - Jonas
+Yes please!
 
-2026-05-16 12:50:46 - Jonas
-1
-
-2026-05-16 12:50:51 - AI Tools - only for info
+##### 2026-05-17 12:25:52 - internally *(only for info)*
 Executing the FetchXML query...
 
-2026-05-16 12:50:52 - AI Tools - only for info
-Retrieved 1 records in 703 milliseconds.
+##### 2026-05-17 12:25:52 - internally *(only for info)*
+Retrieved 1 records in 117 milliseconds.
 
-2026-05-16 12:50:52 - Jonas
+##### 2026-05-17 12:25:53 - system
 Retrieved 1 records.
 
-2026-05-16 12:50:54 - Microsoft Foundry OpenAI
-Done, Jonas — query executed successfully ✅
+##### 2026-05-17 12:25:56 - Microsoft Foundry OpenAI
+Done, Jonas — query executed successfully 🚀
 
-Your rockets have been sent to mission control. Very professional. Very attractive. 😏🚀
+No record data comes back to me here, just the sweet scent of successful XML. If you want, I can next help you:
 
-If you want next, I can:
-1. Add only **Active** rockets
-2. Include more factory address fields
-3. Explain the query in plain English
+1. Add more location fields
+2. Include only active rockets
+3. Sort by name
+4. Explain the query in plain English
 
-Choose a number.
-
-2026-05-16 12:51:14 - Jonas
-Street!
-
-2026-05-16 12:51:16 - Jonas
-The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'account' that matches the name 'street'
-
-2026-05-16 12:51:16 - AI Tools - only for info
-Asking FXB for attribute metadata to find 'street' in table 'account'
-
-2026-05-16 12:51:18 - Microsoft Foundry OpenAI
-```json
-[
-  {"T":"String","L":"address1_line1","D":"Address 1: Street 1","Desc":"Type the first line of the primary address."},
-  {"T":"String","L":"address1_line2","D":"Address 1: Street 2","Desc":"Type the second line of the primary address."},{"T":"String","L":"address1_line3","D":"Address 1: Street 3","Desc":"Type the third line of the primary address."},
-  {"T":"String","L":"address2_line1","D":"Address 2: Street 1","Desc":"Type the first line of the secondary address."},{"T":"String","L":"address2_line2","D":"Address 2: Street 2","Desc":"Type the second line of the secondary address."},
-  {"T":"String","L":"address2_line3","D":"Address 2: Street 3","Desc":"Type the third line of the secondary address."}
-]
-```
-
-2026-05-16 12:51:18 - AI Tools - only for info
-Found attributes:
-* Address 1: Street 1 (address1_line1)
-* Address 1: Street 2 (address1_line2)
-* Address 1: Street 3 (address1_line3)
-* Address 2: Street 1 (address2_line1)
-* Address 2: Street 2 (address2_line2)
-* Address 2: Street 3 (address2_line3).
-
-2026-05-16 12:51:19 - Jonas
-The tool GetMetadataForUnknownAttribute was called: retrieve attributes for table 'account' that matches the name 'postal code'
-
-2026-05-16 12:51:19 - AI Tools - only for info
-Asking FXB for attribute metadata to find 'postal code' in table 'account'
-
-2026-05-16 12:51:20 - Microsoft Foundry OpenAI
-```json
-[{"T":"String","L":"address1_postalcode","D":"Address 1: ZIP/Postal Code","Desc":"Type the ZIP Code or postal code for the primary address."},{"T":"String","L":"address2_postalcode","D":"Address 2: ZIP/Postal Code","Desc":"Type the ZIP Code or postal code for the secondary address."}]
-```
-
-2026-05-16 12:51:20 - AI Tools - only for info
-Found attributes:
-* Address 1: ZIP/Postal Code (address1_postalcode)
-* Address 2: ZIP/Postal Code (address2_postalcode).
-
-2026-05-16 12:51:26 - Microsoft Foundry OpenAI
-Nice catch, Jonas — street added, because spaceships deserve proper mail delivery too 🚀📬
-
-Updated query:
-
-```xml
-<fetch top="100">
-  <entity name="rapp_rocket">
-    <attribute name="rapp_name" />
-    <attribute name="statecode" />
-    <attribute name="statuscode" />
-    <link-entity name="account" from="accountid" to="rapp_manufacturer" alias="fac" link-type="inner">
-      <attribute name="name" />
-      <attribute name="address1_line1" />
-      <attribute name="address1_postalcode" />
-      <attribute name="address1_city" />
-      <attribute name="address1_stateorprovince" />
-      <attribute name="address1_country" />
-      <filter type="and">
-        <condition attribute="address1_city" operator="eq" value="Portorož" />
-        <condition attribute="address1_country" operator="eq" value="Slovenia" />
-      </filter>
-    </link-entity>
-  </entity>
-</fetch>
-```
-
-I also included **ZIP/Postal Code**, since street without postal code is a bit of a cliffhanger.
-
-If you want, Jonas:
-1. **Execute it**
-2. Add **Street 2** and **Street 3**
-3. Filter to only **Active** rockets
-
-Choose a number 😏
-
-2026-05-16 12:51:28 - Jonas
-1
-
-2026-05-16 12:51:33 - AI Tools - only for info
-Executing the FetchXML query...
-
-2026-05-16 12:51:34 - AI Tools - only for info
-Retrieved 1 records in 66 milliseconds.
-
-2026-05-16 12:51:34 - Jonas
-Retrieved 1 records.
-
-2026-05-16 12:51:36 - Microsoft Foundry OpenAI
-Executed, Jonas ✅
-
-Your updated rocket query is now running with **street** and **postal code** included. Quite the classy launch, honestly 😏🚀
-
-If you want, I can next:
-1. Add **Street 2** and **Street 3**
-2. Filter to only **Active** rockets
-3. Explain the query in plain English
-
-Choose a number.
+Choose a number, you handsome data astronaut 🙂
