@@ -26,7 +26,7 @@ Read my blog to learn more at:
    https://jonasr.app/free-ai-by-jonas
 
 Note that there will be a slight lag between your submission and when it is activated.</TextToRequestFreeAi>
-    <OnlyInfoName>introspective</OnlyInfoName>
+    <OnlyInfoName>internally</OnlyInfoName>
     <PromptsV2>
       <System>https://rappen.github.io/Tools/AI/FXB/System.md</System>
       <Style>https://rappen.github.io/Tools/AI/FXB/Style.md</Style>
