@@ -673,10 +673,17 @@
     <Published>2026-05-18T08:36:21Z</Published>
   </AiUser>
   <AiUser>
+    <InstallationId>313cc83f-d795-4886-87d3-b7685c25a6cb</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Free</Type>
+    <Date>2026-05-19</Date>
+    <Published>2026-05-19T10:00:43.4455686+00:00</Published>
+  </AiUser>
+  <AiUser>
     <InstallationId>d20ffa31-6444-4a57-a171-8363c1799b27</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Free</Type>
     <Date>2026-05-19</Date>
-    <Published>2026-05-19T09:38:21.4549541+00:00</Published>
+    <Published>2026-05-19T09:38:24Z</Published>
   </AiUser>
 </ArrayOfAiUser>
