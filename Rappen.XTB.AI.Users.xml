@@ -740,6 +740,13 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Free</Type>
     <Date>2026-06-03</Date>
-    <Published>2026-06-03T14:21:11.6755426+00:00</Published>
+    <Published>2026-06-03T14:21:13Z</Published>
+  </AiUser>
+  <AiUser>
+    <InstallationId>4e8d92db-4dad-4652-a1ce-5e1ad76f1960</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Free</Type>
+    <Date>2026-06-05</Date>
+    <Published>2026-06-05T20:31:52.568204+00:00</Published>
   </AiUser>
 </ArrayOfAiUser>
