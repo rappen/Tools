@@ -1216,7 +1216,7 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
     <Date>2026-05-04</Date>
-    <Published>2026-05-04T14:35:11.8184219+00:00</Published>
+    <Published>2026-05-04T14:35:14Z</Published>
   </Supporter>
   <Supporter>
     <InstallationId>d99d46f9-70f0-4b3f-8027-835434b0227a</InstallationId>
@@ -1238,5 +1238,12 @@
     <Type>Company</Type>
     <Date>2026-05-04</Date>
     <Published>2026-05-04T08:47:31Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>9bfa3853-8ed2-4df5-8bbe-4684df3c2d88</InstallationId>
+    <ToolName>Plugin Trace Viewer</ToolName>
+    <Type>Contribute</Type>
+    <Date>2026-07-01</Date>
+    <Published>2026-07-01T14:28:09.0772944+00:00</Published>
   </Supporter>
 </ArrayOfSupporter>
