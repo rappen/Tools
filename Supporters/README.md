@@ -1,5 +1,6 @@
 Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
+_anonymous_, United Kingdom|Contribute|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|||July 2026
 **Jason Gale**<br/>1|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time|Developer<br/>Customizer<br/>Administrator|May 2026
 [**Polynoma i Skåne**](https://polynomait.se){:target="_blank"}<br/>Sweden|Company|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer|May 2026
 [**Polynoma i Skåne**](https://polynomait.se){:target="_blank"}<br/>Sweden|Company|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer|May 2026
