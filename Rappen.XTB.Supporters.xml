@@ -1251,6 +1251,13 @@
     <ToolName>Plugin Trace Viewer</ToolName>
     <Type>Contribute</Type>
     <Date>2026-08-11</Date>
-    <Published>2026-08-18T07:19:06.7133563+00:00</Published>
+    <Published>2026-08-18T07:19:10Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>86dcfd66-60b9-49f8-b515-2988dbe0d122</InstallationId>
+    <ToolName>FetchXML Builder</ToolName>
+    <Type>Personal</Type>
+    <Date>2026-09-01</Date>
+    <Published>2026-09-01T05:51:35.2257793+00:00</Published>
   </Supporter>
 </ArrayOfSupporter>
