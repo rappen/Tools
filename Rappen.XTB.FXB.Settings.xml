@@ -109,6 +109,7 @@ Here is the list of attribute metadata for the entity:
         <ApiKey>NVFqYwTkzODclVZ2kq3QXZPkQm1tVjnJsbmiw0dXgvwbTBiebnc3Yh0oyVTkZvdnBu6cmpRcMTNCMxUx3UEcpRUUoy5OUJJsQUNmaxE1rNVwhKM3cbzQUFBtQUFDTs0dqd2hJN</ApiKey>
         <Free>true</Free>
         <Models>
+          <!--
           <AiModel>
             <Name>GPT-5.6 Terra (Limited Preview)</Name>
             <Url>https://ai.azure.com/catalog/models/gpt-5.6-terra</Url>
@@ -121,6 +122,7 @@ Here is the list of attribute metadata for the entity:
             <Endpoint>https://skynet-ai-foundry.cognitiveservices.azure.com/</Endpoint>
             <LogConversation>true</LogConversation>
           </AiModel>
+          -->
           <AiModel>
             <Name>gpt-5.4-mini</Name>
             <Url>https://ai.azure.com/catalog/models/gpt-5.4-mini</Url>
@@ -140,6 +142,7 @@ Here is the list of attribute metadata for the entity:
         <Url>https://ai.azure.com/</Url>
         <FromVersion>1.2025.12</FromVersion>
         <Models>
+          <!--
           <AiModel>
             <Name>GPT-5.6 Sol</Name>
             <Url>https://ai.azure.com/catalog/models/gpt-5.6-sol</Url>
@@ -152,6 +155,7 @@ Here is the list of attribute metadata for the entity:
             <Name>GPT-5.6 Luna</Name>
             <Url>https://ai.azure.com/catalog/models/gpt-5.6-luna</Url>
           </AiModel>
+          -->
           <AiModel>
             <Name>gpt-5.4</Name>
             <Url>https://ai.azure.com/catalog/models/gpt-5.4</Url>
