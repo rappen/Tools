@@ -18,14 +18,14 @@
   </IntegratedToTools>
   <AiSupport>
     <TextToRequestFreeAi>To use the free AI provider, you have to fill in a form.
-Please click the button (the three dots down-right) and select:
-   Request for Free AI
+      Please click the button (the three dots down-right) and select:
+      Request for Free AI
 
-Jonas stands for any costs. Why?
-Read my blog to learn more at:
-   https://jonasr.app/free-ai-by-jonas
+      Jonas stands for any costs. Why?
+      Read my blog to learn more at:
+      https://jonasr.app/free-ai-by-jonas
 
-Note that there will be a slight lag between your submission and when it is activated.</TextToRequestFreeAi>
+      Note that there will be a slight lag between your submission and when it is activated.</TextToRequestFreeAi>
     <OnlyInfoName>internally</OnlyInfoName>
     <PromptsV2>
       <System>https://rappen.github.io/Tools/AI/FXB/System.md</System>
@@ -115,7 +115,7 @@ Here is the list of attribute metadata for the entity:
             <Endpoint>https://skynet-ai-foundry.cognitiveservices.azure.com/</Endpoint>
             <LogConversation>true</LogConversation>
           </AiModel>
-    		</Models>
+        </Models>
       </AiProvider>
       <AiProvider>
         <Name>Free Foundry OpenAI</Name>
@@ -147,7 +147,8 @@ Here is the list of attribute metadata for the entity:
       </AiProvider>
       <AiProvider>
         <Name>Microsoft Foundry OpenAI</Name>
-        <Url>https://ai.azure.com/</Url>
+        <Url>https://azure.microsoft.com/products/ai-foundry/models/openai/</Url>
+        <ModelsUrl>https://ai.azure.com/catalog/models?search={model}</ModelsUrl>
         <FromVersion>1.2025.12</FromVersion>
         <Models>
           <AiModel>
@@ -198,8 +199,11 @@ Here is the list of attribute metadata for the entity:
       </AiProvider>
       <AiProvider>
         <Name>OpenAI</Name>
-        <Url>https://openai.com/</Url>
+        <Url>https://openai.com</Url>
+        <ModelsUrl>https://platform.openai.com/docs/models/{model}</ModelsUrl>
+        <Endpoint>https://api.openai.com/v1/models</Endpoint>
         <EndpointFixed>true</EndpointFixed>
+        <DynamicModels>true</DynamicModels>
         <Models>
           <AiModel>
             <Name>gpt-5.2</Name>
@@ -236,9 +240,20 @@ Here is the list of attribute metadata for the entity:
         </Models>
       </AiProvider>
       <AiProvider>
+        <Name>Gemini</Name>
+        <Url>https://ai.google.com</Url>
+        <FromVersion>1.2026.9</FromVersion>
+        <ModelsUrl>https://ai.google.dev/gemini-api/docs/models#{model}</ModelsUrl>
+        <Endpoint>https://generativelanguage.googleapis.com/v1beta/models</Endpoint>
+        <DynamicModels>true</DynamicModels>
+      </AiProvider>
+      <AiProvider>
         <Name>Anthropic</Name>
         <Url>https://www.anthropic.com/</Url>
+        <ModelsUrl>https://platform.claude.com/docs/en/models/{model}/overview</ModelsUrl>
+        <Endpoint>https://api.anthropic.com/v1/models</Endpoint>
         <EndpointFixed>true</EndpointFixed>
+        <DynamicModels>true</DynamicModels>
         <Models>
           <AiModel>
             <Name>claude-sonnet-4-6</Name>
@@ -264,15 +279,15 @@ Here is the list of attribute metadata for the entity:
         <Name>OpenAI</Name>
         <Url>https://openai.com/</Url>
         <Models>
-           <AiModel>
+          <AiModel>
             <Name>gpt-5</Name>
             <Url>https://platform.openai.com/docs/models/gpt-5</Url>
           </AiModel>
-           <AiModel>
+          <AiModel>
             <Name>gpt-5-mini</Name>
             <Url>https://platform.openai.com/docs/models/gpt-5-mini</Url>
           </AiModel>
-           <AiModel>
+          <AiModel>
             <Name>gpt-5-nano</Name>
             <Url>https://platform.openai.com/docs/models/gpt-5-nano</Url>
           </AiModel>
@@ -318,10 +333,10 @@ Here is the list of attribute metadata for the entity:
         <Title>Welcome to AI Chat</Title>
         <Message>Welcome to the AI Chat in FetchXML Builder! 🎉
 
-You have already made {calls} calls to the AI robot - any good responses?
-Just keep it up! 🤓
+          You have already made {calls} calls to the AI robot - any good responses?
+          Just keep it up! 🤓
 
-If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
+          If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
         <HelpUrl>https://github.com/rappen/FetchXMLBuilder/discussions</HelpUrl>
       </PopupByCallNo>
       <PopupByCallNo>
@@ -331,9 +346,9 @@ If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
         <SuggestsSupporting>true</SuggestsSupporting>
         <Title>AI Chat - time to support?</Title>
         <Message>You have now called the AI robot {calls} times, that's pretty awesome!
-It might be time to support this tool now, right?
+          It might be time to support this tool now, right?
 
-Click the OK button, and select the support as Corporate or Personal.</Message>
+          Click the OK button, and select the support as Corporate or Personal.</Message>
       </PopupByCallNo>
       <PopupByCallNo>
         <StartAtCallNo>100</StartAtCallNo>
@@ -342,10 +357,10 @@ Click the OK button, and select the support as Corporate or Personal.</Message>
         <SuggestsSupporting>false</SuggestsSupporting>
         <Message>Wow! A big WOW!
 
-You have made {calls} calls to the AI robot.
-That's awesome - good job! 😍
+          You have made {calls} calls to the AI robot.
+          That's awesome - good job! 😍
 
-If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
+          If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
         <HelpUrl>https://github.com/rappen/FetchXMLBuilder/discussions</HelpUrl>
       </PopupByCallNo>
       <PopupByCallNo>
@@ -356,10 +371,10 @@ If you have any ideas, thoughts, problems - click the 'Help' button!</Message>
         <ForFreeProviders>true</ForFreeProviders>
         <Message>You have now made {calls} calls to provider '{provider}'.
 
-Have you learned anything about how to communicate with the AI?
-Let me know! :)
+          Have you learned anything about how to communicate with the AI?
+          Let me know! :)
 
-Click the Help button to contact me!</Message>
+          Click the Help button to contact me!</Message>
         <HelpUrl>https://jonasr.app/contact/</HelpUrl>
       </PopupByCallNo>
       <PopupByCallNo>
@@ -370,9 +385,9 @@ Click the Help button to contact me!</Message>
         <ForFreeProviders>true</ForFreeProviders>
         <Title>AI Chat for FREE</Title>
         <Message>You have now made {calls} calls to provider '{provider}'.
-Maybe it is time to use your own AI...?
+          Maybe it is time to use your own AI...?
 
-Click the Help button to read the docs on how to do it!</Message>
+          Click the Help button to read the docs on how to do it!</Message>
         <HelpUrl>https://fetchxmlbuilder.com/features/ai/#settings</HelpUrl>
       </PopupByCallNo>
     </PopupByCallNos>
