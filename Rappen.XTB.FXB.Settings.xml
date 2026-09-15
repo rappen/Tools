@@ -46,6 +46,27 @@
       <DescMatchColumn>Match one user-described Dataverse column for a known table. Prefer {{prefer}} names when relevant. Return JSON ONLY as matching attribute objects. Multiple matches are allowed.</DescMatchColumn>
       <DescMatchRelationship>Match one user-described Dataverse relationship for a known table. Prefer {{prefer}} names when relevant. Return JSON ONLY as matching relationship objects. Multiple matches are allowed.</DescMatchRelationship>
     </Tools>
+    <AiModelExcludedNames>
+      <string>embedding</string>
+      <string>moderation</string>
+      <string>image</string>
+      <string>audio</string>
+      <string>realtime</string>
+      <string>transcribe</string>
+      <string>tts</string>
+      <string>codex</string>
+      <string>safety</string>
+      <string>research</string>
+      <string>live</string>
+      <string>robotics</string>
+    </AiModelExcludedNames>
+    <AiModelPreviewNames>
+      <string>preview</string>
+      <string>experimental</string>
+      <string>-exp</string>
+      <string>nightly</string>
+      <string>canary</string>
+    </AiModelPreviewNames>
     <Prompts>
       <System>You are an agent that helps the user interact with Dataverse using FetchXML queries.
 The user is communicating with you through the 'FetchXML Builder' tool in XrmToolBox.
@@ -204,6 +225,14 @@ Here is the list of attribute metadata for the entity:
         <Endpoint>https://api.openai.com/v1/models</Endpoint>
         <EndpointFixed>true</EndpointFixed>
         <DynamicModels>true</DynamicModels>
+        <AllowPrefixes>
+          <string>gpt-</string>
+          <string>chatgpt-</string>
+          <string>o</string>
+        </AllowPrefixes>
+        <DatedModelPatterns>
+          <string>-\d{4}-\d{2}-\d{2}$</string>
+        </DatedModelPatterns>
         <Models>
           <AiModel>
             <Name>gpt-5.2</Name>
@@ -246,6 +275,9 @@ Here is the list of attribute metadata for the entity:
         <ModelsUrl>https://ai.google.dev/gemini-api/docs/models#{model}</ModelsUrl>
         <Endpoint>https://generativelanguage.googleapis.com/v1beta/models</Endpoint>
         <DynamicModels>true</DynamicModels>
+        <AllowPrefixes>
+          <string>gemini-3.</string>
+        </AllowPrefixes>
       </AiProvider>
       <AiProvider>
         <Name>Anthropic</Name>
