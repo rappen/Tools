@@ -170,6 +170,8 @@ Here is the list of attribute metadata for the entity:
         <Name>Microsoft Foundry OpenAI</Name>
         <Url>https://azure.microsoft.com/products/ai-foundry/models/openai/</Url>
         <ModelsUrl>https://ai.azure.com/catalog/models?search={model}</ModelsUrl>
+        <DynamicModels>true</DynamicModels> 
+        <DeploymentsApiVersion>v1</DeploymentsApiVersion>     
         <FromVersion>1.2025.12</FromVersion>
         <Models>
           <AiModel>
