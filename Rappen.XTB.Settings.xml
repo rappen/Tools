@@ -6,13 +6,13 @@
       <Name>FetchXML Builder</Name>
       <Enabled>true</Enabled>
       <ShowAutomatically>true</ShowAutomatically>
-      <ShowAutoPercentChance>10</ShowAutoPercentChance>
+      <ShowAutoPercentChance>1</ShowAutoPercentChance>
     </SupportableTool>
     <SupportableTool>
       <Name>Plugin Trace Viewer</Name>
       <Enabled>true</Enabled>
       <ShowAutomatically>true</ShowAutomatically>
-      <ShowAutoPercentChance>10</ShowAutoPercentChance>
+      <ShowAutoPercentChance>5</ShowAutoPercentChance>
     </SupportableTool>
     <SupportableTool>
       <Name>Bulk Data Updater</Name>
@@ -57,9 +57,9 @@
       <Enabled>true</Enabled>
       <ExecuteStart>25</ExecuteStart>
       <ExecuteEnd>0</ExecuteEnd>
-      <ExecuteInterval>50</ExecuteInterval>
-      <ExecutePercentChance>90</ExecutePercentChance>
-      <OpenPercentChance>50</OpenPercentChance>
+      <ExecuteInterval>150</ExecuteInterval>
+      <ExecutePercentChance>20</ExecutePercentChance>
+      <OpenPercentChance>5</OpenPercentChance>
       <MinMinutesBetweenToasts>60</MinMinutesBetweenToasts>
     </ToastableTool>
     <ToastableTool>
@@ -67,7 +67,7 @@
       <Enabled>true</Enabled>
       <ExecuteStart>25</ExecuteStart>
       <ExecuteEnd>0</ExecuteEnd>
-      <ExecuteInterval>50</ExecuteInterval>
+      <ExecuteInterval>150</ExecuteInterval>
       <ExecutePercentChance>10</ExecutePercentChance>
       <OpenPercentChance>10</OpenPercentChance>
       <MinMinutesBetweenToasts>60</MinMinutesBetweenToasts>
