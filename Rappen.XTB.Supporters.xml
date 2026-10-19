@@ -1265,6 +1265,13 @@
     <ToolName>FetchXML Builder</ToolName>
     <Type>Contribute</Type>
     <Date>2026-09-09</Date>
-    <Published>2026-09-10T06:38:22.2549063+00:00</Published>
+    <Published>2026-09-10T06:38:27Z</Published>
+  </Supporter>
+  <Supporter>
+    <InstallationId>5391dfb1-623b-4d41-89e1-f0f26f9db729</InstallationId>
+    <ToolName>Bulk Data Updater</ToolName>
+    <Type>Personal</Type>
+    <Date>2026-10-19</Date>
+    <Published>2026-10-19T14:25:32.2027797+00:00</Published>
   </Supporter>
 </ArrayOfSupporter>
