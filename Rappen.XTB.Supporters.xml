@@ -974,13 +974,6 @@
     <Published>2025-10-17T20:11:09Z</Published>
   </Supporter>
   <Supporter>
-    <InstallationId>570e17f9-06ed-45d5-ab06-ec164badc12d</InstallationId>
-    <ToolName>Power Apps Checker</ToolName>
-    <Type>Contribute</Type>
-    <Date>2025-10-21</Date>
-    <Published>2025-10-21T17:15:35Z</Published>
-  </Supporter>
-  <Supporter>
     <InstallationId>ca1267ff-3d60-46cc-93d5-09355890f88e</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Contribute</Type>
@@ -1247,13 +1240,6 @@
     <Published>2026-07-01T14:28:12Z</Published>
   </Supporter>
   <Supporter>
-    <InstallationId>206c6f3e-f8d4-4f32-a512-18eb2224a417</InstallationId>
-    <ToolName>Plugin Trace Viewer</ToolName>
-    <Type>Contribute</Type>
-    <Date>2026-08-11</Date>
-    <Published>2026-08-18T07:19:10Z</Published>
-  </Supporter>
-  <Supporter>
     <InstallationId>86dcfd66-60b9-49f8-b515-2988dbe0d122</InstallationId>
     <ToolName>FetchXML Builder</ToolName>
     <Type>Personal</Type>
@@ -1272,6 +1258,6 @@
     <ToolName>Bulk Data Updater</ToolName>
     <Type>Personal</Type>
     <Date>2026-10-19</Date>
-    <Published>2026-10-19T14:25:32.2027797+00:00</Published>
+    <Published>2026-10-19T14:25:35Z</Published>
   </Supporter>
 </ArrayOfSupporter>
