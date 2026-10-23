@@ -2,7 +2,6 @@ Supporter|Type|Tool|Why/How|Users|When
 ---|---|---|---|---|---
 **Michael Johnson**, USA|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||September 2026
 _anonymous_<br/>Australia|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Developer<br/>Administrator|September 2026
-_anonymous_<br/>Sweden|Contribute|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|Pull Requests<br/>Suggests<br/>Report Bugs<br/>Documentation<br/>Helping<br/>Videos||August 2026
 _anonymous_, United Kingdom|Contribute|[Plugin Trace Viewer](https://jonasr.app/ptv){:target="_blank"}|||July 2026
 **Jason Gale**<br/>1|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time|Developer<br/>Customizer<br/>Administrator|May 2026
 [**Polynoma i Skåne**](https://polynomait.se){:target="_blank"}<br/>Sweden|Company|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Save Time<br/>Quality<br/>OOB can't|Developer|May 2026
@@ -27,7 +26,6 @@ _anonymous_<br/>USA|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:ta
 **Huu Minh Hai Nguyen**<br/>Australia|Contribute|[Bulk Data Updater](https://jonasr.app/bdu){:target="_blank"}|Pull Requests<br/>Helping||November 2025
 **Carlos Novas**, Spain|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||November 2025
 **Tadhg Conneely**<br/>Ireland|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Suggests<br/>Report Bugs<br/>Documentation<br/>Helping||October 2025
-_anonymous_, Sweden|Contribute|[Power Apps Checker](https://jonasr.app/pac){:target="_blank"}|Pull Requests||October 2025
 **Eyoel Getachew**, USA|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|||October 2025
 [**Zsolt Zombik**](https://elca.ch){:target="_blank"}<br/>Switzerland|Contribute|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Pull Requests<br/>Suggests<br/>Report Bugs<br/>Documentation<br/>Helping<br/>Videos||October 2025
 _anonymous_<br/>Australia|Personal|[FetchXML Builder](https://fetchxmlbuilder.com){:target="_blank"}|Save Time<br/>OOB can't|Customizer<br/>Administrator|October 2025
